@@ -23,20 +23,20 @@ const cruiseSeed = [
                                     "Balcony: $3,349",
                                     "Mini-suit: $3,699",
                                     "Suite: 5,799"],
-                                date: "Sunday May 3, 2020 to Sunday May 17, 2020"
+                                date: "Sunday 5/3/2020 to Sunday 5/17/2020"
                             }
                         ],
                         Caribbean: [
                             {
                                 leaving: "Amsterdam, Netherlands",
                                 visiting: ["Amsterdam, Netherlands", "Dover, England", "Belfast, Northern Ireland",
-                                            "Glasglow (Greenock), Scotland", "Holyhead, Wales", "Cork (Cobh), Ireland",
-                                            "Paris/Normandy (Le Havre), France", "Amsterdam, Netherlands"],
+                                    "Glasglow (Greenock), Scotland", "Holyhead, Wales", "Cork (Cobh), Ireland",
+                                    "Paris/Normandy (Le Havre), France", "Amsterdam, Netherlands"],
                                 pricing: ["Interior: $1,729",
-                                        "Outsideview: $1,825",
-                                        "Balcony: $2,881",
-                                        "Suites: $4,222"],
-                                date: "Friday June 12, 2020 to Monday June 22, 2020"
+                                    "Outsideview: $1,825",
+                                    "Balcony: $2,881",
+                                    "Suites: $4,222"],
+                                date: "Friday 6/12/2020 to Monday 6/22/2020"
                             }
                         ]
                     }
@@ -46,11 +46,11 @@ const cruiseSeed = [
                         Norwegian: [
                             {
                                 leaving: "Amsterdam, Netherlands",
-                                visiting: ["Amsterdam, Netherlands", "Edinburgh (Newhaven), Scotland", 
-                                    "Inverness (Invergordon), Scotland", "Bergen, Norway", 
-                                    "Ålesund, Norway", "Hellesylt, Norway", "Geiranger, Norway", 
+                                visiting: ["Amsterdam, Netherlands", "Edinburgh (Newhaven), Scotland",
+                                    "Inverness (Invergordon), Scotland", "Bergen, Norway",
+                                    "Ålesund, Norway", "Hellesylt, Norway", "Geiranger, Norway",
                                     "Belfast, Northern Ireland", "Dublin, Ireland", "Paris (Le Havre), France",
-                                    "London (Tilbury), England", "Brussels/Bruges (Zeebrugge), Belgium", 
+                                    "London (Tilbury), England", "Brussels/Bruges (Zeebrugge), Belgium",
                                     "Amsterdam, Netherlands"],
                                 pricing: ["Inside: $1,679",
                                     "Oceanview: $2,199",
@@ -58,19 +58,51 @@ const cruiseSeed = [
                                     "Mini-suit: $4,029",
                                     "Suite: $6,999",
                                     "The Haven: $10,099"],
-                                date: "Sunday May 16, 2020 to Saturday May 30, 2020"
+                                date: "Sunday 5/16/2020 to Saturday 5/30/2020"
                             }
                         ],
                         Caribbean: [
                             {
                                 leaving: "Copenhagen, Denmark",
                                 visiting: ["Copenhagen, Denmark", "Geiranger, Norway", "Bergen, Norway", "Stavanger, Norway",
-                                        "Kristiansand, Norway", "Copenhagen, Norway"],
+                                    "Kristiansand, Norway", "Copenhagen, Norway"],
                                 pricing: ["Interior: $798",
-                                        "Outsideview: $962",
-                                        "Balcony: $1,342",
-                                        "Suites: $2,349"],
-                                date: "Sunday May 31, 2020 to Sunday June 7, 2020"
+                                    "Outsideview: $962",
+                                    "Balcony: $1,342",
+                                    "Suites: $2,349"],
+                                date: "Sunday 5/31/2020 to Sunday 6/7/2020"
+                            }
+                        ]
+                    }
+                ],
+                Australia: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Sydney, Australia",
+                                visiting: ["Sydney, Australia", "Eden, Australia", "Melbourne, Australia",
+                                    "Burnia (Tasmania), Australia", "Dunedin (Port Chalmers), New Zealand",
+                                    "Akaroa, New Zealand", "Marlborough (Picton), New Zealand", "Napier, New Zealand",
+                                    "Tauranga, New Zealand", "Auckland, New Zealand"],
+                                pricing: ["Inside: $1,249",
+                                    "Oceanview: $1,629",
+                                    "Balcony: $3,649",
+                                    "Mini-suit: $3,949",
+                                    "Suite: $7,299",
+                                    "The Haven: $8,499"],
+                                date: "Thursday 1/23/2020 to Tuesday 2/4/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Sydney, Australia",
+                                visiting: ["Sydney, Australia", "Melbourne, Australia", "Hobart, Australia",
+                                    "Sydney, Australia"],
+                                pricing: ["Interior: $532",
+                                    "Outsideview: $644",
+                                    "Balcony: $914",
+                                    "Suites: $1,132"],
+                                date: "Thursday 2/25/2021 to Wednesday 3/3/2021"
                             }
                         ]
                     }
