@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import question from './components/Question';
+// import question from '../src/components/Question';
+
 
 function App() {
   return (
