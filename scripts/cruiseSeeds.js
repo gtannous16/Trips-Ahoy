@@ -107,6 +107,35 @@ const cruiseSeed = [
                         ]
                     }
                 ],
+                Uruguay: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Buenos Aires, Argentina",
+                                visiting: ["Buenos Aires, Argentina", "Montevideo, Uruguay", 
+                                    "Punta del Este, Uruguay", "Puerto Madryn, Argentina",
+                                    "Stanley, Falkland Island", "Cape Horn, Chile", "Puerto Montt, Chile",
+                                    "Santiago (San Antonio), Chile"],
+                                pricing: ["Inside: $1,899",
+                                    "Oceanview: $2,399",
+                                    "Balcony: $3,099",
+                                    "Mini-suit: $4,099",
+                                    "Suite: 7,149"],
+                                date: "Saturday 1/16/2021 to Saturday 1/30/2021"
+                            }
+                        ],
+                        Princess: [
+                            {
+                                leaving: "Buenos Aires, Argentina",
+                                visiting: ["Buenos Aires, Argentina", "Montevideo, Uruguay", 
+                                    "Rio de Janeiro, Brazil", "Salvador, Brazil", "Martinique", "St.Kitts", 
+                                    "Ft. Lauderdale, Florida"],
+                                pricing: "Interior: $1,608",
+                                date: "Thursday 3/19/2020 to Sunday 4/5/2020"
+                            }
+                        ]
+                    }
+                ],
             }
         ]
     }
