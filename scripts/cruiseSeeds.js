@@ -301,6 +301,38 @@ const cruiseSeed = [
                         ]
                     }
                 ],
+                Alaska: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Seattle, Washington",
+                                visiting: ["Seattle, Washington", "Juneau, Alaska", "Skagway, Alaska",
+                                    "Galcier Bay", "Ketchikan, Alaska", "Victoria, British Columbia",
+                                    "Seattle, Washington"],
+                                pricing: ["Inside: $649",
+                                    "Oceanview: $799",
+                                    "Balcony: $799",
+                                    "Mini-Suite: $999",
+                                    "Concierge: $1,999",
+                                    "The Haven: $3.099"],
+                                date: "Saturday 9/28/2019 to Saturday 10/5/2019"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Seward, Alaska",
+                                visiting: ["Seward. Alaska", "Hubbard Glacier, Alaska", "Juneau, Alaska",
+                                    "Skagway, Alaska", "Icy Straight Point, Alaska", "Ketchikan, Alaska",
+                                    "Vancouver, British Columbia"],
+                                pricing: ["Interior: $530",
+                                    "Outsideview: $780",
+                                    "Balcony: $1,462",
+                                    "Suites: $2,643"],
+                                date: "Friday 8/30/2019 to Friday 9/6/2019"
+                            }
+                        ]
+                    }
+                ],
             }
         ]
     }
