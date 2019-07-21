@@ -170,6 +170,67 @@ const cruiseSeed = [
                         ]
                     }
                 ],
+                Hawaii: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Honolulu, Oahu",
+                                visiting: ["Honolulu, Oahu", "Kahului, Maui", "Hilo, Hawaii",
+                                    "Kona, Hawaii", "Nāwiliwili, Kauài", "Honolulu, Oahu"],
+                                pricing: ["Inside: $1,249",
+                                    "Oceanview: $1,499",
+                                    "Balcony: $1,949",
+                                    "Suite: $3,349"],
+                                date: "Saturday 9/7/2019 to Saturday 9/14/2019"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Oahu (Honolulu), Hawaii",
+                                visiting: ["Oahu (Honolulu), Hawaii", "Maui (Lahaina), Hawaii",
+                                    "Kailua Kona, Hawaii", "Hilo, Hawaii", "Nāwiliwili, Kauài, Hawaii",
+                                    "Vancouver, British Columbia"],
+                                pricing: ["Interior: $1,080",
+                                    "Outsideview: $1,250",
+                                    "Balcony: $2,041",
+                                    "Suites: $3,622"],
+                                date: "Tuesday 5/5/2020 to Thursday 5/14/2020"
+                            }
+                        ]
+                    }
+                ],
+                Italy: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Rome (Civitaveccia), Italy",
+                                visiting: ["Rome (Civitaveccia), Italy", "Venice, Italy", "Dubrovnik, Croatia",
+                                    "Kotor, Montenegro", "Florence/Pisa (Livorno), Italy", "Monte Carlo, Monaco", 
+                                    "Barcelona, Spain", "Palma, Majorca, Spain", "Rome (Civitaveccia), Italy"],
+                                pricing: ["Inside: $1,649",
+                                    "Oceanview: $1,649",
+                                    "Balcony: $2,399",
+                                    "Suite: $6,099"],
+                                date: "Sunday 12/22.2019 to Friday 1/3/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Rome (Civitaveccia), Italy",
+                                visiting: ["Rome (Civitaveccia), Italy", "Valencia, Spain", 
+                                    "Palma de Mallorca, Spain", "Barcelona, Spain", 
+                                    "Nice (Villefranche), France", "Florence/Pisa (La Spezia), Italy",
+                                    "Rome (Civitaveccia), Italy"],
+                                pricing: ["Interior: $734",
+                                    "Outsideview: $1,126",
+                                    "Balcony: $1,255",
+                                    "Suites: $2,189"],
+                                date: "Sunday 6/21/2020 to Sunday 6/28/2020"
+                            }
+                        ]
+                    }
+                ],
+                
             }
         ]
     }
