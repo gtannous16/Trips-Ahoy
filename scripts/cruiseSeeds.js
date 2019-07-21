@@ -266,6 +266,42 @@ const cruiseSeed = [
                     }
                 ],
             }
+        ],
+        Outdoors: [
+            {
+                Canada: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Bosoton, Massachusetts",
+                                visiting: ["Boston, Massachusetts", "Bar Harbor, Maine", "Halifax,Nova Scotia",
+                                    "Sydney, Cape Breton Island, Nova Scotia", "Charlottetown, Prince Edward Island",
+                                    "Saguenay (La Baie), Quēbec", "Quēbec City, Quēbec"],
+                                pricing: ["Inside: $849",
+                                    "Oceanview: $1,249",
+                                    "Balcony: $1,739",
+                                    "Mini-Suite: $1,959",
+                                    "Suite: $3,549",
+                                    "The Haven: $5,249"],
+                                date: "Friday 9/4/2020 to Friday 9/11/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Cape Liberty, New Jersey",
+                                visiting: ["Cape Liberty, New Jersey", "Bar Harbor, Maine", 
+                                    "Saint John, New Brunswick (Bay of Fundy)", "Halifax, Nova Scotia", 
+                                    "Cape Liberty, New Jersey"],
+                                pricing: ["Interior: $620",
+                                    "Outsideview: $856",
+                                    "Balcony: $1,127",
+                                    "Suites: $1,577"],
+                                date: "Friday 5/15/2020 to Thursday 5/21/2020"
+                            }
+                        ]
+                    }
+                ],
+            }
         ]
     }
 ]
