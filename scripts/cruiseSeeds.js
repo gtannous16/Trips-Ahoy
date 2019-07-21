@@ -230,7 +230,41 @@ const cruiseSeed = [
                         ]
                     }
                 ],
-                
+                England: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "London (Southampton), England",
+                                visiting: ["London (Southampton), England", "Paris (Le Havre), France",
+                                    "Brussels/Bruges (Zeebrugge), Belgium", "Amsterdam, Netherlands",
+                                    "Edinburgh (Newhaven), Scotland", "Inverness (invergordon), Scotland",
+                                    "Kirkwall, Orkney Isles, Scotland", "Glasgow (Greenock), Scotland", 
+                                    "Belfast, Northern Ireland", "Liverpool, United Kingdom", 
+                                    "Dublin (DunLaoghaire), Ireland", "Cork (Cobb), Ireland", "Potland, England",
+                                    "London (Southampton), England"],
+                                pricing: ["Inside: $1,599",
+                                    "Oceanview: $2,049",
+                                    "Balcony: $3,349",
+                                    "Mini-Suite: $3,799",
+                                    "Suite: $5,099"],
+                                date: "Sunday 5/17/2020 to Sunday 5/31/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Amsterdam, Netherlands",
+                                visiting: ["Amsterdam, Netherlands", "Dover, England", "Belfast, Northern Ireland",
+                                    "Glasgow, (Greeknock), Scotland", "Holyhead, Wales", "Cork (Cobh), Ireland",
+                                    "Paris/Normandy (Le Havre), France", "Amsterdam, Netherlands"],
+                                pricing: ["Interior: $1,741",
+                                    "Outsideview: $1,844",
+                                    "Balcony: $2,893",
+                                    "Suites: $4,297"],
+                                date: "Friday 6/12/2020 to Monday 6/22/2020"
+                            }
+                        ]
+                    }
+                ],
             }
         ]
     }
