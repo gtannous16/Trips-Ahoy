@@ -5,7 +5,7 @@ mongoose.connect(
 
 const cruiseSeed = [
     {
-        secluded: [
+        Secluded: [
             {
                 Scotland: [
                     {
@@ -22,7 +22,7 @@ const cruiseSeed = [
                                     "Oceanview: $2,049",
                                     "Balcony: $3,349",
                                     "Mini-suit: $3,699",
-                                    "Suite: 5,799"],
+                                    "Suite: $5,799"],
                                 date: "Sunday 5/3/2020 to Sunday 5/17/2020"
                             }
                         ],
@@ -120,7 +120,7 @@ const cruiseSeed = [
                                     "Oceanview: $2,399",
                                     "Balcony: $3,099",
                                     "Mini-suit: $4,099",
-                                    "Suite: 7,149"],
+                                    "Suite: $7,149"],
                                 date: "Saturday 1/16/2021 to Saturday 1/30/2021"
                             }
                         ],
@@ -132,6 +132,40 @@ const cruiseSeed = [
                                     "Ft. Lauderdale, Florida"],
                                 pricing: "Interior: $1,608",
                                 date: "Thursday 3/19/2020 to Sunday 4/5/2020"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        Touristic: [
+            {
+                France: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "London (Southampton), England",
+                                visiting: ["London (Southampton), England", "Paris (Le Havre), France", 
+                                    "Barcelona, Spain", "Cannes, France", "Florence/Pisa (Livorno), Italy",
+                                    "Rome (Civitavecchia), Italy", "Naples, Italy", "Santorini, Greece",
+                                    "Athens (Piraeus), Greece", "Split, Croatia", "Venice, Italy"],
+                                pricing: ["Inside: $1,199",
+                                    "Oceanview: $1,499",
+                                    "Balcony: $1,749",
+                                    "Suite: $4,599"],
+                                date: "Friday 10/11/2019 to Saturday 10/26/2019"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Southampton, England",
+                                visiting: ["Southampton, England", "Paris/Normandy (Le Havre), France", 
+                                    "Vigo, Spain","Libson, Portugal", "Southampton, England"],
+                                pricing: ["Interior: $849",
+                                    "Outsideview: $1,099",
+                                    "Balcony: $1,369",
+                                    "Suites: $1,849"],
+                                date: "Saturday 10/19/2019 to Saturday 10/26/2019"
                             }
                         ]
                     }
