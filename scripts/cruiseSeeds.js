@@ -433,6 +433,42 @@ const cruiseSeed = [
                         ]
                     }
                 ],
+                Guatemala: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "New York, New York",
+                                visiting: ["New York, New York",  "Willemstad, Curaçao", "Oranjestad, Auba",
+                                    "Santa Marta, Colombia", "Cartagena, Colombia", "Puntarenas, Costa Rica",
+                                    "Corinto, Nicaragua", "Puerto Quetzal, Guatemala", 
+                                    "Zihuatanejo/Ixtapa, Guerrero Mexico", "Puerto Vallarta, Mexico", 
+                                    "Cabo San Lucas, Mexico", "Los Angeles, California", "Santa Barbara, California",
+                                    "San Francisco, California"], 
+                                pricing: ["Inside: $1,549",
+                                    "Oceanview: $1,749",
+                                    "Balcony: $2,799",
+                                    "Mini-Suite: $3.199",
+                                    "Suite: $6,099",
+                                    "The Haven: $9,499"],
+                                date: "Saturday 1/4/2020 to Friday 1/24/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Los Angeles, California",
+                                visiting: ["Los Angeles, Clifornia", "Cabo San Lucas, Mexico", 
+                                    "Puerto Vallarta, Mexico", "Puerto Quetzal, Guatemala",
+                                    "Puntarenas, Costa Rica", "Panama Canal, Panama", 
+                                    "Cartagena, Columbia", "Kralendijk, Bonaire", "San Juan, Puerto Rico"],
+                                pricing: ["Interior: $1,007",
+                                    "Outsideview: $1,042",
+                                    "Balcony: $2,536",
+                                    "Suites: $3,092"],
+                                date: "Sunday 12/1/2019 to Monday 12/16/2019"
+                            }
+                        ]
+                    }
+                ],
             }
         ]
     }
