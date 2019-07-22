@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { CSSTransitionGroup } from 'react-transition-group';
+import { TransitionGroup } from 'react-transition-group';
 
 function Result(props) {
     return (
-        <CSSTransitionGroup
+        <TransitionGroup
             className="container result"
             component="div"
             transitionName="fade"
@@ -16,12 +16,12 @@ function Result(props) {
             <div>
                 The Cruises best suited for your Personality Type are: {props.quizResult}
             </div>
-        </CSSTransitionGroup>
+        </TransitionGroup>
     );
 
 }
 
-Result.PropTypes = {
+Result.propTypes = {
     quizResult: PropTypes.string.isRequired
 };
 

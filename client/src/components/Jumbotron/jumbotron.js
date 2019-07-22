@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 import { MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol, MDBCardTitle, MDBIcon } from "mdbreact";
 
@@ -25,12 +24,3 @@ const JumbotronPage = () => {
 }
 
 export default JumbotronPage;
-=======
-import React from 'react';
-
-function Jumbotron() {
-    return <div>jumbotron</div>
-}
-
-export default Jumbotron;
->>>>>>> 3737be3ade488141f02f00d4113e2c432a24031d

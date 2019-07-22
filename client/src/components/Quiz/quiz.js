@@ -1,9 +1,10 @@
 import React from "react";
 import PropTypes from 'prop-types';
-import { CSSTransitionGroup } from 'react-transition-group';
+//import { CSSTransitionGroup } from 'react-transition-group';
 import Question from '../Quiz/Question';
 import QuestionCount from '../Quiz/QuestionCount';
 import AnswerOption from '../Quiz/AnswerOption';
+import { TransitionGroup } from 'react-transition-group';
 
 function Quiz(props) {
     function renderAnswerOptions(key) {
@@ -20,7 +21,7 @@ function Quiz(props) {
 }
 
 return(
-    <CSSTransitionGroup
+    <TransitionGroup
         className = "container"
         component ="div"
         transitionName = "fade"
@@ -32,16 +33,16 @@ return(
         <div key= {props.questionId}>
             <QuestionCount counter = {props.questionId} total = {props.questionTotal} />
             <Question content = {props.question} />
-            <ul className = "answerOptions">
-                {props.answerOptions.map(renderAnswerOptions)}
+            <ul className = "AnswerOptions">
+                {props.AnswerOptions.map(renderAnswerOptions)}
             </ul>
         </div>
-    </CSSTransitionGroup>
+    </TransitionGroup>
 );
 
 }
 
-Quiz.PropTypes = {
+Quiz.propTypes = {
     answer: PropTypes.string.isRequired,
     answerOptions: PropTypes.array.isRequired,
     question: PropTypes.string.isRequired,

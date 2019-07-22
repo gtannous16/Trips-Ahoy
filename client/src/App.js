@@ -1,56 +1,35 @@
-import React from 'react';
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
-import quizQuestions from '../../routes/api/quizQuestions';
+import React, { Component } from 'react';
+// import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+// import { BrowserRouter, Match, Miss } from 'react-router';
+import quizQuestions from './utils/quizQuestions';
 import Quiz from './components/Quiz/quiz';
+// import Cruises  from './components/Cruises/cruises';
 import Result from './components/Quiz/Result';
 import logo from './logo.svg';
 import './App.css';
-<<<<<<< HEAD
-// import JumbotronPage from './components/Jumbotron/jumbotron.js'
-// import FooterPage from './components/Footer/footer.js';
-// import question from '../src/components/Question';
-=======
-import Jumbotron from './components/Jumbotron/jumbotron'
-import Header from './components/Header/header'
->>>>>>> 3737be3ade488141f02f00d4113e2c432a24031d
+// import Jumbotron from './components/Jumbotron/jumbotron'
+// import Header from './components/Header/header'
 
+// function NoMatch() {
+//   return<div>404</div>
+// }
 
-function App() {
-  return (
-<<<<<<< HEAD
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        {/* <FooterPage/> */}
-      </header>
-    </div>
-=======
-    <Router>
-      <Header />
-      <Jumbotron />
-      <div>
-        <Switch>
-          <Route exact path="/" component={Quiz} />
-          <Route exact path="/quiz" component={Quiz} />
-          <Route exact path="/cruises" component={Cruises} />
-          <Route component={NoMatch} />
-        </Switch>
-      </div>
-    </Router>
->>>>>>> 3737be3ade488141f02f00d4113e2c432a24031d
-  );
-}
+// function App() {
+//   return (
+//     <Router>
+//       <Header />
+//       <Jumbotron />
+//       <div>
+//         <Switch>
+//           <Route exact path="/" component={Quiz} />
+//           <Route exact path="/quiz" component={Quiz} />
+//           <Route exact path="/cruises" component={Cruises} />
+//           <Route component={NoMatch} />
+//         </Switch>
+//       </div>
+//     </Router>
+//   );
+// }
 
 class App extends Component {
   constructor(props) {
@@ -146,6 +125,7 @@ class App extends Component {
   }
 
   renderQuiz() {
+    return (
     <Quiz
       answer = {this.state.answer}
       answerOptions = {this.state.answerOptions}
@@ -154,10 +134,23 @@ class App extends Component {
       questionTotal ={quizQuestions.length}
       onAnswerSelected = {this.handleAnswerSelected}
       />
-  };
+    );
 }
 
-// renderResults () {
-//   return <Result quizResult = {this.state.result} />;
-// }
+renderResult () {
+  return <Result quizResult = {this.state.result} />;
+}
+
+render() {
+  return (
+    <div className="App">
+      <div className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <h2>React Quiz</h2>
+      </div>
+      {this.state.result ? this.renderResult() : this.renderQuiz()}
+    </div>
+  );
+}
+}
 export default App;

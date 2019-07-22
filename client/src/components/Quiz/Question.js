@@ -5,7 +5,7 @@ function Question(props) {
     return <h2 className="question">{props.content}</h2>;
 }
 
-Question.PropTypes = {
+Question.propTypes = {
     content: PropTypes.string.isRequired
 };
 
