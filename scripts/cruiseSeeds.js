@@ -400,6 +400,40 @@ const cruiseSeed = [
                     }
                 ],
             }
+        ],
+        Historical: [
+            {
+                Peru: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Santiago (San Antonio), Chile",
+                                visiting: ["Santiago (San Antonio, Chile", "Coquimbo, Chile", "Arica, Chile",
+                                    "Pisco, Peru", "Lima (Callao), Peru", "Trujillo (Salaverry), Peru",
+                                    "Puerto Limon, Costa Rica", "Great Stirrup Cay, Bahamas", 
+                                    "Orlando (Port Canaveral), Florida"], 
+                                pricing: ["Inside: $799",
+                                    "Oceanview: $949",
+                                    "Balcony: $1,799",
+                                    "Mini-Suite: $2,099",
+                                    "Suite: $3,499"],
+                                date: "Saturday 3/14/2020 to Sunday 3/29/2020"
+                            }
+                        ],
+                        Princess: [
+                            {
+                                leaving: "Los Angeles, California, US",
+                                visiting: ["Los Angeles, California, US", "Cabo San Lucas, Mexico", 
+                                    "Puntarenas, Costa Rica", "Manta, Ecuador", "Lima (Calleo), Peru",
+                                    "Pisco (General San Martin), Peru", "La Serena (Coquimbo), Chili",
+                                    "Santiago (San Antonio), Chile"],
+                                pricing: "Interior: $1,999",
+                                date: "Sunday 11/15/2020 to Wednesday 12/2/2020"
+                            }
+                        ]
+                    }
+                ],
+            }
         ]
     }
 ]
