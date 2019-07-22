@@ -5,12 +5,37 @@ import Quiz from './components/Quiz/quiz';
 import Result from './components/Quiz/Result';
 import logo from './logo.svg';
 import './App.css';
+<<<<<<< HEAD
+// import JumbotronPage from './components/Jumbotron/jumbotron.js'
+// import FooterPage from './components/Footer/footer.js';
+// import question from '../src/components/Question';
+=======
 import Jumbotron from './components/Jumbotron/jumbotron'
 import Header from './components/Header/header'
+>>>>>>> 3737be3ade488141f02f00d4113e2c432a24031d
 
 
 function App() {
   return (
+<<<<<<< HEAD
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+        {/* <FooterPage/> */}
+      </header>
+    </div>
+=======
     <Router>
       <Header />
       <Jumbotron />
@@ -23,6 +48,7 @@ function App() {
         </Switch>
       </div>
     </Router>
+>>>>>>> 3737be3ade488141f02f00d4113e2c432a24031d
   );
 }
 
