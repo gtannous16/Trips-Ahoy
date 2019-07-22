@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+// import JumbotronPage from './components/Jumbotron/jumbotron.js'
+// import FooterPage from './components/Footer/footer.js';
 // import question from '../src/components/Question';
 
 
@@ -20,6 +22,7 @@ function App() {
         >
           Learn React
         </a>
+        {/* <FooterPage/> */}
       </header>
     </div>
   );
