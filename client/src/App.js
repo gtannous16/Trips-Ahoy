@@ -110,5 +110,28 @@ class App extends Component {
 
     return answersCountKeys.filter(key => answersCount[key] === maxAnswerCount);
   }
+
+  setResults(result) {
+    if (result.length === 1) {
+      this.setState({ result: result[0] });
+    } else {
+      this.setState({ result: 'Undetermined' });
+    }
+  }
+
+  renderQuiz() {
+    <Quiz
+      answer = {this.state.answer}
+      answerOptions = {this.state.answerOptions}
+      questionId = {this.state.questionId}
+      question = {this.state3.question}
+      questionTotal ={quizQuestions.length}
+      onAnswerSelected = {this.handleAnswerSelected}
+      />
+  };
 }
+
+// renderResults () {
+//   return <Result quizResult = {this.state.result} />;
+// }
 export default App;
