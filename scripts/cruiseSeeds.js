@@ -5,7 +5,7 @@ mongoose.connect(
 
 const cruiseSeed = [
     {
-        secluded: [
+        Secluded: [
             {
                 Scotland: [
                     {
@@ -22,7 +22,7 @@ const cruiseSeed = [
                                     "Oceanview: $2,049",
                                     "Balcony: $3,349",
                                     "Mini-suit: $3,699",
-                                    "Suite: 5,799"],
+                                    "Suite: $5,799"],
                                 date: "Sunday 5/3/2020 to Sunday 5/17/2020"
                             }
                         ],
@@ -120,7 +120,7 @@ const cruiseSeed = [
                                     "Oceanview: $2,399",
                                     "Balcony: $3,099",
                                     "Mini-suit: $4,099",
-                                    "Suite: 7,149"],
+                                    "Suite: $7,149"],
                                 date: "Saturday 1/16/2021 to Saturday 1/30/2021"
                             }
                         ],
@@ -132,6 +132,203 @@ const cruiseSeed = [
                                     "Ft. Lauderdale, Florida"],
                                 pricing: "Interior: $1,608",
                                 date: "Thursday 3/19/2020 to Sunday 4/5/2020"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        Touristic: [
+            {
+                France: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "London (Southampton), England",
+                                visiting: ["London (Southampton), England", "Paris (Le Havre), France", 
+                                    "Barcelona, Spain", "Cannes, France", "Florence/Pisa (Livorno), Italy",
+                                    "Rome (Civitavecchia), Italy", "Naples, Italy", "Santorini, Greece",
+                                    "Athens (Piraeus), Greece", "Split, Croatia", "Venice, Italy"],
+                                pricing: ["Inside: $1,199",
+                                    "Oceanview: $1,499",
+                                    "Balcony: $1,749",
+                                    "Suite: $4,599"],
+                                date: "Friday 10/11/2019 to Saturday 10/26/2019"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Southampton, England",
+                                visiting: ["Southampton, England", "Paris/Normandy (Le Havre), France", 
+                                    "Vigo, Spain","Libson, Portugal", "Southampton, England"],
+                                pricing: ["Interior: $849",
+                                    "Outsideview: $1,099",
+                                    "Balcony: $1,369",
+                                    "Suites: $1,849"],
+                                date: "Saturday 10/19/2019 to Saturday 10/26/2019"
+                            }
+                        ]
+                    }
+                ],
+                Hawaii: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Honolulu, Oahu",
+                                visiting: ["Honolulu, Oahu", "Kahului, Maui", "Hilo, Hawaii",
+                                    "Kona, Hawaii", "Nāwiliwili, Kauài", "Honolulu, Oahu"],
+                                pricing: ["Inside: $1,249",
+                                    "Oceanview: $1,499",
+                                    "Balcony: $1,949",
+                                    "Suite: $3,349"],
+                                date: "Saturday 9/7/2019 to Saturday 9/14/2019"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Oahu (Honolulu), Hawaii",
+                                visiting: ["Oahu (Honolulu), Hawaii", "Maui (Lahaina), Hawaii",
+                                    "Kailua Kona, Hawaii", "Hilo, Hawaii", "Nāwiliwili, Kauài, Hawaii",
+                                    "Vancouver, British Columbia"],
+                                pricing: ["Interior: $1,080",
+                                    "Outsideview: $1,250",
+                                    "Balcony: $2,041",
+                                    "Suites: $3,622"],
+                                date: "Tuesday 5/5/2020 to Thursday 5/14/2020"
+                            }
+                        ]
+                    }
+                ],
+                Italy: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Rome (Civitaveccia), Italy",
+                                visiting: ["Rome (Civitaveccia), Italy", "Venice, Italy", "Dubrovnik, Croatia",
+                                    "Kotor, Montenegro", "Florence/Pisa (Livorno), Italy", "Monte Carlo, Monaco", 
+                                    "Barcelona, Spain", "Palma, Majorca, Spain", "Rome (Civitaveccia), Italy"],
+                                pricing: ["Inside: $1,649",
+                                    "Oceanview: $1,649",
+                                    "Balcony: $2,399",
+                                    "Suite: $6,099"],
+                                date: "Sunday 12/22.2019 to Friday 1/3/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Rome (Civitaveccia), Italy",
+                                visiting: ["Rome (Civitaveccia), Italy", "Valencia, Spain", 
+                                    "Palma de Mallorca, Spain", "Barcelona, Spain", 
+                                    "Nice (Villefranche), France", "Florence/Pisa (La Spezia), Italy",
+                                    "Rome (Civitaveccia), Italy"],
+                                pricing: ["Interior: $734",
+                                    "Outsideview: $1,126",
+                                    "Balcony: $1,255",
+                                    "Suites: $2,189"],
+                                date: "Sunday 6/21/2020 to Sunday 6/28/2020"
+                            }
+                        ]
+                    }
+                ],
+                England: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "London (Southampton), England",
+                                visiting: ["London (Southampton), England", "Paris (Le Havre), France",
+                                    "Brussels/Bruges (Zeebrugge), Belgium", "Amsterdam, Netherlands",
+                                    "Edinburgh (Newhaven), Scotland", "Inverness (invergordon), Scotland",
+                                    "Kirkwall, Orkney Isles, Scotland", "Glasgow (Greenock), Scotland", 
+                                    "Belfast, Northern Ireland", "Liverpool, United Kingdom", 
+                                    "Dublin (DunLaoghaire), Ireland", "Cork (Cobb), Ireland", "Potland, England",
+                                    "London (Southampton), England"],
+                                pricing: ["Inside: $1,599",
+                                    "Oceanview: $2,049",
+                                    "Balcony: $3,349",
+                                    "Mini-Suite: $3,799",
+                                    "Suite: $5,099"],
+                                date: "Sunday 5/17/2020 to Sunday 5/31/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Amsterdam, Netherlands",
+                                visiting: ["Amsterdam, Netherlands", "Dover, England", "Belfast, Northern Ireland",
+                                    "Glasgow, (Greeknock), Scotland", "Holyhead, Wales", "Cork (Cobh), Ireland",
+                                    "Paris/Normandy (Le Havre), France", "Amsterdam, Netherlands"],
+                                pricing: ["Interior: $1,741",
+                                    "Outsideview: $1,844",
+                                    "Balcony: $2,893",
+                                    "Suites: $4,297"],
+                                date: "Friday 6/12/2020 to Monday 6/22/2020"
+                            }
+                        ]
+                    }
+                ],
+            }
+        ],
+        Outdoors: [
+            {
+                Canada: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Bosoton, Massachusetts",
+                                visiting: ["Boston, Massachusetts", "Bar Harbor, Maine", "Halifax,Nova Scotia",
+                                    "Sydney, Cape Breton Island, Nova Scotia", "Charlottetown, Prince Edward Island",
+                                    "Saguenay (La Baie), Quēbec", "Quēbec City, Quēbec"],
+                                pricing: ["Inside: $849",
+                                    "Oceanview: $1,249",
+                                    "Balcony: $1,739",
+                                    "Mini-Suite: $1,959",
+                                    "Suite: $3,549",
+                                    "The Haven: $5,249"],
+                                date: "Friday 9/4/2020 to Friday 9/11/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Cape Liberty, New Jersey",
+                                visiting: ["Cape Liberty, New Jersey", "Bar Harbor, Maine", 
+                                    "Saint John, New Brunswick (Bay of Fundy)", "Halifax, Nova Scotia", 
+                                    "Cape Liberty, New Jersey"],
+                                pricing: ["Interior: $620",
+                                    "Outsideview: $856",
+                                    "Balcony: $1,127",
+                                    "Suites: $1,577"],
+                                date: "Friday 5/15/2020 to Thursday 5/21/2020"
+                            }
+                        ]
+                    }
+                ],
+                Alaska: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Seattle, Washington",
+                                visiting: ["Seattle, Washington", "Juneau, Alaska", "Skagway, Alaska",
+                                    "Galcier Bay", "Ketchikan, Alaska", "Victoria, British Columbia",
+                                    "Seattle, Washington"],
+                                pricing: ["Inside: $649",
+                                    "Oceanview: $799",
+                                    "Balcony: $799",
+                                    "Mini-Suite: $999",
+                                    "Concierge: $1,999",
+                                    "The Haven: $3.099"],
+                                date: "Saturday 9/28/2019 to Saturday 10/5/2019"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Seward, Alaska",
+                                visiting: ["Seward. Alaska", "Hubbard Glacier, Alaska", "Juneau, Alaska",
+                                    "Skagway, Alaska", "Icy Straight Point, Alaska", "Ketchikan, Alaska",
+                                    "Vancouver, British Columbia"],
+                                pricing: ["Interior: $530",
+                                    "Outsideview: $780",
+                                    "Balcony: $1,462",
+                                    "Suites: $2,643"],
+                                date: "Friday 8/30/2019 to Friday 9/6/2019"
                             }
                         ]
                     }

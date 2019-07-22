@@ -8,7 +8,11 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
+<<<<<<< HEAD
     "rebass": "^3.0.0-12"
+=======
+    "react-transition-group": "^4.2.1"
+>>>>>>> 3737be3ade488141f02f00d4113e2c432a24031d
   },
   "scripts": {
     "start": "react-scripts start",
