@@ -333,6 +333,72 @@ const cruiseSeed = [
                         ]
                     }
                 ],
+                NewZealand: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Sydney, Australia",
+                                visiting: ["Sydney, Australia", "Milford Sound, New Zealand", 
+                                    "Dunedin (Port Chalmers), New Zealand", "Lyttelton, New Zealand", 
+                                    "Marlborough (Picton), New Zealand", "Wellingto, New Zealand", 
+                                    "Napier, New Zealand", "Tauranga, New Zealand", "Whangarei, New Zealand", 
+                                    "Auckland, New Zealand", "Sydney, Australia"], 
+                                pricing: ["Inside: $1,649",
+                                    "Oceanview: $1,869",
+                                    "Balcony: $2,479",
+                                    "Mini-Suite: $2,879",
+                                    "Suite: $5,999",
+                                    "The Haven: $9,899"],
+                                date: "Sunday 11/22/2020 to Sunday 12/6/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Sydney, Australia",
+                                visiting: ["Sydney, Australia", "Milford Sound, New Zealand", "Dunedin, New Zealand",
+                                    "Akaroa, New Zealand", "Wellington, New Zealand", "Picton, New Zealand", 
+                                    "Sydney, Australia"],
+                                pricing: ["Interior: $925",
+                                    "Outsideview: $1,158",
+                                    "Balcony: $1,334",
+                                    "Suites: $2,219"],
+                                date: "Sunday 1/31/2021 to Wednesday 2/10/2021"
+                            }
+                        ]
+                    }
+                ],
+                Australia: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Sydney, Australia",
+                                visiting: ["Sydney, Australia", "Eden, Australia", "Melbourne, Australia",
+                                    "Burnia (Tasmania), Australia", "Dunedin (Port Chalmers), New Zealand",
+                                    "Akaroa, New Zealand", "Marlborough (Picton), New Zealand", "Napier, New Zealand",
+                                    "Tauranga, New Zealand", "Auckland, New Zealand"],
+                                pricing: ["Inside: $1,249",
+                                    "Oceanview: $1,629",
+                                    "Balcony: $3,649",
+                                    "Mini-suit: $3,949",
+                                    "Suite: $7,299",
+                                    "The Haven: $8,499"],
+                                date: "Thursday 1/23/2020 to Tuesday 2/4/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Sydney, Australia",
+                                visiting: ["Sydney, Australia", "Melbourne, Australia", "Hobart, Australia",
+                                    "Sydney, Australia"],
+                                pricing: ["Interior: $532",
+                                    "Outsideview: $644",
+                                    "Balcony: $914",
+                                    "Suites: $1,132"],
+                                date: "Thursday 2/25/2021 to Wednesday 3/3/2021"
+                            }
+                        ]
+                    }
+                ],
             }
         ]
     }
