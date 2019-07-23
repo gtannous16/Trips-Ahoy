@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import quizQuestions from '../../routes/api/quizQuestions';
@@ -113,3 +114,5 @@ function App() {
 //   }
 // }
 export default App;
+=======
+>>>>>>> 4242ba8a256d617ac8bcbddf24034718c0d8d0fc

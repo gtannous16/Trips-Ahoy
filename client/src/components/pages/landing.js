@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBMask, MDBRow, MDBCol, MDBBtn,   MDBView, MDBContainer, MDBFormInline } from "mdbreact";
@@ -104,3 +105,5 @@ class AppPage extends Component {
 }
 
 export default AppPage;
+=======
+>>>>>>> 4242ba8a256d617ac8bcbddf24034718c0d8d0fc
