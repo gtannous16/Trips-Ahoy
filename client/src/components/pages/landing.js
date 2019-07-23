@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBMask, MDBRow, MDBCol, MDBBtn,   MDBView, MDBContainer, MDBFormInline } from "mdbreact";
-import "./index.css";
+import "./landing.css";
 
 class AppPage extends Component {
   state = {
@@ -36,7 +36,7 @@ class AppPage extends Component {
             >
               <MDBContainer>
                 <MDBNavbarBrand>
-                  <strong className="white-text">MDB</strong>
+                  <strong className="White-text">Trips Ahoy!</strong>
                 </MDBNavbarBrand>
                 <MDBNavbarToggler onClick={this.handleTogglerClick} />
                 <MDBCollapse isOpen={this.state.collapsed} navbar>
@@ -45,25 +45,13 @@ class AppPage extends Component {
                       <MDBNavLink to="#!">Home</MDBNavLink>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <MDBNavLink to="#!">Link</MDBNavLink>
+                      <MDBNavLink to="#!">Quiz</MDBNavLink>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <MDBNavLink to="#!">Profile</MDBNavLink>
+                      <MDBNavLink to="#!">Results</MDBNavLink>
                     </MDBNavItem>
                   </MDBNavbarNav>
                   <MDBNavbarNav right>
-                    <MDBNavItem>
-                      <MDBFormInline waves>
-                        <div className="md-form my-0">
-                          <input
-                            className="form-control mr-sm-2"
-                            type="text"
-                            placeholder="Search"
-                            aria-label="Search"
-                          />
-                        </div>
-                      </MDBFormInline>
-                    </MDBNavItem>
                   </MDBNavbarNav>
                 </MDBCollapse>
               </MDBContainer>
@@ -77,24 +65,20 @@ class AppPage extends Component {
               <MDBRow>
                 <div className="white-text text-center text-md-left col-md-6 mt-xl-5 mb-5">
                   <h1 className="h1-responsive font-weight-bold mt-sm-5">
-                    Make purchases with our app{" "}
+                    Welcome to Trips Ahoy! {" "}
                   </h1>
                   <hr className="hr-light" />
                   <h6 className="mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Rem repellendus quasi fuga nesciunt dolorum nulla magnam
-                    veniam sapiente, fugiat! Commodi sequi non animi ea dolor
-                    molestiae iste.
+                    Want to book your next cruise, but not sure where to go? Take our personality quiz and 
+                    see where your next adventure takes you! You'll recieve four location suggestions based on 
+                    your quiz results, and suggestions on things to do!! The fun is up to you! Click below to start!
                   </h6>
-                  <MDBBtn color="white">Download</MDBBtn>
-                  <MDBBtn outline color="white">
-                    Learn More
-                  </MDBBtn>
+                  <MDBBtn color="yellow">Start My Adventure!</MDBBtn>
                 </div>
-                <MDBCol md="6" xl="5" className="mt-xl-5">
+                <MDBCol md="5" xl="5" className="mt-xl-5">
                   <img
-                    src="https://mdbootstrap.com/img/Mockups/Transparent/Small/admin-new.png"
-                    alt=""
+                    src="https://i.ibb.co/w0SLpNw/logo-white-background.jpg"
+                    alt="logo"
                     className="img-fluid"
                   />
                 </MDBCol>
@@ -107,13 +91,9 @@ class AppPage extends Component {
           <MDBRow className="py-5">
             <MDBCol md="12" className="text-center">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Thank you for visiting Trips Ahoy!™
+                We are a team of female Full Stack developers with a passion for travel.
+                We hope that our app will provide you with memories of a lifetime for you and your loved ones!
               </p>
             </MDBCol>
           </MDBRow>
