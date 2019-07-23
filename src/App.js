@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import quizQuestions from '../utils/quizQuestions';
+import quizQuestions from './utils/quizQuestions';
 import Quiz from './components/Quiz';
 import Result from './components/Result';
 import './App.css';
@@ -122,10 +122,11 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-      
-          <h2>React Quiz</h2>
+          <h2>Trips-Ahoy!</h2>    
+          <h2>Figure out where to go based on your personality!</h2>    
+          {this.state.result ? this.renderResult() : this.renderQuiz()}
         </div>
-        {this.state.result ? this.renderResult() : this.renderQuiz()}
+
       </div>
     );
   }
