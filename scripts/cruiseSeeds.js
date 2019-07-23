@@ -469,6 +469,71 @@ const cruiseSeed = [
                         ]
                     }
                 ],
+                Bermuda: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "New York, New York",
+                                visiting: ["New York, New York", "Royal Naval Dockyard, Bermuda", 
+                                    "Great Stirrup Cay, Bahamas", "Nassau, Bahamas", "Orlando (Port Canaveral), Florida",
+                                    "Norfolk, Virgina", "New York, New York"], 
+                                pricing: ["Inside: $799",
+                                    "Oceanview: $949",
+                                    "Balcony: $1,349",
+                                    "Mini-Suite: $1,799",
+                                    "Suite: $3,349"],
+                                date: "Thursday 4/9/2020 to Sunday 4/19/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Cape Liberty, New Jersey",
+                                visiting: ["Cape Liberty, New Jersey", "King's Wharf, Bermuda", 
+                                    "Cape Liberty, New Jersey"],
+                                pricing: ["Interior: $447",
+                                    "Outsideview: $562",
+                                    "Balcony: $720",
+                                    "Suites: $1,115"],
+                                date: "Saturday 10/17/2020 to Thurday 10/22/2020"
+                            }
+                        ]
+                    }
+                ],
+                England: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "London (Southampton), England",
+                                visiting: ["London (Southampton), England", "Paris (Le Havre), France",
+                                    "Brussels/Bruges (Zeebrugge), Belgium", "Amsterdam, Netherlands",
+                                    "Edinburgh (Newhaven), Scotland", "Inverness (invergordon), Scotland",
+                                    "Kirkwall, Orkney Isles, Scotland", "Glasgow (Greenock), Scotland", 
+                                    "Belfast, Northern Ireland", "Liverpool, United Kingdom", 
+                                    "Dublin (DunLaoghaire), Ireland", "Cork (Cobb), Ireland", "Potland, England",
+                                    "London (Southampton), England"],
+                                pricing: ["Inside: $1,599",
+                                    "Oceanview: $2,049",
+                                    "Balcony: $3,349",
+                                    "Mini-Suite: $3,799",
+                                    "Suite: $5,099"],
+                                date: "Sunday 5/17/2020 to Sunday 5/31/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Amsterdam, Netherlands",
+                                visiting: ["Amsterdam, Netherlands", "Dover, England", "Belfast, Northern Ireland",
+                                    "Glasgow, (Greeknock), Scotland", "Holyhead, Wales", "Cork (Cobh), Ireland",
+                                    "Paris/Normandy (Le Havre), France", "Amsterdam, Netherlands"],
+                                pricing: ["Interior: $1,741",
+                                    "Outsideview: $1,844",
+                                    "Balcony: $2,893",
+                                    "Suites: $4,297"],
+                                date: "Friday 6/12/2020 to Monday 6/22/2020"
+                            }
+                        ]
+                    }
+                ],
             }
         ]
     }
