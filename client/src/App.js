@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import quizQuestions from './utils/quizQuestions';
-import Quiz from './components/Quiz';
-import Result from './components/Result';
+import Quiz from './components/Quiz/Quiz';
+import Result from './components/Quiz/Result';
 import './App.css';
 
 class App extends Component {
