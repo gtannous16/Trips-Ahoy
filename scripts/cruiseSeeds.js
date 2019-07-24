@@ -533,6 +533,119 @@ const cruiseSeed = [
                             }
                         ]
                     }
+                ]
+            }
+        ],
+        Party: [
+            {
+                Greece: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Venice, Italy",
+                                visiting: ["Venice, Italy", "Kotor, Montenegro", "Corfu, Greece",
+                                    "Santorini, Greece", "Mykonons, Greece", "Argostoli, Kefalonia, Greece",
+                                    "Dubrovnik, Croatia", "Venice, Italy"], 
+                                pricing: ["Inside: $1,349",
+                                    "Oceanview: $1,499",
+                                    "Balcony: $2,099",
+                                    "Mini-Suite: $2,949",
+                                    "Suite: SOLD OUT"],
+                                date: "Sunday 9/8/19 to Sunday 9/15/19"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Venice, Italy",
+                                visiting: ["Venice, Italy", "Venice, Italy", "Kotor, Montenegro",
+                                    "Corfu, Greece", "Athens (Piraeus), Greece", ""],
+                                pricing: "Interior: $",
+                                date: ""
+                            }
+                        ]
+                    }
+                ],
+                Netherlands: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "",
+                                visiting: [""], 
+                                pricing: ["Inside: $",
+                                    "Oceanview: $",
+                                    "Balcony: $",
+                                    "Mini-Suite: $",
+                                    "Suite: $",
+                                    "The Haven: $"],
+                                date: ""
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "",
+                                visiting: [""],
+                                pricing: ["Interior: $",
+                                    "Outsideview: $",
+                                    "Balcony: $",
+                                    "Suites: $"],
+                                date: ""
+                            }
+                        ]
+                    }
+                ],
+                Spain: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "",
+                                visiting: [""], 
+                                pricing: ["Inside: $",
+                                    "Oceanview: $",
+                                    "Balcony: $",
+                                    "Mini-Suite: $",
+                                    "Suite: $"],
+                                date: ""
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "",
+                                visiting: [""],
+                                pricing: ["Interior: $",
+                                    "Outsideview: $",
+                                    "Balcony: $",
+                                    "Suites: $"],
+                                date: ""
+                            }
+                        ]
+                    }
+                ],
+                California: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "",
+                                visiting: [""],
+                                pricing: ["Inside: $",
+                                    "Oceanview: $",
+                                    "Balcony: $",
+                                    "Mini-Suite: $",
+                                    "Suite: $"],
+                                date: ""
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "",
+                                visiting: [""],
+                                pricing: ["Interior: $",
+                                    "Outsideview: $",
+                                    "Balcony: $",
+                                    "Suites: $"],
+                                date: ""
+                            }
+                        ]
+                    }
                 ],
             }
         ]
