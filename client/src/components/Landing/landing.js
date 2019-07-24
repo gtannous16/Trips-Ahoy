@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBMask, MDBRow, MDBCol, MDBBtn,   MDBView, MDBContainer, MDBFormInline } from "mdbreact";
+import { MDBMask, MDBRow, MDBCol, MDBBtn,   MDBView, MDBContainer} from "mdbreact";
 import "./landing.css";
 
 class AppPage extends Component {
@@ -15,17 +15,10 @@ class AppPage extends Component {
   };
 
   render() {
-    const overlay = (
-      <div
-        id="sidenav-overlay"
-        style={{ backgroundColor: "transparent" }}
-        onClick={this.handleTogglerClick}
-      />
-    );
     return (
       <div id="apppage">
         <Router>
-          <div>
+          {/* <div>
             <MDBNavbar
               color="primary-color"
               dark
@@ -57,7 +50,7 @@ class AppPage extends Component {
               </MDBContainer>
             </MDBNavbar>
             {this.state.collapsed && overlay}
-          </div>
+          </div> */}
         </Router>
         <MDBView>
           <MDBMask className="d-flex justify-content-center align-items-center gradient">
