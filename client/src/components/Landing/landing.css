@@ -1,24 +1,4 @@
 #apppage .gradient {
-<<<<<<< HEAD:client/src/components/pages/landing.css
-  background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-  background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-  background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
-  background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-  background: linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-}
-
-#apppage .view {
-  background-image: url('https://www.setaswall.com/wp-content/uploads/2017/03/Golden-Beach-Wallpaper-2560x1600.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 100vh;
-}
-
-#apppage h6 {
-  line-height: 1.7;
-}
-=======
     background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
     background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
     background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
@@ -37,4 +17,3 @@
   #apppage h6 {
     line-height: 1.7;
   }
->>>>>>> 88983fe46dc1bdffb7c48d17bfbb9900c5028c2e:client/src/components/Landing/landing.css
