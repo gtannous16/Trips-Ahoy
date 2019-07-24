@@ -4,7 +4,7 @@ import Quiz from '../Quiz/Quiz';
 import Result from '../Quiz/Result';
 
 
-class App extends Component {
+class quizPage extends Component {
   constructor(props) {
     super(props);
 
