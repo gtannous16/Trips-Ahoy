@@ -333,6 +333,320 @@ const cruiseSeed = [
                         ]
                     }
                 ],
+                NewZealand: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Sydney, Australia",
+                                visiting: ["Sydney, Australia", "Milford Sound, New Zealand", 
+                                    "Dunedin (Port Chalmers), New Zealand", "Lyttelton, New Zealand", 
+                                    "Marlborough (Picton), New Zealand", "Wellingto, New Zealand", 
+                                    "Napier, New Zealand", "Tauranga, New Zealand", "Whangarei, New Zealand", 
+                                    "Auckland, New Zealand", "Sydney, Australia"], 
+                                pricing: ["Inside: $1,649",
+                                    "Oceanview: $1,869",
+                                    "Balcony: $2,479",
+                                    "Mini-Suite: $2,879",
+                                    "Suite: $5,999",
+                                    "The Haven: $9,899"],
+                                date: "Sunday 11/22/2020 to Sunday 12/6/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Sydney, Australia",
+                                visiting: ["Sydney, Australia", "Milford Sound, New Zealand", "Dunedin, New Zealand",
+                                    "Akaroa, New Zealand", "Wellington, New Zealand", "Picton, New Zealand", 
+                                    "Sydney, Australia"],
+                                pricing: ["Interior: $925",
+                                    "Outsideview: $1,158",
+                                    "Balcony: $1,334",
+                                    "Suites: $2,219"],
+                                date: "Sunday 1/31/2021 to Wednesday 2/10/2021"
+                            }
+                        ]
+                    }
+                ],
+                Australia: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Sydney, Australia",
+                                visiting: ["Sydney, Australia", "Eden, Australia", "Melbourne, Australia",
+                                    "Burnia (Tasmania), Australia", "Dunedin (Port Chalmers), New Zealand",
+                                    "Akaroa, New Zealand", "Marlborough (Picton), New Zealand", "Napier, New Zealand",
+                                    "Tauranga, New Zealand", "Auckland, New Zealand"],
+                                pricing: ["Inside: $1,249",
+                                    "Oceanview: $1,629",
+                                    "Balcony: $3,649",
+                                    "Mini-suit: $3,949",
+                                    "Suite: $7,299",
+                                    "The Haven: $8,499"],
+                                date: "Thursday 1/23/2020 to Tuesday 2/4/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Sydney, Australia",
+                                visiting: ["Sydney, Australia", "Melbourne, Australia", "Hobart, Australia",
+                                    "Sydney, Australia"],
+                                pricing: ["Interior: $532",
+                                    "Outsideview: $644",
+                                    "Balcony: $914",
+                                    "Suites: $1,132"],
+                                date: "Thursday 2/25/2021 to Wednesday 3/3/2021"
+                            }
+                        ]
+                    }
+                ],
+            }
+        ],
+        Historical: [
+            {
+                Peru: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Santiago (San Antonio), Chile",
+                                visiting: ["Santiago (San Antonio, Chile", "Coquimbo, Chile", "Arica, Chile",
+                                    "Pisco, Peru", "Lima (Callao), Peru", "Trujillo (Salaverry), Peru",
+                                    "Puerto Limon, Costa Rica", "Great Stirrup Cay, Bahamas", 
+                                    "Orlando (Port Canaveral), Florida"], 
+                                pricing: ["Inside: $799",
+                                    "Oceanview: $949",
+                                    "Balcony: $1,799",
+                                    "Mini-Suite: $2,099",
+                                    "Suite: $3,499"],
+                                date: "Saturday 3/14/2020 to Sunday 3/29/2020"
+                            }
+                        ],
+                        Princess: [
+                            {
+                                leaving: "Los Angeles, California, US",
+                                visiting: ["Los Angeles, California, US", "Cabo San Lucas, Mexico", 
+                                    "Puntarenas, Costa Rica", "Manta, Ecuador", "Lima (Calleo), Peru",
+                                    "Pisco (General San Martin), Peru", "La Serena (Coquimbo), Chili",
+                                    "Santiago (San Antonio), Chile"],
+                                pricing: "Interior: $1,999",
+                                date: "Sunday 11/15/2020 to Wednesday 12/2/2020"
+                            }
+                        ]
+                    }
+                ],
+                Guatemala: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "New York, New York",
+                                visiting: ["New York, New York",  "Willemstad, Curaçao", "Oranjestad, Auba",
+                                    "Santa Marta, Colombia", "Cartagena, Colombia", "Puntarenas, Costa Rica",
+                                    "Corinto, Nicaragua", "Puerto Quetzal, Guatemala", 
+                                    "Zihuatanejo/Ixtapa, Guerrero Mexico", "Puerto Vallarta, Mexico", 
+                                    "Cabo San Lucas, Mexico", "Los Angeles, California", "Santa Barbara, California",
+                                    "San Francisco, California"], 
+                                pricing: ["Inside: $1,549",
+                                    "Oceanview: $1,749",
+                                    "Balcony: $2,799",
+                                    "Mini-Suite: $3.199",
+                                    "Suite: $6,099",
+                                    "The Haven: $9,499"],
+                                date: "Saturday 1/4/2020 to Friday 1/24/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Los Angeles, California",
+                                visiting: ["Los Angeles, Clifornia", "Cabo San Lucas, Mexico", 
+                                    "Puerto Vallarta, Mexico", "Puerto Quetzal, Guatemala",
+                                    "Puntarenas, Costa Rica", "Panama Canal, Panama", 
+                                    "Cartagena, Columbia", "Kralendijk, Bonaire", "San Juan, Puerto Rico"],
+                                pricing: ["Interior: $1,007",
+                                    "Outsideview: $1,042",
+                                    "Balcony: $2,536",
+                                    "Suites: $3,092"],
+                                date: "Sunday 12/1/2019 to Monday 12/16/2019"
+                            }
+                        ]
+                    }
+                ],
+                Bermuda: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "New York, New York",
+                                visiting: ["New York, New York", "Royal Naval Dockyard, Bermuda", 
+                                    "Great Stirrup Cay, Bahamas", "Nassau, Bahamas", "Orlando (Port Canaveral), Florida",
+                                    "Norfolk, Virgina", "New York, New York"], 
+                                pricing: ["Inside: $799",
+                                    "Oceanview: $949",
+                                    "Balcony: $1,349",
+                                    "Mini-Suite: $1,799",
+                                    "Suite: $3,349"],
+                                date: "Thursday 4/9/2020 to Sunday 4/19/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Cape Liberty, New Jersey",
+                                visiting: ["Cape Liberty, New Jersey", "King's Wharf, Bermuda", 
+                                    "Cape Liberty, New Jersey"],
+                                pricing: ["Interior: $447",
+                                    "Outsideview: $562",
+                                    "Balcony: $720",
+                                    "Suites: $1,115"],
+                                date: "Saturday 10/17/2020 to Thurday 10/22/2020"
+                            }
+                        ]
+                    }
+                ],
+                England: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "London (Southampton), England",
+                                visiting: ["London (Southampton), England", "Paris (Le Havre), France",
+                                    "Brussels/Bruges (Zeebrugge), Belgium", "Amsterdam, Netherlands",
+                                    "Edinburgh (Newhaven), Scotland", "Inverness (invergordon), Scotland",
+                                    "Kirkwall, Orkney Isles, Scotland", "Glasgow (Greenock), Scotland", 
+                                    "Belfast, Northern Ireland", "Liverpool, United Kingdom", 
+                                    "Dublin (DunLaoghaire), Ireland", "Cork (Cobb), Ireland", "Potland, England",
+                                    "London (Southampton), England"],
+                                pricing: ["Inside: $1,599",
+                                    "Oceanview: $2,049",
+                                    "Balcony: $3,349",
+                                    "Mini-Suite: $3,799",
+                                    "Suite: $5,099"],
+                                date: "Sunday 5/17/2020 to Sunday 5/31/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Amsterdam, Netherlands",
+                                visiting: ["Amsterdam, Netherlands", "Dover, England", "Belfast, Northern Ireland",
+                                    "Glasgow, (Greeknock), Scotland", "Holyhead, Wales", "Cork (Cobh), Ireland",
+                                    "Paris/Normandy (Le Havre), France", "Amsterdam, Netherlands"],
+                                pricing: ["Interior: $1,741",
+                                    "Outsideview: $1,844",
+                                    "Balcony: $2,893",
+                                    "Suites: $4,297"],
+                                date: "Friday 6/12/2020 to Monday 6/22/2020"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        Party: [
+            {
+                Greece: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Venice, Italy",
+                                visiting: ["Venice, Italy", "Kotor, Montenegro", "Corfu, Greece",
+                                    "Santorini, Greece", "Mykonons, Greece", "Argostoli, Kefalonia, Greece",
+                                    "Dubrovnik, Croatia", "Venice, Italy"], 
+                                pricing: ["Inside: $1,349",
+                                    "Oceanview: $1,499",
+                                    "Balcony: $2,099",
+                                    "Mini-Suite: $2,949",
+                                    "Suite: SOLD OUT"],
+                                date: "Sunday 9/8/19 to Sunday 9/15/19"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Venice, Italy",
+                                visiting: ["Venice, Italy", "Venice, Italy", "Kotor, Montenegro",
+                                    "Corfu, Greece", "Athens (Piraeus), Greece", ""],
+                                pricing: "Interior: $",
+                                date: ""
+                            }
+                        ]
+                    }
+                ],
+                Netherlands: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "",
+                                visiting: [""], 
+                                pricing: ["Inside: $",
+                                    "Oceanview: $",
+                                    "Balcony: $",
+                                    "Mini-Suite: $",
+                                    "Suite: $",
+                                    "The Haven: $"],
+                                date: ""
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "",
+                                visiting: [""],
+                                pricing: ["Interior: $",
+                                    "Outsideview: $",
+                                    "Balcony: $",
+                                    "Suites: $"],
+                                date: ""
+                            }
+                        ]
+                    }
+                ],
+                Spain: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "",
+                                visiting: [""], 
+                                pricing: ["Inside: $",
+                                    "Oceanview: $",
+                                    "Balcony: $",
+                                    "Mini-Suite: $",
+                                    "Suite: $"],
+                                date: ""
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "",
+                                visiting: [""],
+                                pricing: ["Interior: $",
+                                    "Outsideview: $",
+                                    "Balcony: $",
+                                    "Suites: $"],
+                                date: ""
+                            }
+                        ]
+                    }
+                ],
+                California: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "",
+                                visiting: [""],
+                                pricing: ["Inside: $",
+                                    "Oceanview: $",
+                                    "Balcony: $",
+                                    "Mini-Suite: $",
+                                    "Suite: $"],
+                                date: ""
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "",
+                                visiting: [""],
+                                pricing: ["Interior: $",
+                                    "Outsideview: $",
+                                    "Balcony: $",
+                                    "Suites: $"],
+                                date: ""
+                            }
+                        ]
+                    }
+                ],
             }
         ]
     }
