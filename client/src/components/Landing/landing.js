@@ -70,7 +70,7 @@ class AppPage extends Component {
                 </div>
                 <MDBCol md="5" xl="5" className="mt-xl-5">
                   <img
-                    src="https://i.ibb.co/w0SLpNw/logo-white-background.jpg"
+                    src="http://photobucket.com/confirmation?token=%2BMC7CD8Y6NBCi9iKVguM4ltFWRxOviadBdPJECZ5PJ1zASX0fF7GqOb9%2FaFnfb4RrcRCtSH4C84dxX2jaOtd1auSN4bqhLjL"
                     alt="logo"
                     className="img-fluid"
                   />
