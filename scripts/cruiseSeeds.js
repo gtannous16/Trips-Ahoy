@@ -558,9 +558,11 @@ const cruiseSeed = [
                             {
                                 leaving: "Venice, Italy",
                                 visiting: ["Venice, Italy", "Venice, Italy", "Kotor, Montenegro",
-                                    "Corfu, Greece", "Athens (Piraeus), Greece", ""],
-                                pricing: "Interior: $",
-                                date: ""
+                                    "Corfu, Greece", "Athens (Piraeus), Greece", "Mykonos, Greece",
+                                    "Argostoli, Greece", "Venice, Italy"],
+                                pricing: ["Interior: $720", "Outside: $870", "Balcony: $1,290",
+                                    "Suites: $1,914"],
+                                date: "Saturday 8/8/2020 to Saturday 8/15/2020"
                             }
                         ]
                     }
@@ -569,26 +571,32 @@ const cruiseSeed = [
                     {
                         Norwegian: [
                             {
-                                leaving: "",
-                                visiting: [""], 
-                                pricing: ["Inside: $",
-                                    "Oceanview: $",
-                                    "Balcony: $",
-                                    "Mini-Suite: $",
-                                    "Suite: $",
-                                    "The Haven: $"],
-                                date: ""
+                                leaving: "London (Southampton), England",
+                                visiting: ["London (Southampton), England", "Paris (Le Havre), France",
+                                    "Brussels/Bruges (Zeebrugge), Belgium", "Amsterdam, Netherlands",
+                                    "Berlin (Warnemünde), Germany", "Tallinn, Estonia", "St. Petersburg, Russia",
+                                    "Helsinki, Finland", "Stockholm (Nynashamn), Sweden", "Copenhagen, Denmark"], 
+                                pricing: ["Inside: $1,699",
+                                    "Oceanview: $2,079",
+                                    "Balcony: $2,329",
+                                    "Spa: $3,199",
+                                    "Mini-Suite: $2,579",
+                                    "The Haven: $7,499"],
+                                date: "Friday 5/15/2020 to Friday 5/29/2020"
                             }
                         ],
                         Caribbean: [
                             {
-                                leaving: "",
-                                visiting: [""],
-                                pricing: ["Interior: $",
-                                    "Outsideview: $",
-                                    "Balcony: $",
-                                    "Suites: $"],
-                                date: ""
+                                leaving: "Amsterdam, Netherlands",
+                                visiting: ["Amsterdam, Netherlands", "Dover, England", 
+                                    "Belfast, Northern Ireland", "Glasgow (Greenock), Scotland",
+                                    "Holyhead, Wales", "Cork (Cobh), Ireland", 
+                                    "Paris/Normandy (Le Havre), France", "Amsterdam, Netherlands"],
+                                pricing: ["Interior: $1,554",
+                                    "Outsideview: $1,844",
+                                    "Balcony: $2,893",
+                                    "Suites: $4,297"],
+                                date: "Friday 6/12/2020 to Monday 6/22/2020"
                             }
                         ]
                     }
