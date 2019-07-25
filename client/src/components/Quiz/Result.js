@@ -14,7 +14,7 @@ function Result(props) {
       transitionAppearTimeout={500}
     >
       <div>
-        The best cruises to fit your personality are: <strong>{props.quizResult}</strong>!
+        Your personality type is <strong>{props.quizResult}</strong>!
       </div>
     </CSSTransitionGroup>
   );

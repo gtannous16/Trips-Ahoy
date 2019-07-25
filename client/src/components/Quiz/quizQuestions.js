@@ -11,7 +11,7 @@ var quizQuestions = [
                 content: "Going out to try a new restaurant"
             },
             {
-                type: "Outdoors",
+                type: "Outdoorsy",
                 content: "Outside playing sports"
             },
             {
@@ -19,7 +19,7 @@ var quizQuestions = [
                 content: "Re-watching your favorite historical movie or show"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "Going out to your favorite club or bar"
             },
             {
@@ -44,7 +44,7 @@ var quizQuestions = [
                 content: "https://prodimage.images-bn.com/pimages/9780143129509_p0_v3_s550x406.jpg"
             },
             {
-                type: "Outdoors",
+                type: "Outdoorsy",
                 content: "https://images-na.ssl-images-amazon.com/images/I/51jGs2yyXgL._SL300_.jpg"
             },
             {
@@ -52,7 +52,7 @@ var quizQuestions = [
                 content: "https://img.thriftbooks.com/api/images/l/80fab152451dd6493606ee81b54613d8c1c4d5d4.jpg"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/TheGreatGatsby_1925jacket.jpeg/220px-TheGreatGatsby_1925jacket.jpeg"
             },
             {
@@ -85,7 +85,7 @@ var quizQuestions = [
                 content: "http://ambitiondaily.com/wp-content/uploads/2013/03/Forrest-Gump-1994.jpg"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "http://barkerhost.com/wp-content/uploads/sites/4/2019/03/hhiZjyD29t31xyNjREGJlalFKPy-1.jpg"
             },
             {
@@ -118,7 +118,7 @@ var quizQuestions = [
                 content: "http://www.gstatic.com/tv/thumb/tvbanners/8030976/p8030976_b_v8_aa.jpg"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "https://is1-ssl.mzstatic.com/image/thumb/Video123/v4/73/be/8b/73be8b7c-44fc-78fd-aac1-55e27a12b096/mzl.wrutjtas.lsr/268x0w.jpg"
             },
             {
@@ -151,7 +151,7 @@ var quizQuestions = [
                 content: "Archeologist"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "Event Planner"
             },
             {
@@ -184,7 +184,7 @@ var quizQuestions = [
                 content: "Country Music"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "House Music"
             },
             {
@@ -217,8 +217,8 @@ var quizQuestions = [
                 content: "Favorite Book"
             },
             {
-                type: "Party",
-                content: "Booze"
+                type: "Socializer",
+                content: "Alcoholic Beverages"
             },
             {
                 type: "Relaxing",
@@ -250,7 +250,7 @@ var quizQuestions = [
                 content: "Letters"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "Snapchat"
             },
             {
@@ -283,7 +283,7 @@ var quizQuestions = [
                 content: "Reading about different times and places"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "Hitting up a local club or pub"
             },
             {
@@ -316,7 +316,7 @@ var quizQuestions = [
                 content: "https://www.wolf.org/wp-content/uploads/2019/04/5D3_3666.jpg"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "https://dorrasset.com/wp-content/uploads/2015/07/capuchin.jpg"
             },
             {
@@ -349,7 +349,7 @@ var quizQuestions = [
                 content: "Reading"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "Dancing"
             },
             {
@@ -382,7 +382,7 @@ var quizQuestions = [
                 content: "Intelligent"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "Fun"
             },
             {
@@ -415,7 +415,7 @@ var quizQuestions = [
                 content: "https://compareceleb.com/uploads/posts/2018-03/1521801870_steve-carell-height-weight-body-measurements.jpg"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "https://www.aceshowbiz.com/images/wennpic/justin-bieber-amfar-21st-annual-cinema-against-aids-08.jpg"
             },
             {
@@ -448,7 +448,7 @@ var quizQuestions = [
                 content: "Going to a museum or art gallery"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "Going to a night club"
             },
             {
@@ -481,7 +481,7 @@ var quizQuestions = [
                 content: "Going to a museum or art gallery"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "Going to a night club"
             },
             {
@@ -514,7 +514,7 @@ var quizQuestions = [
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/historicalhouse.jpg"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/partyhouse.jpg"
             },
             {
@@ -547,7 +547,7 @@ var quizQuestions = [
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/wineandcheese.jpg"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/drinks.jpg"
             },
             {
@@ -580,7 +580,7 @@ var quizQuestions = [
                 content: "Unnecessary drama"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "Phone battery's dead and you don't have a charger"
             },
             {
@@ -613,7 +613,7 @@ var quizQuestions = [
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/vintagecar.jpg"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/audi.jpg"
             },
             {
@@ -646,7 +646,7 @@ var quizQuestions = [
                 content: "Vinyl"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "From a DJ inside a Club"
             },
             {
@@ -679,7 +679,7 @@ var quizQuestions = [
                 content: "Buy a Historical Castle"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "Throw a Wild Party"
             },
             {
@@ -712,7 +712,7 @@ var quizQuestions = [
                 content: "https://isorepublic.com/wp-content/uploads/2018/11/converse-couple.jpg"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "https://i.pinimg.com/736x/85/5c/75/855c75fb7ee094d104f04d6fa0461222--shoe-gallery-zapatos-shoes.jpg"
             },
             {
@@ -745,7 +745,7 @@ var quizQuestions = [
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/purple.jpg"
             },
             {
-                type: "Party",
+                type: "Socializer",
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/orange.jpg"
             },
             {
