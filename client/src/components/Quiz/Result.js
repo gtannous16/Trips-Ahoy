@@ -14,7 +14,7 @@ function Result(props) {
       transitionAppearTimeout={500}
     >
       <div>
-        You prefer <strong>{props.quizResult}</strong>!
+        The best cruises to fit your personality are: <strong>{props.quizResult}</strong>!
       </div>
     </CSSTransitionGroup>
   );
