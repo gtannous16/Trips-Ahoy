@@ -2,6 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function AnswerOption(props) {
+  const outputOption = option => {
+    if ( option.includes('://') ) {
+      return <img src={option} />
+    }
+
+    return option;
+  }
+
   return (
     <li className="answerOption">
       <input
@@ -14,8 +22,11 @@ function AnswerOption(props) {
         disabled={props.answer}
         onChange={props.onAnswerSelected}
       />
+      {/* <img src={props.answerContent} /> */}
       <label className="radioCustomLabel" htmlFor={props.answerType}>
-        {props.answerContent}
+        <div className="answer-option">
+          {outputOption(props.answerContent)}
+        </div>
       </label>
     </li>
   );

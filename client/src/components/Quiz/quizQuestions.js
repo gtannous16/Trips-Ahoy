@@ -37,7 +37,7 @@ var quizQuestions = [
         answers: [
             {
                 type: "Independent",
-                content: "https://imgix.bustle.com/lovelace/uploads/573/ffd30230-1364-0133-f516-0e18518aac2f.jpg?w=646&fit=max&auto=format&q=70&dpr=2"
+                content: "https://i.pinimg.com/originals/0f/3d/13/0f3d13b05a10b3b49c449867a0c6df78.jpg"
             },
             {
                 type: "Touristic",
@@ -70,7 +70,7 @@ var quizQuestions = [
         answers: [
             {
                 type: "Independent",
-                content: "https://upload.wikimedia.org/wikipedia/en/a/a7/Cast_away_film_poster.jpg"
+                content: "https://is3-ssl.mzstatic.com/image/thumb/Video5/v4/e9/83/59/e9835970-6af6-df32-9c9a-076188e9bb2c/pr_source.lsr/268x0w.png"
             },
             {
                 type: "Touristic",
@@ -173,7 +173,7 @@ var quizQuestions = [
             },
             {
                 type: "Touristic",
-                content: "Pop Musi"
+                content: "Pop Music"
             },
             {
                 type: "Outdoors",
@@ -425,39 +425,6 @@ var quizQuestions = [
             {
                 type: "Foodie",
                 content: "https://www.usmagazine.com/wp-content/uploads/2018/06/chrissy-teigen-new-cookbook.jpg"
-            }
-        ]
-    },
-    {
-        question: "What is your ideal date?",
-        answers: [
-            {
-                type: "Independent",
-                content: "No date for me! I'd rather hang with my fur child"
-            },
-            {
-                type: "Touristic",
-                content: "Going for a tour around the city"
-            },
-            {
-                type: "Outdoors",
-                content: "Hiking a mountain"
-            },
-            {
-                type: "Historical",
-                content: "Going to a museum or art gallery"
-            },
-            {
-                type: "Social",
-                content: "Going to a night club"
-            },
-            {
-                type: "Relaxing",
-                content: "Dinner and a movie"
-            },
-            {
-                type: "Foodie",
-                content: "Going to a high-end restaurant with a 7-course meal"
             }
         ]
     },
