@@ -605,25 +605,28 @@ const cruiseSeed = [
                     {
                         Norwegian: [
                             {
-                                leaving: "",
-                                visiting: [""], 
-                                pricing: ["Inside: $",
-                                    "Oceanview: $",
-                                    "Balcony: $",
-                                    "Mini-Suite: $",
-                                    "Suite: $"],
-                                date: ""
+                                leaving: "Miami, Florida",
+                                visiting: ["Miami, Florida", "Ponta Delgado, Azores",
+                                    "Lisbon, Portugal", "Seville (Cádiz), Spain", 
+                                    "Granada (Malaga), Spain", "Cartagena, Spain", "Palma, Majorca, Spain",
+                                    "Barcelona, Spain"], 
+                                pricing: ["Inside: $829",
+                                    "Balcony: $1,379",
+                                    "Mini-Suite: $1,679",
+                                    "Suite: $4,849"],
+                                date: "Saturday 4/18/2020 to Sunday 5/3/2020"
                             }
                         ],
                         Caribbean: [
                             {
-                                leaving: "",
-                                visiting: [""],
-                                pricing: ["Interior: $",
-                                    "Outsideview: $",
-                                    "Balcony: $",
-                                    "Suites: $"],
-                                date: ""
+                                leaving: "Southampton, England",
+                                visiting: ["Southampton, England", "Lisbon, Portugal", "Vigo, Spain",
+                                    "La Coruna, Spain", "Bilbao, Spain", "Southampton, England"],
+                                pricing: ["Interior: $1,271",
+                                    "Outsideview: $1,368",
+                                    "Balcony: $1,614",
+                                    "Suites: $2,144"],
+                                date: "Friday 5/15/2020 to Saturday 5/23/2020"
                             }
                         ]
                     }
