@@ -3,7 +3,7 @@ var quizQuestions = [
         question: "How would you prefer to spend a free day?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "Alone in your bed with a good book/movie"
             },
             {
@@ -36,7 +36,7 @@ var quizQuestions = [
         question: "What would you rather Read?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "https://imgix.bustle.com/lovelace/uploads/573/ffd30230-1364-0133-f516-0e18518aac2f.jpg?w=646&fit=max&auto=format&q=70&dpr=2"
             },
             {
@@ -69,7 +69,7 @@ var quizQuestions = [
         question: "What movie would you rather watch?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "https://upload.wikimedia.org/wikipedia/en/a/a7/Cast_away_film_poster.jpg"
             },
             {
@@ -102,7 +102,7 @@ var quizQuestions = [
         question: "What tv show would you rather watch?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "https://upload.wikimedia.org/wikipedia/en/b/b1/Stranger_Things_season_1.jpg"
             },
             {
@@ -135,7 +135,7 @@ var quizQuestions = [
         question: "What would be your dream career?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "Software Developer"
             },
             {
@@ -168,7 +168,7 @@ var quizQuestions = [
         question: "What music genre do you prefer?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "Rock and Roll"
             },
             {
@@ -201,7 +201,7 @@ var quizQuestions = [
         question: "What could you NOT live without?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "Netflix/Hulu"
             },
             {
@@ -234,7 +234,7 @@ var quizQuestions = [
         question: "What is your preferred way of communication?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "None"
             },
             {
@@ -267,7 +267,7 @@ var quizQuestions = [
         question: "Which of these do you find most satisfying?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "Spending time on your own"
             },
             {
@@ -300,7 +300,7 @@ var quizQuestions = [
         question: "Which animal do you most relate with?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "https://www.warrenphotographic.co.uk/photography/cats/45064.jpg"
             },
             {
@@ -333,7 +333,7 @@ var quizQuestions = [
         question: "Which of these hobbies interest you the most?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "Coloring Books"
             },
             {
@@ -366,7 +366,7 @@ var quizQuestions = [
         question: "Which of these qualities is most appealing in a partner/friend?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "Loyalty"
             },
             {
@@ -399,7 +399,7 @@ var quizQuestions = [
         question: "Which Celebrity would you rather meet and spend the day with?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "https://static.independent.co.uk/s3fs-public/thumbnails/image/2013/08/05/18/johnny-depp-getty.jpg"
             },
             {
@@ -432,7 +432,7 @@ var quizQuestions = [
         question: "What is your ideal date?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "No date for me! I'd rather hang with my fur child"
             },
             {
@@ -465,7 +465,7 @@ var quizQuestions = [
         question: "What is your ideal date?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "No date for me! I'd rather hang with my fur child"
             },
             {
@@ -498,7 +498,7 @@ var quizQuestions = [
         question: "What picture constitutes your dream house?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/secludedhouse.jpg"
             },
             {
@@ -531,7 +531,7 @@ var quizQuestions = [
         question: "Which would you rather have right now?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/benandjerrys.jpg"
             },
             {
@@ -564,7 +564,7 @@ var quizQuestions = [
         question: "Which of these annoys you the most?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "People who are mean to others"
             },
             {
@@ -597,7 +597,7 @@ var quizQuestions = [
         question: "Which vehicle would you rather drive?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/truck.jpg"
             },
             {
@@ -630,7 +630,7 @@ var quizQuestions = [
         question: "How would you rather listen to your music?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "Headphones"
             },
             {
@@ -663,7 +663,7 @@ var quizQuestions = [
         question: "You won the lottery! What is the first thing you do?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "Move off the grid"
             },
             {
@@ -696,7 +696,7 @@ var quizQuestions = [
         question: "What Shoes would you rather wear?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "https://i1.wp.com/hautepinkpretty.com/wp-content/uploads/2018/05/Lifestyle-Home-Interior-Decor-Blogger-An-Dyer-wearing-Ugg-Dalla-Natural-Chris-Dyer-Scuff-Chestnut-House-Slippers.jpg?w=1500&ssl=1"
             },
             {
@@ -729,7 +729,7 @@ var quizQuestions = [
         question: "Which of these colors is your favorite?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/black.jpg"
             },
             {
