@@ -5,7 +5,7 @@ mongoose.connect(
 
 const cruiseSeed = [
     {
-        Secluded: [
+        Independent: [
             {
                 Scotland: [
                     {
@@ -536,7 +536,7 @@ const cruiseSeed = [
                 ]
             }
         ],
-        Party: [
+        Social: [
             {
                 Greece: [
                     {
@@ -635,25 +635,61 @@ const cruiseSeed = [
                     {
                         Norwegian: [
                             {
-                                leaving: "",
-                                visiting: [""],
-                                pricing: ["Inside: $",
-                                    "Oceanview: $",
-                                    "Balcony: $",
-                                    "Mini-Suite: $",
-                                    "Suite: $"],
-                                date: ""
+                                leaving: "Vancouver, British Columbia",
+                                visiting: ["Vancouver, British Columbia", "Victoria, British Columbia", 
+                                    "Seattle, Wshington", "San Francisco, California", "Los Angeles, California"],
+                                pricing: ["Inside: $549",
+                                    "Oceanview: $629",
+                                    "Balcony: $779",
+                                    "Spa: $1,199",
+                                    "Mini-Suite: $829",
+                                    "Suite: $2,599"],
+                                date: "Monday 10/12/2020 to Sunday 10/18/2020"
                             }
                         ],
                         Caribbean: [
                             {
-                                leaving: "",
-                                visiting: [""],
-                                pricing: ["Interior: $",
-                                    "Outsideview: $",
-                                    "Balcony: $",
-                                    "Suites: $"],
-                                date: ""
+                                leaving: "San Diago, California",
+                                visiting: ["San Diago, California", "San Francisco, California", 
+                                    "Astoria, Oregon", "Seattle, Washington", "Vancouver, British Columbia"],
+                                pricing: ["Interior: $874",
+                                    "Outsideview: $930",
+                                    "Balcony: $1,412",
+                                    "Suites: SOLD OUT"],
+                                date: "Tuesday 5/19/2020 to Monday 5/25/2020"
+                            }
+                        ]
+                    }
+                ],
+            }
+        ],
+        Relaxing: [
+            {
+                Greece: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Venice, Italy",
+                                visiting: ["Venice, Italy", "Kotor, Montenegro", "Corfu, Greece",
+                                    "Santorini, Greece", "Mykonons, Greece", "Argostoli, Kefalonia, Greece",
+                                    "Dubrovnik, Croatia", "Venice, Italy"], 
+                                pricing: ["Inside: $1,349",
+                                    "Oceanview: $1,499",
+                                    "Balcony: $2,099",
+                                    "Mini-Suite: $2,949",
+                                    "Suite: SOLD OUT"],
+                                date: "Sunday 9/8/19 to Sunday 9/15/19"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Venice, Italy",
+                                visiting: ["Venice, Italy", "Venice, Italy", "Kotor, Montenegro",
+                                    "Corfu, Greece", "Athens (Piraeus), Greece", "Mykonos, Greece",
+                                    "Argostoli, Greece", "Venice, Italy"],
+                                pricing: ["Interior: $720", "Outside: $870", "Balcony: $1,290",
+                                    "Suites: $1,914"],
+                                date: "Saturday 8/8/2020 to Saturday 8/15/2020"
                             }
                         ]
                     }
