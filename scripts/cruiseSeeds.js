@@ -885,6 +885,36 @@ const cruiseSeed = [
                         ]
                     }
                 ],
+                Japan: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Hong Kong, China",
+                                visiting: ["Hong Kong, China", "Naha, Okinawa, Japan",
+                                    "Hong Kong, China"], 
+                                pricing: ["Inside: $949",
+                                    "Oceanview: $1.109",
+                                    "Balcony: $1,229",
+                                    "Mini-Suite: $1,379",
+                                    "Suite: $3,799",
+                                    "The Haven: $5,849"],
+                                date: "Saturday 1/25/2020 to Thursday 1/30/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Bejing (Tianjin), China",
+                                visiting: ["Bejing (Tianjin), China", "Kyoto (Maizuru), Japan",
+                                    "Sakaiminato, Japan", "Fukuota, Japan", "Bejing (Tianjin), China"],
+                                pricing: ["Interior: $679",
+                                    "Outsideview: $759",
+                                    "Balcony: $869",
+                                    "Suites: $1,279"],
+                                date: "Sunday 5/31/2020 to Sunday 6/7/2020"
+                            }
+                        ]
+                    }
+                ],
             }
         ]
     }
