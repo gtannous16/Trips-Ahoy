@@ -560,7 +560,9 @@ const cruiseSeed = [
                                 visiting: ["Venice, Italy", "Venice, Italy", "Kotor, Montenegro",
                                     "Corfu, Greece", "Athens (Piraeus), Greece", "Mykonos, Greece",
                                     "Argostoli, Greece", "Venice, Italy"],
-                                pricing: ["Interior: $720", "Outside: $870", "Balcony: $1,290",
+                                pricing: ["Interior: $720", 
+                                    "Outside: $870", 
+                                    "Balcony: $1,290",
                                     "Suites: $1,914"],
                                 date: "Saturday 8/8/2020 to Saturday 8/15/2020"
                             }
@@ -687,7 +689,9 @@ const cruiseSeed = [
                                 visiting: ["Venice, Italy", "Venice, Italy", "Kotor, Montenegro",
                                     "Corfu, Greece", "Athens (Piraeus), Greece", "Mykonos, Greece",
                                     "Argostoli, Greece", "Venice, Italy"],
-                                pricing: ["Interior: $720", "Outside: $870", "Balcony: $1,290",
+                                pricing: ["Interior: $720", 
+                                    "Outside: $870", 
+                                    "Balcony: $1,290",
                                     "Suites: $1,914"],
                                 date: "Saturday 8/8/2020 to Saturday 8/15/2020"
                             }
@@ -721,6 +725,34 @@ const cruiseSeed = [
                                     "Balcony: $1,255",
                                     "Suites: $2,189"],
                                 date: "Sunday 6/21/2020 to Sunday 6/28/2020"
+                            }
+                        ]
+                    }
+                ],
+                Mexico: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Los Angeles, California",
+                                visiting: ["Los Angeles, California", "Puerto Vallarta, Maxico",
+                                    "Mazatlán, Mexico", "Cabo San Lucas, Mexico", "Los Angeles, California"], 
+                                pricing: ["Inside: $599",
+                                    "Oceanview: $649",
+                                    "Balcony: $699",
+                                    "Mini-Suite: $949",
+                                    "The Haven: $3,299"],
+                                date: "Sunday 10/27/2019 to Sunday 11/3/2019"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Miami, Florida",
+                                visiting: ["Miami, Florida", "Puerto Costa Maya, Mexico", 
+                                "Cozumel, Mexico", "Miami, Florida"],
+                                pricing: ["Interior: $229", 
+                                    "Outside: $249", 
+                                    "Suites: $849"],
+                                date: "Saturday 11/30/2019 to Thursday 12/5/2019"
                             }
                         ]
                     }
