@@ -853,6 +853,38 @@ const cruiseSeed = [
                         ]
                     }
                 ],
+                Vietnam: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Singapore, Singapore",
+                                visiting: ["Singapore, Singapore", "Bangkok (Laem Chabang), Thailand",
+                                    "Sihanoukville, Cambodia", "Ho Chi Minh City (Phu My), Vietnam",
+                                    "Nha Trang, Vietnam", "Hue/Da Nang (Chan May), Vietnam", 
+                                    "Hanoi (Ha Long Bay), Vietnam", "Hong Kong, China"],
+                                pricing: ["Inside: $1,279",
+                                    "Oceanview: $1,599",
+                                    "Balcony: $2,329",
+                                    "Mini-Suite: $2,699",
+                                    "Suite: $4,399",
+                                    "The Haven: $8,199"],
+                                date: "Monday 1/13/2020 to Saturday 1/25/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Hong Kong, China",
+                                visiting: ["Hong Kong, China", "Hue/Da Nang (Chan May), Vietnam",
+                                    "Nha Trang, Vietnam", "Hong Kong, China"],
+                                pricing: ["Interior: $655",
+                                    "Outsideview: $809",
+                                    "Balcony: $878",
+                                    "Suites: $934"],
+                                date: "Friday 8/28/2020 to Wednesday 9/2/2020"
+                            }
+                        ]
+                    }
+                ],
             }
         ]
     }
