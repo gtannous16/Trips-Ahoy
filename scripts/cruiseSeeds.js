@@ -757,6 +757,102 @@ const cruiseSeed = [
                         ]
                     }
                 ],
+                Malaysia: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Singapore, Singapore",
+                                visiting: ["Singapore, Singapore", "Phuket, Thailand", "Langkawi, Malaysia",
+                                    "Penang, Malaysia", "Singapore, Singapore"], 
+                                pricing: ["Inside: $529",
+                                    "Oceanview: $549",
+                                    "Balcony: $749",
+                                    "Mini-Suite: $849",
+                                    "Suite: $1,449",
+                                    "The Haven: 2,749"],
+                                date: "Sunday 12/15/2019 to Saturday 12/21/2019"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Singapore, Singapore",
+                                visiting: ["Singapore, Singapore", "Malacca, Malaysia", 
+                                    "Kuala Lumpur (Port Klang), Malaysia", "Penang, Malaysia",
+                                    "Phuket, Thailand", "Sinagpore, Singapore"],
+                                pricing: ["Interior: $899", 
+                                    "Outside: $1,028", 
+                                    "Balcony: $1,192",
+                                    "Suites: $1,522"],
+                                date: "Thursday 2/4/2021 to Thursday 2/11/2021"
+                            }
+                        ]
+                    }
+                ],
+            }
+        ],
+        Foodie: [
+            {
+                Italy: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Rome (Civitaveccia), Italy",
+                                visiting: ["Rome (Civitaveccia), Italy", "Venice, Italy", "Dubrovnik, Croatia",
+                                    "Kotor, Montenegro", "Florence/Pisa (Livorno), Italy", "Monte Carlo, Monaco", 
+                                    "Barcelona, Spain", "Palma, Majorca, Spain", "Rome (Civitaveccia), Italy"],
+                                pricing: ["Inside: $1,649",
+                                    "Oceanview: $1,649",
+                                    "Balcony: $2,399",
+                                    "Suite: $6,099"],
+                                date: "Sunday 12/22.2019 to Friday 1/3/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Rome (Civitaveccia), Italy",
+                                visiting: ["Rome (Civitaveccia), Italy", "Valencia, Spain", 
+                                    "Palma de Mallorca, Spain", "Barcelona, Spain", 
+                                    "Nice (Villefranche), France", "Florence/Pisa (La Spezia), Italy",
+                                    "Rome (Civitaveccia), Italy"],
+                                pricing: ["Interior: $734",
+                                    "Outsideview: $1,126",
+                                    "Balcony: $1,255",
+                                    "Suites: $2,189"],
+                                date: "Sunday 6/21/2020 to Sunday 6/28/2020"
+                            }
+                        ]
+                    }
+                ],
+                Spain: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Miami, Florida",
+                                visiting: ["Miami, Florida", "Ponta Delgado, Azores",
+                                    "Lisbon, Portugal", "Seville (Cádiz), Spain", 
+                                    "Granada (Malaga), Spain", "Cartagena, Spain", "Palma, Majorca, Spain",
+                                    "Barcelona, Spain"], 
+                                pricing: ["Inside: $829",
+                                    "Balcony: $1,379",
+                                    "Mini-Suite: $1,679",
+                                    "Suite: $4,849"],
+                                date: "Saturday 4/18/2020 to Sunday 5/3/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Southampton, England",
+                                visiting: ["Southampton, England", "Lisbon, Portugal", "Vigo, Spain",
+                                    "La Coruna, Spain", "Bilbao, Spain", "Southampton, England"],
+                                pricing: ["Interior: $1,271",
+                                    "Outsideview: $1,368",
+                                    "Balcony: $1,614",
+                                    "Suites: $2,144"],
+                                date: "Friday 5/15/2020 to Saturday 5/23/2020"
+                            }
+                        ]
+                    }
+                ],
             }
         ]
     }
