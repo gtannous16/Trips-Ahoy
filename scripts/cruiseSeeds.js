@@ -694,6 +694,37 @@ const cruiseSeed = [
                         ]
                     }
                 ],
+                Italy: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Rome (Civitaveccia), Italy",
+                                visiting: ["Rome (Civitaveccia), Italy", "Venice, Italy", "Dubrovnik, Croatia",
+                                    "Kotor, Montenegro", "Florence/Pisa (Livorno), Italy", "Monte Carlo, Monaco", 
+                                    "Barcelona, Spain", "Palma, Majorca, Spain", "Rome (Civitaveccia), Italy"],
+                                pricing: ["Inside: $1,649",
+                                    "Oceanview: $1,649",
+                                    "Balcony: $2,399",
+                                    "Suite: $6,099"],
+                                date: "Sunday 12/22.2019 to Friday 1/3/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Rome (Civitaveccia), Italy",
+                                visiting: ["Rome (Civitaveccia), Italy", "Valencia, Spain", 
+                                    "Palma de Mallorca, Spain", "Barcelona, Spain", 
+                                    "Nice (Villefranche), France", "Florence/Pisa (La Spezia), Italy",
+                                    "Rome (Civitaveccia), Italy"],
+                                pricing: ["Interior: $734",
+                                    "Outsideview: $1,126",
+                                    "Balcony: $1,255",
+                                    "Suites: $2,189"],
+                                date: "Sunday 6/21/2020 to Sunday 6/28/2020"
+                            }
+                        ]
+                    }
+                ],
             }
         ]
     }
