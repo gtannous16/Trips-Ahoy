@@ -6,8 +6,20 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-image: url('https://www.setaswall.com/wp-content/uploads/2017/03/Golden-Beach-Wallpaper-2560x1600.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
   }
   
+img {
+  max-height: 200px;
+}
+   
+
+  
+
   h2{
     display: flex;
     justify-content: center;
@@ -24,7 +36,6 @@ body {
   body {
     margin: 0;
     padding: 0;
-    background: #eee;
     font-family: sans-serif;
   }
   

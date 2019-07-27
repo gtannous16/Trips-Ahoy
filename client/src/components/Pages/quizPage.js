@@ -97,7 +97,7 @@ class quizPage extends Component {
     if (result.length === 1) {
       this.setState({ result: result[0] });
     } else {
-      this.setState({ result: 'Undetermined' });
+      this.setState({ result: result[0] });
     }
   }
 

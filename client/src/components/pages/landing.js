@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { MDBMask, MDBRow, MDBCol, MDBBtn,   MDBView, MDBContainer} from "mdbreact";
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBMask, MDBRow, MDBCol, MDBBtn,   MDBView, MDBContainer, MDBFormInline } from "mdbreact";
 import "./landing.css";
 
 class AppPage extends Component {
@@ -15,10 +15,17 @@ class AppPage extends Component {
   };
 
   render() {
+    const overlay = (
+      <div
+        id="sidenav-overlay"
+        style={{ backgroundColor: "transparent" }}
+        onClick={this.handleTogglerClick}
+      />
+    );
     return (
       <div id="apppage">
         <Router>
-          {/* <div>
+          <div>
             <MDBNavbar
               color="primary-color"
               dark
@@ -50,7 +57,7 @@ class AppPage extends Component {
               </MDBContainer>
             </MDBNavbar>
             {this.state.collapsed && overlay}
-          </div> */}
+          </div>
         </Router>
         <MDBView>
           <MDBMask className="d-flex justify-content-center align-items-center gradient">
@@ -70,7 +77,7 @@ class AppPage extends Component {
                 </div>
                 <MDBCol md="5" xl="5" className="mt-xl-5">
                   <img
-                    src="http://photobucket.com/confirmation?token=%2BMC7CD8Y6NBCi9iKVguM4ltFWRxOviadBdPJECZ5PJ1zASX0fF7GqOb9%2FaFnfb4RrcRCtSH4C84dxX2jaOtd1auSN4bqhLjL"
+                    src="https://i.ibb.co/w0SLpNw/logo-white-background.jpg"
                     alt="logo"
                     className="img-fluid"
                   />
