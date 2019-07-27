@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.connect(
-    process.env.MONGODB_URI || "mongodb://localhost/tripsdb");
+    process.env.MONOGDB_URI || "mongodb://localhost/tripsdb");
 
 const cruiseSeed = [
     {
@@ -698,6 +698,7 @@ const cruiseSeed = [
                         ]
                     }
                 ],
+              
                 Italy: [
                     {
                         Norwegian: [
