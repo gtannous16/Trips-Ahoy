@@ -81,6 +81,15 @@ const personalSeed = [
                 ]
             }
         ],
-        
+        Touristic: [
+            {
+                France: [
+                    {
+                        todo: "Louvre",
+                        image: ""
+                    }
+                ]
+            }
+        ]
     }
 ]
