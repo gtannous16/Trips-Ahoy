@@ -698,7 +698,7 @@ const cruiseSeed = [
                         ]
                     }
                 ],
-
+              
                 Italy: [
                     {
                         Norwegian: [
