@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.connect(
-    process.env.MONOGDB_URI || "mongodb://localhost/tripsdb");
+    process.env.MONGODB_URI || "mongodb://localhost/tripsdb");
 
 const cruiseSeed = [
     {
@@ -560,7 +560,9 @@ const cruiseSeed = [
                                 visiting: ["Venice, Italy", "Venice, Italy", "Kotor, Montenegro",
                                     "Corfu, Greece", "Athens (Piraeus), Greece", "Mykonos, Greece",
                                     "Argostoli, Greece", "Venice, Italy"],
-                                pricing: ["Interior: $720", "Outside: $870", "Balcony: $1,290",
+                                pricing: ["Interior: $720", 
+                                    "Outside: $870", 
+                                    "Balcony: $1,290",
                                     "Suites: $1,914"],
                                 date: "Saturday 8/8/2020 to Saturday 8/15/2020"
                             }
@@ -687,9 +689,228 @@ const cruiseSeed = [
                                 visiting: ["Venice, Italy", "Venice, Italy", "Kotor, Montenegro",
                                     "Corfu, Greece", "Athens (Piraeus), Greece", "Mykonos, Greece",
                                     "Argostoli, Greece", "Venice, Italy"],
-                                pricing: ["Interior: $720", "Outside: $870", "Balcony: $1,290",
+                                pricing: ["Interior: $720", 
+                                    "Outside: $870", 
+                                    "Balcony: $1,290",
                                     "Suites: $1,914"],
                                 date: "Saturday 8/8/2020 to Saturday 8/15/2020"
+                            }
+                        ]
+                    }
+                ],
+                Italy: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Rome (Civitaveccia), Italy",
+                                visiting: ["Rome (Civitaveccia), Italy", "Venice, Italy", "Dubrovnik, Croatia",
+                                    "Kotor, Montenegro", "Florence/Pisa (Livorno), Italy", "Monte Carlo, Monaco", 
+                                    "Barcelona, Spain", "Palma, Majorca, Spain", "Rome (Civitaveccia), Italy"],
+                                pricing: ["Inside: $1,649",
+                                    "Oceanview: $1,649",
+                                    "Balcony: $2,399",
+                                    "Suite: $6,099"],
+                                date: "Sunday 12/22.2019 to Friday 1/3/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Rome (Civitaveccia), Italy",
+                                visiting: ["Rome (Civitaveccia), Italy", "Valencia, Spain", 
+                                    "Palma de Mallorca, Spain", "Barcelona, Spain", 
+                                    "Nice (Villefranche), France", "Florence/Pisa (La Spezia), Italy",
+                                    "Rome (Civitaveccia), Italy"],
+                                pricing: ["Interior: $734",
+                                    "Outsideview: $1,126",
+                                    "Balcony: $1,255",
+                                    "Suites: $2,189"],
+                                date: "Sunday 6/21/2020 to Sunday 6/28/2020"
+                            }
+                        ]
+                    }
+                ],
+                Mexico: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Los Angeles, California",
+                                visiting: ["Los Angeles, California", "Puerto Vallarta, Maxico",
+                                    "Mazatlán, Mexico", "Cabo San Lucas, Mexico", "Los Angeles, California"], 
+                                pricing: ["Inside: $599",
+                                    "Oceanview: $649",
+                                    "Balcony: $699",
+                                    "Mini-Suite: $949",
+                                    "The Haven: $3,299"],
+                                date: "Sunday 10/27/2019 to Sunday 11/3/2019"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Miami, Florida",
+                                visiting: ["Miami, Florida", "Puerto Costa Maya, Mexico", 
+                                "Cozumel, Mexico", "Miami, Florida"],
+                                pricing: ["Interior: $229", 
+                                    "Outside: $249", 
+                                    "Suites: $849"],
+                                date: "Saturday 11/30/2019 to Thursday 12/5/2019"
+                            }
+                        ]
+                    }
+                ],
+                Malaysia: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Singapore, Singapore",
+                                visiting: ["Singapore, Singapore", "Phuket, Thailand", "Langkawi, Malaysia",
+                                    "Penang, Malaysia", "Singapore, Singapore"], 
+                                pricing: ["Inside: $529",
+                                    "Oceanview: $549",
+                                    "Balcony: $749",
+                                    "Mini-Suite: $849",
+                                    "Suite: $1,449",
+                                    "The Haven: 2,749"],
+                                date: "Sunday 12/15/2019 to Saturday 12/21/2019"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Singapore, Singapore",
+                                visiting: ["Singapore, Singapore", "Malacca, Malaysia", 
+                                    "Kuala Lumpur (Port Klang), Malaysia", "Penang, Malaysia",
+                                    "Phuket, Thailand", "Sinagpore, Singapore"],
+                                pricing: ["Interior: $899", 
+                                    "Outside: $1,028", 
+                                    "Balcony: $1,192",
+                                    "Suites: $1,522"],
+                                date: "Thursday 2/4/2021 to Thursday 2/11/2021"
+                            }
+                        ]
+                    }
+                ],
+            }
+        ],
+        Foodie: [
+            {
+                Italy: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Rome (Civitaveccia), Italy",
+                                visiting: ["Rome (Civitaveccia), Italy", "Venice, Italy", "Dubrovnik, Croatia",
+                                    "Kotor, Montenegro", "Florence/Pisa (Livorno), Italy", "Monte Carlo, Monaco", 
+                                    "Barcelona, Spain", "Palma, Majorca, Spain", "Rome (Civitaveccia), Italy"],
+                                pricing: ["Inside: $1,649",
+                                    "Oceanview: $1,649",
+                                    "Balcony: $2,399",
+                                    "Suite: $6,099"],
+                                date: "Sunday 12/22.2019 to Friday 1/3/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Rome (Civitaveccia), Italy",
+                                visiting: ["Rome (Civitaveccia), Italy", "Valencia, Spain", 
+                                    "Palma de Mallorca, Spain", "Barcelona, Spain", 
+                                    "Nice (Villefranche), France", "Florence/Pisa (La Spezia), Italy",
+                                    "Rome (Civitaveccia), Italy"],
+                                pricing: ["Interior: $734",
+                                    "Outsideview: $1,126",
+                                    "Balcony: $1,255",
+                                    "Suites: $2,189"],
+                                date: "Sunday 6/21/2020 to Sunday 6/28/2020"
+                            }
+                        ]
+                    }
+                ],
+                Spain: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Miami, Florida",
+                                visiting: ["Miami, Florida", "Ponta Delgado, Azores",
+                                    "Lisbon, Portugal", "Seville (Cádiz), Spain", 
+                                    "Granada (Malaga), Spain", "Cartagena, Spain", "Palma, Majorca, Spain",
+                                    "Barcelona, Spain"], 
+                                pricing: ["Inside: $829",
+                                    "Balcony: $1,379",
+                                    "Mini-Suite: $1,679",
+                                    "Suite: $4,849"],
+                                date: "Saturday 4/18/2020 to Sunday 5/3/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Southampton, England",
+                                visiting: ["Southampton, England", "Lisbon, Portugal", "Vigo, Spain",
+                                    "La Coruna, Spain", "Bilbao, Spain", "Southampton, England"],
+                                pricing: ["Interior: $1,271",
+                                    "Outsideview: $1,368",
+                                    "Balcony: $1,614",
+                                    "Suites: $2,144"],
+                                date: "Friday 5/15/2020 to Saturday 5/23/2020"
+                            }
+                        ]
+                    }
+                ],
+                Vietnam: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Singapore, Singapore",
+                                visiting: ["Singapore, Singapore", "Bangkok (Laem Chabang), Thailand",
+                                    "Sihanoukville, Cambodia", "Ho Chi Minh City (Phu My), Vietnam",
+                                    "Nha Trang, Vietnam", "Hue/Da Nang (Chan May), Vietnam", 
+                                    "Hanoi (Ha Long Bay), Vietnam", "Hong Kong, China"],
+                                pricing: ["Inside: $1,279",
+                                    "Oceanview: $1,599",
+                                    "Balcony: $2,329",
+                                    "Mini-Suite: $2,699",
+                                    "Suite: $4,399",
+                                    "The Haven: $8,199"],
+                                date: "Monday 1/13/2020 to Saturday 1/25/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Hong Kong, China",
+                                visiting: ["Hong Kong, China", "Hue/Da Nang (Chan May), Vietnam",
+                                    "Nha Trang, Vietnam", "Hong Kong, China"],
+                                pricing: ["Interior: $655",
+                                    "Outsideview: $809",
+                                    "Balcony: $878",
+                                    "Suites: $934"],
+                                date: "Friday 8/28/2020 to Wednesday 9/2/2020"
+                            }
+                        ]
+                    }
+                ],
+                Japan: [
+                    {
+                        Norwegian: [
+                            {
+                                leaving: "Hong Kong, China",
+                                visiting: ["Hong Kong, China", "Naha, Okinawa, Japan",
+                                    "Hong Kong, China"], 
+                                pricing: ["Inside: $949",
+                                    "Oceanview: $1.109",
+                                    "Balcony: $1,229",
+                                    "Mini-Suite: $1,379",
+                                    "Suite: $3,799",
+                                    "The Haven: $5,849"],
+                                date: "Saturday 1/25/2020 to Thursday 1/30/2020"
+                            }
+                        ],
+                        Caribbean: [
+                            {
+                                leaving: "Bejing (Tianjin), China",
+                                visiting: ["Bejing (Tianjin), China", "Kyoto (Maizuru), Japan",
+                                    "Sakaiminato, Japan", "Fukuota, Japan", "Bejing (Tianjin), China"],
+                                pricing: ["Interior: $679",
+                                    "Outsideview: $759",
+                                    "Balcony: $869",
+                                    "Suites: $1,279"],
+                                date: "Sunday 5/31/2020 to Sunday 6/7/2020"
                             }
                         ]
                     }
