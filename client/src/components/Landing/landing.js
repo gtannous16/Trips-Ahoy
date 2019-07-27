@@ -53,7 +53,7 @@ class AppPage extends Component {
           </div> */}
         </Router>
         <MDBView>
-          <MDBMask className="d-flex justify-content-center align-items-center gradient">
+          
             <MDBContainer>
               <MDBRow>
                 <div className="white-text text-center text-md-left col-md-6 mt-xl-5 mb-5">
@@ -77,7 +77,7 @@ class AppPage extends Component {
                 </MDBCol>
               </MDBRow>
             </MDBContainer>
-          </MDBMask>
+          
         </MDBView>
 
         <MDBContainer>
