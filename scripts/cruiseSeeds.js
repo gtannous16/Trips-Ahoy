@@ -560,13 +560,9 @@ const cruiseSeed = [
                                 visiting: ["Venice, Italy", "Venice, Italy", "Kotor, Montenegro",
                                     "Corfu, Greece", "Athens (Piraeus), Greece", "Mykonos, Greece",
                                     "Argostoli, Greece", "Venice, Italy"],
-<<<<<<< HEAD
-                                pricing: ["Interior: $720", "Outside: $870", "Balcony: $1,290",
-=======
                                 pricing: ["Interior: $720", 
                                     "Outside: $870", 
                                     "Balcony: $1,290",
->>>>>>> 9b0dc27d6059f64387e48cd855c0ef278f2536ad
                                     "Suites: $1,914"],
                                 date: "Saturday 8/8/2020 to Saturday 8/15/2020"
                             }
@@ -693,21 +689,15 @@ const cruiseSeed = [
                                 visiting: ["Venice, Italy", "Venice, Italy", "Kotor, Montenegro",
                                     "Corfu, Greece", "Athens (Piraeus), Greece", "Mykonos, Greece",
                                     "Argostoli, Greece", "Venice, Italy"],
-<<<<<<< HEAD
-                                pricing: ["Interior: $720", "Outside: $870", "Balcony: $1,290",
-=======
                                 pricing: ["Interior: $720", 
                                     "Outside: $870", 
                                     "Balcony: $1,290",
->>>>>>> 9b0dc27d6059f64387e48cd855c0ef278f2536ad
                                     "Suites: $1,914"],
                                 date: "Saturday 8/8/2020 to Saturday 8/15/2020"
                             }
                         ]
                     }
                 ],
-<<<<<<< HEAD
-=======
                 Italy: [
                     {
                         Norwegian: [
@@ -925,7 +915,6 @@ const cruiseSeed = [
                         ]
                     }
                 ],
->>>>>>> 9b0dc27d6059f64387e48cd855c0ef278f2536ad
             }
         ]
     }
