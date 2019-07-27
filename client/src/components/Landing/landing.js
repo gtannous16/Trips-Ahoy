@@ -53,12 +53,12 @@ class AppPage extends Component {
           </div> */}
         </Router>
         <MDBView>
-          
+          <MDBMask className="d-flex justify-content-center align-items-center gradient">
             <MDBContainer>
               <MDBRow>
                 <div className="white-text text-center text-md-left col-md-6 mt-xl-5 mb-5">
                   <h1 className="h1-responsive font-weight-bold mt-sm-5">
-                    Welcome to Trips Ahoy! {" "}
+                    Welcome to Trips-Ahoy! {" "}
                   </h1>
                   <hr className="hr-light" />
                   <h6 className="mb-4">
@@ -66,7 +66,7 @@ class AppPage extends Component {
                     see where your next adventure takes you! You'll recieve four location suggestions based on 
                     your quiz results, and suggestions on things to do!! The fun is up to you! Click below to start!
                   </h6>
-                  <MDBBtn color="yellow">Start Quiz!</MDBBtn>
+                  <MDBBtn color="yellow">Start My Adventure!</MDBBtn>
                 </div>
                 <MDBCol md="5" xl="5" className="mt-xl-5">
                   <img
@@ -77,7 +77,7 @@ class AppPage extends Component {
                 </MDBCol>
               </MDBRow>
             </MDBContainer>
-          
+          </MDBMask>
         </MDBView>
 
         <MDBContainer>
