@@ -66,7 +66,7 @@ class AppPage extends Component {
                     see where your next adventure takes you! You'll recieve four location suggestions based on 
                     your quiz results, and suggestions on things to do!! The fun is up to you! Click below to start!
                   </h6>
-                  <MDBBtn color="yellow">Start My Adventure!</MDBBtn>
+                  <MDBBtn color="yellow">Start Quiz!</MDBBtn>
                 </div>
                 <MDBCol md="5" xl="5" className="mt-xl-5">
                   <img
