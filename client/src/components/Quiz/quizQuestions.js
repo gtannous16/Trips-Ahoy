@@ -3,7 +3,7 @@ var quizQuestions = [
         question: "How would you prefer to spend a free day?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "Alone in your bed with a good book/movie"
             },
             {
@@ -11,7 +11,7 @@ var quizQuestions = [
                 content: "Going out to try a new restaurant"
             },
             {
-                type: "Outdoors",
+                type: "Outdoorsy",
                 content: "Outside playing sports"
             },
             {
@@ -19,7 +19,7 @@ var quizQuestions = [
                 content: "Re-watching your favorite historical movie or show"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "Going out to your favorite club or bar"
             },
             {
@@ -36,15 +36,15 @@ var quizQuestions = [
         question: "What would you rather Read?",
         answers: [
             {
-                type: "Secluded",
-                content: "https://imgix.bustle.com/lovelace/uploads/573/ffd30230-1364-0133-f516-0e18518aac2f.jpg?w=646&fit=max&auto=format&q=70&dpr=2"
+                type: "Independent",
+                content: "https://i.pinimg.com/originals/0f/3d/13/0f3d13b05a10b3b49c449867a0c6df78.jpg"
             },
             {
                 type: "Touristic",
                 content: "https://prodimage.images-bn.com/pimages/9780143129509_p0_v3_s550x406.jpg"
             },
             {
-                type: "Outdoors",
+                type: "Outdoorsy",
                 content: "https://images-na.ssl-images-amazon.com/images/I/51jGs2yyXgL._SL300_.jpg"
             },
             {
@@ -52,7 +52,7 @@ var quizQuestions = [
                 content: "https://img.thriftbooks.com/api/images/l/80fab152451dd6493606ee81b54613d8c1c4d5d4.jpg"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/TheGreatGatsby_1925jacket.jpeg/220px-TheGreatGatsby_1925jacket.jpeg"
             },
             {
@@ -69,8 +69,8 @@ var quizQuestions = [
         question: "What movie would you rather watch?",
         answers: [
             {
-                type: "Secluded",
-                content: "https://upload.wikimedia.org/wikipedia/en/a/a7/Cast_away_film_poster.jpg"
+                type: "Independent",
+                content: "https://is3-ssl.mzstatic.com/image/thumb/Video5/v4/e9/83/59/e9835970-6af6-df32-9c9a-076188e9bb2c/pr_source.lsr/268x0w.png"
             },
             {
                 type: "Touristic",
@@ -85,7 +85,7 @@ var quizQuestions = [
                 content: "http://ambitiondaily.com/wp-content/uploads/2013/03/Forrest-Gump-1994.jpg"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "http://barkerhost.com/wp-content/uploads/sites/4/2019/03/hhiZjyD29t31xyNjREGJlalFKPy-1.jpg"
             },
             {
@@ -102,7 +102,7 @@ var quizQuestions = [
         question: "What tv show would you rather watch?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "https://upload.wikimedia.org/wikipedia/en/b/b1/Stranger_Things_season_1.jpg"
             },
             {
@@ -118,7 +118,7 @@ var quizQuestions = [
                 content: "http://www.gstatic.com/tv/thumb/tvbanners/8030976/p8030976_b_v8_aa.jpg"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "https://is1-ssl.mzstatic.com/image/thumb/Video123/v4/73/be/8b/73be8b7c-44fc-78fd-aac1-55e27a12b096/mzl.wrutjtas.lsr/268x0w.jpg"
             },
             {
@@ -135,7 +135,7 @@ var quizQuestions = [
         question: "What would be your dream career?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "Software Developer"
             },
             {
@@ -151,7 +151,7 @@ var quizQuestions = [
                 content: "Archeologist"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "Event Planner"
             },
             {
@@ -168,12 +168,12 @@ var quizQuestions = [
         question: "What music genre do you prefer?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "Rock and Roll"
             },
             {
                 type: "Touristic",
-                content: "Pop Musi"
+                content: "Pop Music"
             },
             {
                 type: "Outdoors",
@@ -184,7 +184,7 @@ var quizQuestions = [
                 content: "Country Music"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "House Music"
             },
             {
@@ -201,7 +201,7 @@ var quizQuestions = [
         question: "What could you NOT live without?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "Netflix/Hulu"
             },
             {
@@ -217,8 +217,8 @@ var quizQuestions = [
                 content: "Favorite Book"
             },
             {
-                type: "Party",
-                content: "Booze"
+                type: "Social",
+                content: "Alcoholic Beverages"
             },
             {
                 type: "Relaxing",
@@ -234,7 +234,7 @@ var quizQuestions = [
         question: "What is your preferred way of communication?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "None"
             },
             {
@@ -250,7 +250,7 @@ var quizQuestions = [
                 content: "Letters"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "Snapchat"
             },
             {
@@ -267,7 +267,7 @@ var quizQuestions = [
         question: "Which of these do you find most satisfying?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "Spending time on your own"
             },
             {
@@ -283,7 +283,7 @@ var quizQuestions = [
                 content: "Reading about different times and places"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "Hitting up a local club or pub"
             },
             {
@@ -300,7 +300,7 @@ var quizQuestions = [
         question: "Which animal do you most relate with?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "https://www.warrenphotographic.co.uk/photography/cats/45064.jpg"
             },
             {
@@ -316,7 +316,7 @@ var quizQuestions = [
                 content: "https://www.wolf.org/wp-content/uploads/2019/04/5D3_3666.jpg"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "https://dorrasset.com/wp-content/uploads/2015/07/capuchin.jpg"
             },
             {
@@ -333,7 +333,7 @@ var quizQuestions = [
         question: "Which of these hobbies interest you the most?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "Coloring Books"
             },
             {
@@ -349,7 +349,7 @@ var quizQuestions = [
                 content: "Reading"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "Dancing"
             },
             {
@@ -366,7 +366,7 @@ var quizQuestions = [
         question: "Which of these qualities is most appealing in a partner/friend?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "Loyalty"
             },
             {
@@ -382,7 +382,7 @@ var quizQuestions = [
                 content: "Intelligent"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "Fun"
             },
             {
@@ -399,7 +399,7 @@ var quizQuestions = [
         question: "Which Celebrity would you rather meet and spend the day with?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "https://static.independent.co.uk/s3fs-public/thumbnails/image/2013/08/05/18/johnny-depp-getty.jpg"
             },
             {
@@ -415,7 +415,7 @@ var quizQuestions = [
                 content: "https://compareceleb.com/uploads/posts/2018-03/1521801870_steve-carell-height-weight-body-measurements.jpg"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "https://www.aceshowbiz.com/images/wennpic/justin-bieber-amfar-21st-annual-cinema-against-aids-08.jpg"
             },
             {
@@ -432,7 +432,7 @@ var quizQuestions = [
         question: "What is your ideal date?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "No date for me! I'd rather hang with my fur child"
             },
             {
@@ -448,40 +448,7 @@ var quizQuestions = [
                 content: "Going to a museum or art gallery"
             },
             {
-                type: "Party",
-                content: "Going to a night club"
-            },
-            {
-                type: "Relaxing",
-                content: "Dinner and a movie"
-            },
-            {
-                type: "Foodie",
-                content: "Going to a high-end restaurant with a 7-course meal"
-            }
-        ]
-    },
-    {
-        question: "What is your ideal date?",
-        answers: [
-            {
-                type: "Secluded",
-                content: "No date for me! I'd rather hang with my fur child"
-            },
-            {
-                type: "Touristic",
-                content: "Going for a tour around the city"
-            },
-            {
-                type: "Outdoors",
-                content: "Hiking a mountain"
-            },
-            {
-                type: "Historical",
-                content: "Going to a museum or art gallery"
-            },
-            {
-                type: "Party",
+                type: "Social",
                 content: "Going to a night club"
             },
             {
@@ -498,7 +465,7 @@ var quizQuestions = [
         question: "What picture constitutes your dream house?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/secludedhouse.jpg"
             },
             {
@@ -514,7 +481,7 @@ var quizQuestions = [
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/historicalhouse.jpg"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/partyhouse.jpg"
             },
             {
@@ -531,7 +498,7 @@ var quizQuestions = [
         question: "Which would you rather have right now?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/benandjerrys.jpg"
             },
             {
@@ -547,7 +514,7 @@ var quizQuestions = [
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/wineandcheese.jpg"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/drinks.jpg"
             },
             {
@@ -564,7 +531,7 @@ var quizQuestions = [
         question: "Which of these annoys you the most?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "People who are mean to others"
             },
             {
@@ -580,7 +547,7 @@ var quizQuestions = [
                 content: "Unnecessary drama"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "Phone battery's dead and you don't have a charger"
             },
             {
@@ -597,7 +564,7 @@ var quizQuestions = [
         question: "Which vehicle would you rather drive?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/truck.jpg"
             },
             {
@@ -613,7 +580,7 @@ var quizQuestions = [
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/vintagecar.jpg"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/audi.jpg"
             },
             {
@@ -630,7 +597,7 @@ var quizQuestions = [
         question: "How would you rather listen to your music?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "Headphones"
             },
             {
@@ -646,7 +613,7 @@ var quizQuestions = [
                 content: "Vinyl"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "From a DJ inside a Club"
             },
             {
@@ -663,7 +630,7 @@ var quizQuestions = [
         question: "You won the lottery! What is the first thing you do?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "Move off the grid"
             },
             {
@@ -679,7 +646,7 @@ var quizQuestions = [
                 content: "Buy a Historical Castle"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "Throw a Wild Party"
             },
             {
@@ -696,7 +663,7 @@ var quizQuestions = [
         question: "What Shoes would you rather wear?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "https://i1.wp.com/hautepinkpretty.com/wp-content/uploads/2018/05/Lifestyle-Home-Interior-Decor-Blogger-An-Dyer-wearing-Ugg-Dalla-Natural-Chris-Dyer-Scuff-Chestnut-House-Slippers.jpg?w=1500&ssl=1"
             },
             {
@@ -712,7 +679,7 @@ var quizQuestions = [
                 content: "https://isorepublic.com/wp-content/uploads/2018/11/converse-couple.jpg"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "https://i.pinimg.com/736x/85/5c/75/855c75fb7ee094d104f04d6fa0461222--shoe-gallery-zapatos-shoes.jpg"
             },
             {
@@ -729,7 +696,7 @@ var quizQuestions = [
         question: "Which of these colors is your favorite?",
         answers: [
             {
-                type: "Secluded",
+                type: "Independent",
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/black.jpg"
             },
             {
@@ -745,7 +712,7 @@ var quizQuestions = [
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/purple.jpg"
             },
             {
-                type: "Party",
+                type: "Social",
                 content: "https://aupreti1.github.io/Personal-Traveling-App/assets/images/orange.jpg"
             },
             {
