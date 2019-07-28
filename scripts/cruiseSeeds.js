@@ -893,7 +893,7 @@ const cruiseSeed = [
                                 visiting: ["Hong Kong, China", "Naha, Okinawa, Japan",
                                     "Hong Kong, China"], 
                                 pricing: ["Inside: $949",
-                                    "Oceanview: $1.109",
+                                    "Oceanview: $1,109",
                                     "Balcony: $1,229",
                                     "Mini-Suite: $1,379",
                                     "Suite: $3,799",
