@@ -11,3 +11,7 @@
   #apppage h6 {
     line-height: 1.7;
   }
+
+  MDBContainer {
+    background-color: blue;
+  }
