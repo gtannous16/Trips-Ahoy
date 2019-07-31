@@ -116,12 +116,14 @@ class quizPage extends Component {
               for (let x in country) {
                 console.log(x)
                 for (let c = 0; c < country[x].length; c++) {
+                  var countryName = country[x][c]
                   var todo = country[x][c].todo
                   var image = country[x][c].image
 
                   console.log('image', image)
                   console.log('todo', todo)
                   this.setState({
+                   
                     listoftodos: [...this.state.listoftodos, { todo, image }],
 
                   })
@@ -165,11 +167,12 @@ class quizPage extends Component {
         <div className="App-header">
           <h2>Trips-Ahoy!</h2>
           <h2>Figure out where to go based on your personality!</h2>
-          {this.state.result ? this.renderResult() : this.renderQuiz()}
-          {this.state.listoftodos.length > 0 ? this.state.listoftodos.map(({ todo, image }) => (
-            <div>
+          {this.state.result ? this.renderResult() : this.renderQuiz()}          
+          {this.state.countryName}{this.state.listoftodos.length > 0 ? this.state.listoftodos.map(({ todo, image }) => (
+            <div class="container result">
+              
               <p>{todo}</p>
-              <p>{image}</p>
+              <img src={image} />
             </div>
           )) : null}
         </div>
