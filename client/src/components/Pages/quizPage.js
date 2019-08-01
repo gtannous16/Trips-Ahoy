@@ -3,6 +3,7 @@ import quizQuestions from '../Quiz/quizQuestions';
 import Quiz from '../Quiz/Quiz';
 import Result from '../Quiz/Result';
 import axios from 'axios';
+import '../Quiz/Quiz.css';
 
 
 class quizPage extends Component {
@@ -17,8 +18,8 @@ class quizPage extends Component {
       answer: '',
       answersCount: {},
       result: '',
+      country: [],
       listoftodos: []
-
     };
 
     this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
@@ -115,15 +116,16 @@ class quizPage extends Component {
               console.log('country', country)
               for (let x in country) {
                 console.log(x)
+                 this.setState({country:[...this.state.country, x]})
                 for (let c = 0; c < country[x].length; c++) {
-                  var countryName = country[x][c]
+                  
                   var todo = country[x][c].todo
                   var image = country[x][c].image
 
                   console.log('image', image)
                   console.log('todo', todo)
                   this.setState({
-                   
+                    
                     listoftodos: [...this.state.listoftodos, { todo, image }],
 
                   })
@@ -168,13 +170,19 @@ class quizPage extends Component {
           <h2>Trips-Ahoy!</h2>
           <h2>Figure out where to go based on your personality!</h2>
           {this.state.result ? this.renderResult() : this.renderQuiz()}          
-          {this.state.countryName}{this.state.listoftodos.length > 0 ? this.state.listoftodos.map(({ todo, image }) => (
-            <div class="container result">
-              
-              <p>{todo}</p>
-              <img src={image} />
+          {this.state.country.length > 0 ? this.state.country.map((countryButton) => (
+             <div class="countrybuttons">
+             <button class="countryButton">{countryButton}</button>
             </div>
           )) : null}
+          {/* {this.state.listoftodos.length > 0 ? this.state.listoftodos.map(({ todo, image }) => (
+            <div class="container result">
+              <h1>Something To Do:</h1>
+              <p>{todo}</p>
+              <img src={image} />
+              <button>Go to Cruises</button>
+            </div>
+          )) : null} */}
         </div>
 
       </div>
