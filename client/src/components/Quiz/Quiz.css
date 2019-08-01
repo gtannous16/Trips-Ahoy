@@ -18,6 +18,15 @@ img {
   max-height: 200px;
 }
    
+.countryButton{
+  margin: 20px;
+  align-self: center;
+  padding: 20px;
+  padding-left: 300px;
+  padding-right: 300px;
+  font-size: 25px;
+  
+}
 
   
 

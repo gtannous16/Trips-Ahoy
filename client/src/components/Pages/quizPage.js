@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import quizQuestions from '../Quiz/quizQuestions';
 import Quiz from '../Quiz/Quiz';
 import Result from '../Quiz/Result';
+import axios from 'axios';
+import '../Quiz/Quiz.css';
 
 
 class quizPage extends Component {
@@ -15,7 +17,9 @@ class quizPage extends Component {
       answerOptions: [],
       answer: '',
       answersCount: {},
-      result: ''
+      result: '',
+      country: [],
+      listoftodos: []
     };
 
     this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
@@ -93,11 +97,51 @@ class quizPage extends Component {
     return answersCountKeys.filter(key => answersCount[key] === maxAnswerCount);
   }
 
-  setResults(result) {
+  setResults = (result) => {
     if (result.length === 1) {
-      this.setState({ result: result[0] });
-    } else {
-      this.setState({ result: result[0] });
+      this.setState({ result: result[0] })
+      axios.get('/quiz/person/' + result[0])
+        .then( (response) => {
+          // handle success
+          console.log(response.data);
+          for (let i = 0; i < response.data.length; i++) {
+            var name = response.data[i].name
+            //response.data[i][name]
+            var result = response.data[i][name]
+            console.log('result', result)
+
+            for (let r = 0; r < result.length; r++) {
+              //result[r]
+              var country = result[r]
+              console.log('country', country)
+              for (let x in country) {
+                console.log(x)
+                 this.setState({country:[...this.state.country, x]})
+                for (let c = 0; c < country[x].length; c++) {
+                  
+                  var todo = country[x][c].todo
+                  var image = country[x][c].image
+
+                  console.log('image', image)
+                  console.log('todo', todo)
+                  this.setState({
+                    
+                    listoftodos: [...this.state.listoftodos, { todo, image }],
+
+                  })
+
+                }
+              }
+
+            }
+
+
+          }
+        })
+        .catch(function (error) {
+          // handle error
+          console.log(error);
+        });
     }
   }
 
@@ -123,9 +167,22 @@ class quizPage extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>Trips-Ahoy!</h2>    
-          <h2>Figure out where to go based on your personality!</h2>    
-          {this.state.result ? this.renderResult() : this.renderQuiz()}
+          <h2>Trips-Ahoy!</h2>
+          <h2>Figure out where to go based on your personality!</h2>
+          {this.state.result ? this.renderResult() : this.renderQuiz()}          
+          {this.state.country.length > 0 ? this.state.country.map((countryButton) => (
+             <div class="countrybuttons">
+             <button class="countryButton">{countryButton}</button>
+            </div>
+          )) : null}
+          {/* {this.state.listoftodos.length > 0 ? this.state.listoftodos.map(({ todo, image }) => (
+            <div class="container result">
+              <h1>Something To Do:</h1>
+              <p>{todo}</p>
+              <img src={image} />
+              <button>Go to Cruises</button>
+            </div>
+          )) : null} */}
         </div>
 
       </div>
