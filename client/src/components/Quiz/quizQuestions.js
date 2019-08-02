@@ -11,7 +11,7 @@ var quizQuestions = [
                 content: "Going out to try a new restaurant"
             },
             {
-                type: "Outdoorsy",
+                type: "Outdoors",
                 content: "Outside playing sports"
             },
             {
@@ -44,7 +44,7 @@ var quizQuestions = [
                 content: "https://prodimage.images-bn.com/pimages/9780143129509_p0_v3_s550x406.jpg"
             },
             {
-                type: "Outdoorsy",
+                type: "Outdoors",
                 content: "https://images-na.ssl-images-amazon.com/images/I/51jGs2yyXgL._SL300_.jpg"
             },
             {

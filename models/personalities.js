@@ -2,20 +2,12 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const personSchema = new Schema({
-    name: String,
-    personality: [
-        {
-            country: [
-                {
-                    todo: String,
-                    image: String
-                }
-            ]
-        }
-    ]
+   name: String,
+   availableTodos: Array
 
 });
 
-const Person = mongoose.model("Person", personSchema);
 
-module.exports = Person; 
+const Personality = mongoose.model("Personality", personSchema);
+
+module.exports = Personality; 
