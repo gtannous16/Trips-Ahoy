@@ -1,10 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { CSSTransitionGroup } from 'react-transition-group';
-import Question from './Question';
-import QuestionCount from './QuestionCount';
-import AnswerOption from './AnswerOption';
-import './Quiz.css';
+import React from "react";
+import PropTypes from "prop-types";
+import { CSSTransitionGroup } from "react-transition-group";
+import Question from "./Question";
+import QuestionCount from "./QuestionCount";
+import AnswerOption from "./AnswerOption";
+import "./Quiz.css";
+import color from "@material-ui/core/colors/deepPurple";
 
 function Quiz(props) {
   function renderAnswerOptions(key) {
@@ -30,7 +31,15 @@ function Quiz(props) {
       transitionAppear
       transitionAppearTimeout={500}
     >
-      <div key={props.questionId}>
+      <div
+        style={{
+          backgroundColor: "goldenrod",
+          opacity: ".7",
+          textDecoration: "blue wavy underline",
+          color: "blue"
+        }}
+        key={props.questionId}
+      >
         <QuestionCount counter={props.questionId} total={props.questionTotal} />
         <Question content={props.question} />
         <ul className="answerOptions">
