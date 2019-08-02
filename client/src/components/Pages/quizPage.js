@@ -145,6 +145,8 @@ class quizPage extends Component {
     }
   }
 
+  
+
   renderQuiz() {
     return (
       <Quiz
@@ -162,6 +164,7 @@ class quizPage extends Component {
     return <Result quizResult={this.state.result} />;
   }
 
+  
 
   render() {
     return (
@@ -172,7 +175,7 @@ class quizPage extends Component {
           {this.state.result ? this.renderResult() : this.renderQuiz()}          
           {this.state.country.length > 0 ? this.state.country.map((countryButton) => (
              <div class="countrybuttons">
-             <button class="countryButton">{countryButton}</button>
+             <button class="countryButton" onClick={activateTodoList}>{countryButton}</button>
             </div>
           )) : null}
           {/* {this.state.listoftodos.length > 0 ? this.state.listoftodos.map(({ todo, image }) => (
