@@ -1,0 +1,202 @@
+[
+    {
+       "Outdoors": [
+          {
+             "Canada": [
+                {
+                   "Norwegian": [
+                      {
+                         "leaving": "Bosoton, Massachusetts",
+                         "visiting": [
+                            "Boston, Massachusetts",
+                            "Bar Harbor, Maine",
+                            "Halifax,Nova Scotia",
+                            "Sydney, Cape Breton Island, Nova Scotia",
+                            "Charlottetown, Prince Edward Island",
+                            "Saguenay (La Baie), Quēbec",
+                            "Quēbec City, Quēbec"
+                         ],
+                         "pricing": [
+                            "Inside: $849",
+                            "Oceanview: $1,249",
+                            "Balcony: $1,739",
+                            "Mini-Suite: $1,959",
+                            "Suite: $3,549",
+                            "The Haven: $5,249"
+                         ],
+                         "date": "Friday 9/4/2020 to Friday 9/11/2020"
+                      }
+                   ],
+                   "Caribbean": [
+                      {
+                         "leaving": "Cape Liberty, New Jersey",
+                         "visiting": [
+                            "Cape Liberty, New Jersey",
+                            "Bar Harbor, Maine",
+                            "Saint John, New Brunswick (Bay of Fundy)",
+                            "Halifax, Nova Scotia",
+                            "Cape Liberty, New Jersey"
+                         ],
+                         "pricing": [
+                            "Interior: $620",
+                            "Outsideview: $856",
+                            "Balcony: $1,127",
+                            "Suites: $1,577"
+                         ],
+                         "date": "Friday 5/15/2020 to Thursday 5/21/2020"
+                      }
+                   ]
+                }
+             ],
+             "Alaska": [
+                {
+                   "Norwegian": [
+                      {
+                         "leaving": "Seattle, Washington",
+                         "visiting": [
+                            "Seattle, Washington",
+                            "Juneau, Alaska",
+                            "Skagway, Alaska",
+                            "Galcier Bay",
+                            "Ketchikan, Alaska",
+                            "Victoria, British Columbia",
+                            "Seattle, Washington"
+                         ],
+                         "pricing": [
+                            "Inside: $649",
+                            "Oceanview: $799",
+                            "Balcony: $799",
+                            "Mini-Suite: $999",
+                            "Concierge: $1,999",
+                            "The Haven: $3.099"
+                         ],
+                         "date": "Saturday 9/28/2019 to Saturday 10/5/2019"
+                      }
+                   ],
+                   "Caribbean": [
+                      {
+                         "leaving": "Seward, Alaska",
+                         "visiting": [
+                            "Seward. Alaska",
+                            "Hubbard Glacier, Alaska",
+                            "Juneau, Alaska",
+                            "Skagway, Alaska",
+                            "Icy Straight Point, Alaska",
+                            "Ketchikan, Alaska",
+                            "Vancouver, British Columbia"
+                         ],
+                         "pricing": [
+                            "Interior: $530",
+                            "Outsideview: $780",
+                            "Balcony: $1,462",
+                            "Suites: $2,643"
+                         ],
+                         "date": "Friday 8/30/2019 to Friday 9/6/2019"
+                      }
+                   ]
+                }
+             ],
+             "NewZealand": [
+                {
+                   "Norwegian": [
+                      {
+                         "leaving": "Sydney, Australia",
+                         "visiting": [
+                            "Sydney, Australia",
+                            "Milford Sound, New Zealand",
+                            "Dunedin (Port Chalmers), New Zealand",
+                            "Lyttelton, New Zealand",
+                            "Marlborough (Picton), New Zealand",
+                            "Wellingto, New Zealand",
+                            "Napier, New Zealand",
+                            "Tauranga, New Zealand",
+                            "Whangarei, New Zealand",
+                            "Auckland, New Zealand",
+                            "Sydney, Australia"
+                         ],
+                         "pricing": [
+                            "Inside: $1,649",
+                            "Oceanview: $1,869",
+                            "Balcony: $2,479",
+                            "Mini-Suite: $2,879",
+                            "Suite: $5,999",
+                            "The Haven: $9,899"
+                         ],
+                         "date": "Sunday 11/22/2020 to Sunday 12/6/2020"
+                      }
+                   ],
+                   "Caribbean": [
+                      {
+                         "leaving": "Sydney, Australia",
+                         "visiting": [
+                            "Sydney, Australia",
+                            "Milford Sound, New Zealand",
+                            "Dunedin, New Zealand",
+                            "Akaroa, New Zealand",
+                            "Wellington, New Zealand",
+                            "Picton, New Zealand",
+                            "Sydney, Australia"
+                         ],
+                         "pricing": [
+                            "Interior: $925",
+                            "Outsideview: $1,158",
+                            "Balcony: $1,334",
+                            "Suites: $2,219"
+                         ],
+                         "date": "Sunday 1/31/2021 to Wednesday 2/10/2021"
+                      }
+                   ]
+                }
+             ],
+             "Australia": [
+                {
+                   "Norwegian": [
+                      {
+                         "leaving": "Sydney, Australia",
+                         "visiting": [
+                            "Sydney, Australia",
+                            "Eden, Australia",
+                            "Melbourne, Australia",
+                            "Burnia (Tasmania), Australia",
+                            "Dunedin (Port Chalmers), New Zealand",
+                            "Akaroa, New Zealand",
+                            "Marlborough (Picton), New Zealand",
+                            "Napier, New Zealand",
+                            "Tauranga, New Zealand",
+                            "Auckland, New Zealand"
+                         ],
+                         "pricing": [
+                            "Inside: $1,249",
+                            "Oceanview: $1,629",
+                            "Balcony: $3,649",
+                            "Mini-suit: $3,949",
+                            "Suite: $7,299",
+                            "The Haven: $8,499"
+                         ],
+                         "date": "Thursday 1/23/2020 to Tuesday 2/4/2020"
+                      }
+                   ],
+                   "Caribbean": [
+                      {
+                         "leaving": "Sydney, Australia",
+                         "visiting": [
+                            "Sydney, Australia",
+                            "Melbourne, Australia",
+                            "Hobart, Australia",
+                            "Sydney, Australia"
+                         ],
+                         "pricing": [
+                            "Interior: $532",
+                            "Outsideview: $644",
+                            "Balcony: $914",
+                            "Suites: $1,132"
+                         ],
+                         "date": "Thursday 2/25/2021 to Wednesday 3/3/2021"
+                      }
+                   ]
+                }
+             ]
+          }
+       ]
+    }
+ ]
