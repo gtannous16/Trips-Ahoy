@@ -82,18 +82,19 @@ class quizPage extends Component {
     const maxAnswerCount = Math.max.apply(null, answersCountValues);
     return answersCountKeys.filter(key => answersCount[key] === maxAnswerCount);
   }
+
   setResults = (result) => {
     if (result.length === 1) {
       this.setState({ result: result[0] })
-      axios.get('/quiz/person/' + result[0])
+      
+      axios.get(`/quiz/person/${result[0]}`)
         .then((response) => {
           // handle success
-          // console.log(response.data[0]);
+         console.log(response.data);
           const data = response.data[0];
           for (let personality in data) {
-            console.log('Personality: ', personality);
-            // todo
-            // Don't include the _id field otherwise it will add a bunch of 0000
+           
+         
             for (let i = 0; i < data[personality].length; i++) {
 
               // for (let i = 0; i < response.data[0].length; i++) {
