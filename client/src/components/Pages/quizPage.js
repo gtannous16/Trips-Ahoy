@@ -55,6 +55,9 @@ class quizPage extends Component {
       setTimeout(() => this.setResults(this.getResults()), 300);
     }
   }
+
+  
+  
   setUserAnswer(answer) {
     this.setState((state, props) => ({
       answersCount: {

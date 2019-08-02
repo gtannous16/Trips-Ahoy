@@ -17,7 +17,29 @@ body {
 img {
   max-height: 200px;
 }
-   
+
+.App-header{
+  padding-top:30px;
+  background-color:rgba(163, 238, 214, 0.838);
+  margin:1050px;
+}
+.questionCount{
+  color:blue;
+  
+}
+.answer-option{
+  color: blue;
+}
+h2 {
+  
+  color: blue;
+
+}
+h1 {
+  color: blue;
+  
+}
+
 .countryButton{
   margin: 20px;
   align-self: center;
@@ -53,7 +75,7 @@ img {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
-    background: #fff;
+  
     border-radius: 3px;
   }
   
