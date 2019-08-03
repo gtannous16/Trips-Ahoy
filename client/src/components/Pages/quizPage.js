@@ -55,6 +55,9 @@ class quizPage extends Component {
       setTimeout(() => this.setResults(this.getResults()), 300);
     }
   }
+
+  
+  
   setUserAnswer(answer) {
     this.setState((state, props) => ({
       answersCount: {
@@ -87,7 +90,7 @@ class quizPage extends Component {
     if (result.length === 1) {
       this.setState({ result: result[0] })
       
-      axios.get(`/quiz/person/${result[0]}`)
+      axios.get(`/quiz/person/${result}`)
         .then((response) => {
           // handle success
          console.log(response.data);
