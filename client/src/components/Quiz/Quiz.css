@@ -78,6 +78,9 @@ h1 {
   
     border-radius: 3px;
   }
+  .container.result{
+    color:blue;
+  }
   
   @media (min-width: 769px) {
     .container {
