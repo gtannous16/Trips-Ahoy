@@ -6,7 +6,7 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image: url('https://www.setaswall.com/wp-content/uploads/2017/03/Golden-Beach-Wallpaper-2560x1600.jpg');
+    background-image: url('https://images-na.ssl-images-amazon.com/images/I/81eG9m1DmAL._SL1500_.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -21,7 +21,7 @@ img {
 .App-header{
   padding-top:30px;
   background-color:rgba(163, 238, 214, 0.838);
-  margin-right: 550px;
+  margin-right: 450px;
   margin-left:550px;
   margin-top: 110px;
 }
