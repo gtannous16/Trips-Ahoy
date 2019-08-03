@@ -30,7 +30,8 @@ const data = [
                                 "Balcony: $3,349",
                                 "Mini-suit: $3,699",
                                 "Suite: $5,799"],
-                            date: "Sunday 5/3/2020 to Sunday 5/17/2020"
+                            date: "Sunday 5/3/2020 to Sunday 5/17/2020",
+                            link: "https://www.ncl.com/cruises/14-day-scotland-england-and-ireland-british-isles-heritage-STAR14SOULEHZEEAMSIVGNWHKWLGRKBFSDUNHLYCOBIPOSOU/Dates/May-2020?cruiseTour=1&destinations=4294960640&cruiseHotel=1&numberOfGuests=4294953449&pageSize=20&cruise=1&sortBy=Featured&state=undefined&currentPage=2&cruiseHotelAir=1&itineraryCode=STAR14SOULEHZEEAMSIVGNWHKWLGRKBFSDUNHLYCOBIPOSOU"
                         }
                     ],
                     Caribbean: [
@@ -43,7 +44,8 @@ const data = [
                                 "Outsideview: $1,825",
                                 "Balcony: $2,881",
                                 "Suites: $4,222"],
-                            date: "Friday 6/12/2020 to Monday 6/22/2020"
+                            date: "Friday 6/12/2020 to Monday 6/22/2020",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/10-night-british-isles-from-amsterdam-on-brilliance/BR10AMS-2092681917?sail-date=2020-06-12&currency=USD"
                         }
                     ]
                 }
@@ -65,7 +67,8 @@ const data = [
                                 "Mini-suit: $4,029",
                                 "Suite: $6,999",
                                 "The Haven: $10,099"],
-                            date: "Sunday 5/16/2020 to Saturday 5/30/2020"
+                            date: "Sunday 5/16/2020 to Saturday 5/30/2020",
+                            link: "https://www.ncl.com/cruises/14-day-british-isles-norway-and-ireland-from-amsterdam-JADE14AMSNWHIVGBGOAESHSYGNRBFSDUBLEHTILZEEAMS?cruiseTour=1&autoPopulate=f&destinations=4294960640&cruiseHotel=1&numberOfGuests=4294953449&pageSize=20&cruise=1&sortBy=Featured&from=resultPage&state=undefined&currentPage=2&cruiseHotelAir=1&itineraryCode=JADE14AMSNWHIVGBGOAESHSYGNRBFSDUBLEHTILZEEAMS"
                         }
                     ],
                     Caribbean: [
@@ -77,7 +80,8 @@ const data = [
                                 "Outsideview: $962",
                                 "Balcony: $1,342",
                                 "Suites: $2,349"],
-                            date: "Sunday 5/31/2020 to Sunday 6/7/2020"
+                            date: "Sunday 5/31/2020 to Sunday 6/7/2020",
+                            link: "https://www.royalcaribbean.com/norway-cruises"
                         }
                     ]
                 }
@@ -97,7 +101,8 @@ const data = [
                                 "Mini-suit: $3,949",
                                 "Suite: $7,299",
                                 "The Haven: $8,499"],
-                            date: "Thursday 1/23/2020 to Tuesday 2/4/2020"
+                            date: "Thursday 1/23/2020 to Tuesday 2/4/2020",
+                            link: "https://www.ncl.com/cruises/12-day-australia-and-new-zealand-from-sydney-JEWEL12SYDQDNMELBWTORRAKAPCNNPETAUAKL?cruiseTour=1&autoPopulate=f&destinations=4294960641&cruiseHotel=1&numberOfGuests=4294953449&pageSize=20&cruise=1&sortBy=Featured&from=resultPage&state=undefined&currentPage=1&cruiseHotelAir=1&itineraryCode=JEWEL12SYDQDNMELBWTORRAKAPCNNPETAUAKL"
                         }
                     ],
                     Caribbean: [
@@ -109,7 +114,8 @@ const data = [
                                 "Outsideview: $644",
                                 "Balcony: $914",
                                 "Suites: $1,132"],
-                            date: "Thursday 2/25/2021 to Wednesday 3/3/2021"
+                            date: "Thursday 2/25/2021 to Wednesday 3/3/2021",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/6-night-tasmania-from-sydney-on-voyager/VY06SYD-4109408327?sail-date=2021-02-25&currency=USD"
                         }
                     ]
                 }
@@ -128,7 +134,8 @@ const data = [
                                 "Balcony: $3,099",
                                 "Mini-suit: $4,099",
                                 "Suite: $7,149"],
-                            date: "Saturday 1/16/2021 to Saturday 1/30/2021"
+                            date: "Saturday 1/16/2021 to Saturday 1/30/2021",
+                            link: " https://www.ncl.com/cruises/14-day-south-america-from-buenos-aires-STAR14BUEMVDPDPPMYPSYUSHPUQPMCSAI?numberOfGuests=4294953449&destinations=South_America_Cruises&state=FL&itineraryCode=STAR14BUEMVDPDPPMYPSYUSHPUQPMCSAI"
                         }
                     ],
                     Princess: [
@@ -138,7 +145,8 @@ const data = [
                                 "Rio de Janeiro, Brazil", "Salvador, Brazil", "Martinique", "St.Kitts",
                                 "Ft. Lauderdale, Florida"],
                             pricing: "Interior: $1,608",
-                            date: "Thursday 3/19/2020 to Sunday 4/5/2020"
+                            date: "Thursday 3/19/2020 to Sunday 4/5/2020",
+                            link: "https://www.princess.com/cruise-search/details?voyageCode=6007"
                         }
                     ]
                 }
@@ -162,7 +170,8 @@ const data = [
                                 "Oceanview: $1,499",
                                 "Balcony: $1,749",
                                 "Suite: $4,599"],
-                            date: "Friday 10/11/2019 to Saturday 10/26/2019"
+                            date: "Friday 10/11/2019 to Saturday 10/26/2019",
+                            link: "https://www.ncl.com/cruises/15-day-greek-isles-italy-and-france-european-jewels-from-london-southampton-SPIRIT15SOULEHBCNCEQLIVCIVNAPJTRPIRSPUVCE?cruiseTour=1&autoPopulate=f&destinations=4294960640&cruiseHotel=1&numberOfGuests=4294953449&pageSize=20&cruise=1&sortBy=Featured&from=resultPage&state=undefined&currentPage=5&cruiseHotelAir=1&itineraryCode=SPIRIT15SOULEHBCNCEQLIVCIVNAPJTRPIRSPUVCE"
                         }
                     ],
                     Caribbean: [
@@ -174,7 +183,8 @@ const data = [
                                 "Outsideview: $1,099",
                                 "Balcony: $1,369",
                                 "Suites: $1,849"],
-                            date: "Saturday 10/19/2019 to Saturday 10/26/2019"
+                            date: "Saturday 10/19/2019 to Saturday 10/26/2019",
+                            link: "https://www.royalcaribbean.com/france-cruises"
                         }
                     ]
                 }
@@ -190,7 +200,8 @@ const data = [
                                 "Oceanview: $1,499",
                                 "Balcony: $1,949",
                                 "Suite: $3,349"],
-                            date: "Saturday 9/7/2019 to Saturday 9/14/2019"
+                            date: "Saturday 9/7/2019 to Saturday 9/14/2019",
+                            link: "https://www.ncl.com/cruises/7-Day-Hawaii,-Round-trip-Honolulu-PRIDE_AMER7HNLOGGITOKOANWKHNL?itineraryCode=PRIDE_AMER7HNLOGGITOKOANWKHNL"
                         }
                     ],
                     Caribbean: [
@@ -203,7 +214,8 @@ const data = [
                                 "Outsideview: $1,250",
                                 "Balcony: $2,041",
                                 "Suites: $3,622"],
-                            date: "Tuesday 5/5/2020 to Thursday 5/14/2020"
+                            date: "Tuesday 5/5/2020 to Thursday 5/14/2020",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/10-night-hawaii-from-oahu-honolulu-on-radiance/RD10HNL-360756637?sail-date=2020-05-05&currency=USD"
                         }
                     ]
                 }
@@ -220,7 +232,8 @@ const data = [
                                 "Oceanview: $1,649",
                                 "Balcony: $2,399",
                                 "Suite: $6,099"],
-                            date: "Sunday 12/22.2019 to Friday 1/3/2020"
+                            date: "Sunday 12/22.2019 to Friday 1/3/2020",
+                            link: "https://www.ncl.com/cruises/12-day-holiday-celebration-venice-barcelona-monte-carlo-and-dubrovnik-from-rome-civitavecchia-SPIRIT12CIVVCEDBVKOTLIVMCMBCNPMICIV/Dates/December-2019?cruiseTour=1&destinations=4294960640&cruiseHotel=1&numberOfGuests=4294953449&pageSize=20&cruise=1&sortBy=Featured&state=undefined&currentPage=1&cruiseHotelAir=1&itineraryCode=SPIRIT12CIVVCEDBVKOTLIVMCMBCNPMICIV"
                         }
                     ],
                     Caribbean: [
@@ -234,7 +247,8 @@ const data = [
                                 "Outsideview: $1,126",
                                 "Balcony: $1,255",
                                 "Suites: $2,189"],
-                            date: "Sunday 6/21/2020 to Sunday 6/28/2020"
+                            date: "Sunday 6/21/2020 to Sunday 6/28/2020",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/7-night-western-mediterranean-from-rome-civitavecchia-on-explorer/EX07ROM-2725538849?sail-date=2020-08-23&currency=USD"
                         }
                     ]
                 }
@@ -256,7 +270,8 @@ const data = [
                                 "Balcony: $3,349",
                                 "Mini-Suite: $3,799",
                                 "Suite: $5,099"],
-                            date: "Sunday 5/17/2020 to Sunday 5/31/2020"
+                            date: "Sunday 5/17/2020 to Sunday 5/31/2020",
+                            link: "https://www.ncl.com/cruises/14-day-scotland-england-and-ireland-british-isles-heritage-STAR14SOULEHZEEAMSNWHIVGKWLGRKBFSLVPDUNCOBIPOSOU/Dates/May-2020?cruiseTour=1&destinations=4294960640&cruiseHotel=1&numberOfGuests=4294953449&pageSize=20&cruise=1&sortBy=Featured&state=undefined&currentPage=2&cruiseHotelAir=1&itineraryCode=STAR14SOULEHZEEAMSNWHIVGKWLGRKBFSLVPDUNCOBIPOSOU"
                         }
                     ],
                     Caribbean: [
@@ -269,7 +284,8 @@ const data = [
                                 "Outsideview: $1,844",
                                 "Balcony: $2,893",
                                 "Suites: $4,297"],
-                            date: "Friday 6/12/2020 to Monday 6/22/2020"
+                            date: "Friday 6/12/2020 to Monday 6/22/2020",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/10-night-british-isles-from-amsterdam-on-brilliance/BR10AMS-2092681917?sail-date=2020-06-12&currency=USD&dates_minDate=06%2F01%2F2020&dates_maxDate=08%2F31%2F2020"
                         }
                     ]
                 }
@@ -293,7 +309,8 @@ const data = [
                                 "Mini-Suite: $1,959",
                                 "Suite: $3,549",
                                 "The Haven: $5,249"],
-                            date: "Friday 9/4/2020 to Friday 9/11/2020"
+                            date: "Friday 9/4/2020 to Friday 9/11/2020",
+                            link: "https://www.ncl.com/cruises/7-day-canada-and-new-england-from-boston-GEM7BOSBHBHALSYNCHALBIQUE/schedule?destinations=4294961648&numberOfGuests=4294953449&state=null&itineraryCode=GEM7BOSBHBHALSYNCHALBIQUE&customerStoriesCurrentPage=1&customerStoriesPageSize=3"
                         }
                     ],
                     Caribbean: [
@@ -306,7 +323,8 @@ const data = [
                                 "Outsideview: $856",
                                 "Balcony: $1,127",
                                 "Suites: $1,577"],
-                            date: "Friday 5/15/2020 to Thursday 5/21/2020"
+                            date: "Friday 5/15/2020 to Thursday 5/21/2020",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/6-night-canada-new-england-from-cape-liberty-on-adventure/AD06BYE-814147429?sail-date=2020-05-15&country=USA&currency=USD"
                         }
                     ]
                 }
@@ -325,7 +343,8 @@ const data = [
                                 "Mini-Suite: $999",
                                 "Concierge: $1,999",
                                 "The Haven: $3.099"],
-                            date: "Saturday 9/28/2019 to Saturday 10/5/2019"
+                            date: "Saturday 9/28/2019 to Saturday 10/5/2019",
+                            link: "https://www.ncl.com/cruises/7-day-awe-of-alaska-glacier-bay-and-inside-passage-from-seattle-JOY7SEAJNUSGYKTNVICSEA/Dates/September-2019?itineraryCode=JOY7SEAJNUSGYKTNVICSEA"
                         }
                     ],
                     Caribbean: [
@@ -338,7 +357,8 @@ const data = [
                                 "Outsideview: $780",
                                 "Balcony: $1,462",
                                 "Suites: $2,643"],
-                            date: "Friday 8/30/2019 to Friday 9/6/2019"
+                            date: "Friday 8/30/2019 to Friday 9/6/2019",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/7-night-southbound-alaska-hubbard-from-seward-on-radiance/RD07SWD-1391220622?sail-date=2020-08-28&currency=USD"
                         }
                     ]
                 }
@@ -359,7 +379,8 @@ const data = [
                                 "Mini-Suite: $2,879",
                                 "Suite: $5,999",
                                 "The Haven: $9,899"],
-                            date: "Sunday 11/22/2020 to Sunday 12/6/2020"
+                            date: "Sunday 11/22/2020 to Sunday 12/6/2020",
+                            link: "https://www.ncl.com/cruises/14-day-australia-and-new-zealand-from-sydney-JEWEL14SYDORRLYTPCNWLGNPETAUWHAAKLSYD/Dates/November-2020?destinations=Australia_&numberOfGuests=4294953449&state=null&itineraryCode=JEWEL14SYDORRLYTPCNWLGNPETAUWHAAKLSYD"
                         }
                     ],
                     Caribbean: [
@@ -372,7 +393,8 @@ const data = [
                                 "Outsideview: $1,158",
                                 "Balcony: $1,334",
                                 "Suites: $2,219"],
-                            date: "Sunday 1/31/2021 to Wednesday 2/10/2021"
+                            date: "Sunday 1/31/2021 to Wednesday 2/10/2021",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/10-night-new-zealand-from-sydney-on-serenade/SR10SYD-3313953119?sail-date=2021-01-31&currency=USD"
                         }
                     ]
                 }
@@ -392,7 +414,8 @@ const data = [
                                 "Mini-suit: $3,949",
                                 "Suite: $7,299",
                                 "The Haven: $8,499"],
-                            date: "Thursday 1/23/2020 to Tuesday 2/4/2020"
+                            date: "Thursday 1/23/2020 to Tuesday 2/4/2020",
+                            link: "https://www.ncl.com/cruises/12-day-australia-and-new-zealand-from-sydney-JEWEL12SYDQDNMELBWTORRAKAPCNNPETAUAKL?cruiseTour=1&autoPopulate=f&destinations=4294960641&cruiseHotel=1&numberOfGuests=4294953449&pageSize=20&cruise=1&sortBy=Featured&from=resultPage&state=undefined&currentPage=1&cruiseHotelAir=1&itineraryCode=JEWEL12SYDQDNMELBWTORRAKAPCNNPETAUAKL"
                         }
                     ],
                     Caribbean: [
@@ -404,7 +427,8 @@ const data = [
                                 "Outsideview: $644",
                                 "Balcony: $914",
                                 "Suites: $1,132"],
-                            date: "Thursday 2/25/2021 to Wednesday 3/3/2021"
+                            date: "Thursday 2/25/2021 to Wednesday 3/3/2021",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/6-night-tasmania-from-sydney-on-voyager/VY06SYD-4109408327?sail-date=2021-02-25&currency=USD"
                         }
                     ]
                 }
@@ -428,7 +452,8 @@ const data = [
                                 "Balcony: $1,799",
                                 "Mini-Suite: $2,099",
                                 "Suite: $3,499"],
-                            date: "Saturday 3/14/2020 to Sunday 3/29/2020"
+                            date: "Saturday 3/14/2020 to Sunday 3/29/2020",
+                            link: "https://www.ncl.com/cruises/15-day-south-america-explorer-from-santiago-san-antonio-STAR15SAICQQARIPCOCLLSVELIONPIPCV/Dates/March-2020?destinations=South_America_Cruises&numberOfGuests=4294953449&state=null&itineraryCode=STAR15SAICQQARIPCOCLLSVELIONPIPCV"
                         }
                     ],
                     Princess: [
@@ -439,7 +464,8 @@ const data = [
                                 "Pisco (General San Martin), Peru", "La Serena (Coquimbo), Chili",
                                 "Santiago (San Antonio), Chile"],
                             pricing: "Interior: $1,999",
-                            date: "Sunday 11/15/2020 to Wednesday 12/2/2020"
+                            date: "Sunday 11/15/2020 to Wednesday 12/2/2020",
+                            link: "https://www.princess.com/cruise-search/details?voyageCode=6034"
                         }
                     ]
                 }
@@ -461,7 +487,8 @@ const data = [
                                 "Mini-Suite: $3.199",
                                 "Suite: $6,099",
                                 "The Haven: $9,499"],
-                            date: "Saturday 1/4/2020 to Friday 1/24/2020"
+                            date: "Saturday 1/4/2020 to Friday 1/24/2020",
+                            link: "https://www.ncl.com/cruises/20-day-panama-canal-from-new-york-GEM20NYCWILORJSMRCTGPASCIOPRQXIHPVRCSLLAXSBASFO?numberOfGuests=4294953449&destinations=Panama_Canal_Cruises&state=null&itineraryCode=GEM20NYCWILORJSMRCTGPASCIOPRQXIHPVRCSLLAXSBASFO"
                         }
                     ],
                     Caribbean: [
@@ -475,7 +502,8 @@ const data = [
                                 "Outsideview: $1,042",
                                 "Balcony: $2,536",
                                 "Suites: $3,092"],
-                            date: "Sunday 12/1/2019 to Monday 12/16/2019"
+                            date: "Sunday 12/1/2019 to Monday 12/16/2019",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/15-night-panama-canal-eastbound-from-los-angeles-on-vision/VI15LAX-1250592094?sail-date=2019-12-01&currency=USD"
                         }
                     ]
                 }
@@ -493,7 +521,8 @@ const data = [
                                 "Balcony: $1,349",
                                 "Mini-Suite: $1,799",
                                 "Suite: $3,349"],
-                            date: "Thursday 4/9/2020 to Sunday 4/19/2020"
+                            date: "Thursday 4/9/2020 to Sunday 4/19/2020",
+                            link: "https://www.ncl.com/cruises/10-day-bermuda-and-bahamas-from-new-york-DAWN10NYCWRFNPINASPCVORFNYC?cheetahid=5000059770982&numberOfGuests=4294953449&state=null&destinations=Bermuda_Cruises&cid=EM_MKD_NA_PRO_EML_sr3_EML_TAKEALLAIR0719_TAKEALL072019&itineraryCode=DAWN10NYCWRFNPINASPCVORFNYC"
                         }
                     ],
                     Caribbean: [
@@ -505,7 +534,8 @@ const data = [
                                 "Outsideview: $562",
                                 "Balcony: $720",
                                 "Suites: $1,115"],
-                            date: "Saturday 10/17/2020 to Thurday 10/22/2020"
+                            date: "Saturday 10/17/2020 to Thurday 10/22/2020",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/5-night-bermuda-from-cape-liberty-on-adventure/AD05BYE-1681436218?sail-date=2020-10-31&currency=USD"
                         }
                     ]
                 }
@@ -527,7 +557,8 @@ const data = [
                                 "Balcony: $3,349",
                                 "Mini-Suite: $3,799",
                                 "Suite: $5,099"],
-                            date: "Sunday 5/17/2020 to Sunday 5/31/2020"
+                            date: "Sunday 5/17/2020 to Sunday 5/31/2020",
+                            link: "https://www.ncl.com/cruises/14-day-scotland-england-and-ireland-british-isles-heritage-STAR14SOULEHZEEAMSNWHIVGKWLGRKBFSLVPDUNCOBIPOSOU/Dates/May-2020?cruiseTour=1&destinations=4294960640&cruiseHotel=1&numberOfGuests=4294953449&pageSize=20&cruise=1&sortBy=Featured&state=undefined&currentPage=2&cruiseHotelAir=1&itineraryCode=STAR14SOULEHZEEAMSNWHIVGKWLGRKBFSLVPDUNCOBIPOSOU"
                         }
                     ],
                     Caribbean: [
@@ -540,7 +571,8 @@ const data = [
                                 "Outsideview: $1,844",
                                 "Balcony: $2,893",
                                 "Suites: $4,297"],
-                            date: "Friday 6/12/2020 to Monday 6/22/2020"
+                            date: "Friday 6/12/2020 to Monday 6/22/2020",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/10-night-british-isles-from-amsterdam-on-brilliance/BR10AMS-2092681917?sail-date=2020-06-12&currency=USD&dates_minDate=06%2F01%2F2020&dates_maxDate=08%2F31%2F2020"
                         }
                     ]
                 }
@@ -563,7 +595,8 @@ const data = [
                                 "Balcony: $2,099",
                                 "Mini-Suite: $2,949",
                                 "Suite: SOLD OUT"],
-                            date: "Sunday 9/8/19 to Sunday 9/15/19"
+                            date: "Sunday 9/8/19 to Sunday 9/15/19",
+                            link: "https://www.ncl.com/cruises/7-day-greek-isles-from-venice-STAR7VCEKOTCFUJTRJMKARMDBVVCE?cheetahid=5000117670723&numberOfGuests=4294953449&state=null&destinations=Europe_Cruises&cid=EM_MKD_NA_PRO_EML_sr1_EML_TAKEALLAIR0719_TAKEALL072219&itineraryCode=STAR7VCEKOTCFUJTRJMKARMDBVVCE"
                         }
                     ],
                     Caribbean: [
@@ -576,7 +609,8 @@ const data = [
                                 "Outside: $870",
                                 "Balcony: $1,290",
                                 "Suites: $1,914"],
-                            date: "Saturday 8/8/2020 to Saturday 8/15/2020"
+                            date: "Saturday 8/8/2020 to Saturday 8/15/2020",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/7-night-greek-isles-from-venice-on-rhapsody/RH07VCE-3172087441?sail-date=2020-10-17&currency=USD&dates_minDate=01%2F01%2F2020&dates_maxDate=04%2F30%2F2021"
                         }
                     ]
                 }
@@ -596,7 +630,8 @@ const data = [
                                 "Spa: $3,199",
                                 "Mini-Suite: $2,579",
                                 "The Haven: $7,499"],
-                            date: "Friday 5/15/2020 to Friday 5/29/2020"
+                            date: "Friday 5/15/2020 to Friday 5/29/2020",
+                            link: "https://www.ncl.com/cruises/14-day-scandinavia-russia-and-baltic-from-southampton-london-ESCAPE14SOULEHZEEAMSWARTLLLEDHELNYNCPH/Dates/May-2020?cruiseTour=1&destinations=4294960640&cruiseHotel=1&numberOfGuests=4294953449&pageSize=20&cruise=1&sortBy=Featured&state=undefined&currentPage=2&cruiseHotelAir=1&itineraryCode=ESCAPE14SOULEHZEEAMSWARTLLLEDHELNYNCPH"
                         }
                     ],
                     Caribbean: [
@@ -610,7 +645,8 @@ const data = [
                                 "Outsideview: $1,844",
                                 "Balcony: $2,893",
                                 "Suites: $4,297"],
-                            date: "Friday 6/12/2020 to Monday 6/22/2020"
+                            date: "Friday 6/12/2020 to Monday 6/22/2020",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/10-night-british-isles-from-amsterdam-on-brilliance/BR10AMS-2092681917?sail-date=2020-06-12&currency=USD&dates_minDate=06%2F01%2F2020&dates_maxDate=08%2F31%2F2020"
                         }
                     ]
                 }
@@ -628,7 +664,8 @@ const data = [
                                 "Balcony: $1,379",
                                 "Mini-Suite: $1,679",
                                 "Suite: $4,849"],
-                            date: "Saturday 4/18/2020 to Sunday 5/3/2020"
+                            date: "Saturday 4/18/2020 to Sunday 5/3/2020",
+                            link: "https://www.ncl.com/cruises/15-Day-Transatlantic-from-Miami-EPIC15MIAPDLLISCADAGPCARPMIBCN?itineraryCode=EPIC15MIAPDLLISCADAGPCARPMIBCN"
                         }
                     ],
                     Caribbean: [
@@ -640,7 +677,8 @@ const data = [
                                 "Outsideview: $1,368",
                                 "Balcony: $1,614",
                                 "Suites: $2,144"],
-                            date: "Friday 5/15/2020 to Saturday 5/23/2020"
+                            date: "Friday 5/15/2020 to Saturday 5/23/2020",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/8-night-spain-portugal-from-southampton-on-anthem/AN08STH-2358607091?sail-date=2020-06-20&currency=USD"
                         }
                     ]
                 }
@@ -658,7 +696,8 @@ const data = [
                                 "Spa: $1,199",
                                 "Mini-Suite: $829",
                                 "Suite: $2,599"],
-                            date: "Monday 10/12/2020 to Sunday 10/18/2020"
+                            date: "Monday 10/12/2020 to Sunday 10/18/2020",
+                            link: "https://www.ncl.com/cruises/6-Day-Pacific-Coastal-from-Vancouver-BLISS6VANVICSEASFOLAX?itineraryCode=BLISS6VANVICSEASFOLAX"
                         }
                     ],
                     Caribbean: [
@@ -670,7 +709,8 @@ const data = [
                                 "Outsideview: $930",
                                 "Balcony: $1,412",
                                 "Suites: SOLD OUT"],
-                            date: "Tuesday 5/19/2020 to Monday 5/25/2020"
+                            date: "Tuesday 5/19/2020 to Monday 5/25/2020",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/7-night-pacific-coastal-from-san-diego-on-serenade/SR07SAN-919990860?sail-date=2020-05-19&currency=USD"
                         }
                     ]
                 }
@@ -693,7 +733,8 @@ const data = [
                                 "Balcony: $2,099",
                                 "Mini-Suite: $2,949",
                                 "Suite: SOLD OUT"],
-                            date: "Sunday 9/8/19 to Sunday 9/15/19"
+                            date: "Sunday 9/8/19 to Sunday 9/15/19",
+                            link: "https://www.ncl.com/cruises/7-day-greek-isles-from-venice-STAR7VCEKOTCFUJTRJMKARMDBVVCE?cheetahid=5000117670723&numberOfGuests=4294953449&state=null&destinations=Europe_Cruises&cid=EM_MKD_NA_PRO_EML_sr1_EML_TAKEALLAIR0719_TAKEALL072219&itineraryCode=STAR7VCEKOTCFUJTRJMKARMDBVVCE"
                         }
                     ],
                     Caribbean: [
@@ -706,7 +747,8 @@ const data = [
                                 "Outside: $870",
                                 "Balcony: $1,290",
                                 "Suites: $1,914"],
-                            date: "Saturday 8/8/2020 to Saturday 8/15/2020"
+                            date: "Saturday 8/8/2020 to Saturday 8/15/2020",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/7-night-greek-isles-from-venice-on-rhapsody/RH07VCE-3172087441?sail-date=2020-10-17&currency=USD&dates_minDate=01%2F01%2F2020&dates_maxDate=04%2F30%2F2021"
                         }
                     ]
                 }
@@ -724,7 +766,8 @@ const data = [
                                 "Oceanview: $1,649",
                                 "Balcony: $2,399",
                                 "Suite: $6,099"],
-                            date: "Sunday 12/22.2019 to Friday 1/3/2020"
+                            date: "Sunday 12/22.2019 to Friday 1/3/2020",
+                            link: "https://www.ncl.com/cruises/12-day-holiday-celebration-venice-barcelona-monte-carlo-and-dubrovnik-from-rome-civitavecchia-SPIRIT12CIVVCEDBVKOTLIVMCMBCNPMICIV/Dates/December-2019?cruiseTour=1&destinations=4294960640&cruiseHotel=1&numberOfGuests=4294953449&pageSize=20&cruise=1&sortBy=Featured&state=undefined&currentPage=1&cruiseHotelAir=1&itineraryCode=SPIRIT12CIVVCEDBVKOTLIVMCMBCNPMICIV"
                         }
                     ],
                     Caribbean: [
@@ -738,7 +781,8 @@ const data = [
                                 "Outsideview: $1,126",
                                 "Balcony: $1,255",
                                 "Suites: $2,189"],
-                            date: "Sunday 6/21/2020 to Sunday 6/28/2020"
+                            date: "Sunday 6/21/2020 to Sunday 6/28/2020",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/7-night-western-mediterranean-from-rome-civitavecchia-on-explorer/EX07ROM-2725538849?sail-date=2020-08-23&currency=USD"
                         }
                     ]
                 }
@@ -755,7 +799,8 @@ const data = [
                                 "Balcony: $699",
                                 "Mini-Suite: $949",
                                 "The Haven: $3,299"],
-                            date: "Sunday 10/27/2019 to Sunday 11/3/2019"
+                            date: "Sunday 10/27/2019 to Sunday 11/3/2019",
+                            link: "https://www.ncl.com/cruises/7-day-mexican-riviera-from-los-angeles-BLISS7LAXPVRMZTCSLLAX?cheetahid=5000017433768&numberOfGuests=4294953449&state=null&destinations=Mexican_Riviera_Cruises&cid=EM_MKD_NA_PRO_EML_sr3_EML_TAKEALLAIR0719_TAKEALL071019&itineraryCode=BLISS7LAXPVRMZTCSLLAX"
                         }
                     ],
                     Caribbean: [
@@ -766,7 +811,8 @@ const data = [
                             pricing: ["Interior: $229",
                                 "Outside: $249",
                                 "Suites: $849"],
-                            date: "Saturday 11/30/2019 to Thursday 12/5/2019"
+                            date: "Saturday 11/30/2019 to Thursday 12/5/2019",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/5-night-costa-maya-cozumel-from-miami-on-empress/NE05MIA-3984930339?sail-date=2019-11-30&currency=USD"
                         }
                     ]
                 }
@@ -784,7 +830,8 @@ const data = [
                                 "Mini-Suite: $849",
                                 "Suite: $1,449",
                                 "The Haven: 2,749"],
-                            date: "Sunday 12/15/2019 to Saturday 12/21/2019"
+                            date: "Sunday 12/15/2019 to Saturday 12/21/2019",
+                            link: "https://www.ncl.com/cruises/6-day-phuket-langkawi-and-penang-from-singapore-JADE6SINHKTLKWPENSIN?cheetahid=5000091835421&numberOfGuests=4294953449&state=null&destinations=Asia_Cruises&cid=EM_MKD_NA_PRO_EML_sr2_EML_TAKEALLAIR0719_TAKEALL072219&itineraryCode=JADE6SINHKTLKWPENSIN"
                         }
                     ],
                     Caribbean: [
@@ -797,7 +844,8 @@ const data = [
                                 "Outside: $1,028",
                                 "Balcony: $1,192",
                                 "Suites: $1,522"],
-                            date: "Thursday 2/4/2021 to Thursday 2/11/2021"
+                            date: "Thursday 2/4/2021 to Thursday 2/11/2021",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/7-night-qn-7-ngt-best-of-malaysia-thailand-from-singapore-on-quantum/QN07SIN-2388191980?sail-date=2021-02-04&currency=USD"
                         }
                     ]
                 }
@@ -819,7 +867,8 @@ const data = [
                                 "Oceanview: $1,649",
                                 "Balcony: $2,399",
                                 "Suite: $6,099"],
-                            date: "Sunday 12/22.2019 to Friday 1/3/2020"
+                            date: "Sunday 12/22.2019 to Friday 1/3/2020",
+                            link: "https://www.ncl.com/cruises/12-day-holiday-celebration-venice-barcelona-monte-carlo-and-dubrovnik-from-rome-civitavecchia-SPIRIT12CIVVCEDBVKOTLIVMCMBCNPMICIV/Dates/December-2019?cruiseTour=1&destinations=4294960640&cruiseHotel=1&numberOfGuests=4294953449&pageSize=20&cruise=1&sortBy=Featured&state=undefined&currentPage=1&cruiseHotelAir=1&itineraryCode=SPIRIT12CIVVCEDBVKOTLIVMCMBCNPMICIV"
                         }
                     ],
                     Caribbean: [
@@ -833,7 +882,8 @@ const data = [
                                 "Outsideview: $1,126",
                                 "Balcony: $1,255",
                                 "Suites: $2,189"],
-                            date: "Sunday 6/21/2020 to Sunday 6/28/2020"
+                            date: "Sunday 6/21/2020 to Sunday 6/28/2020",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/7-night-western-mediterranean-from-rome-civitavecchia-on-explorer/EX07ROM-2725538849?sail-date=2020-08-23&currency=USD"
                         }
                     ]
                 }
@@ -851,7 +901,8 @@ const data = [
                                 "Balcony: $1,379",
                                 "Mini-Suite: $1,679",
                                 "Suite: $4,849"],
-                            date: "Saturday 4/18/2020 to Sunday 5/3/2020"
+                            date: "Saturday 4/18/2020 to Sunday 5/3/2020",
+                            link: "https://www.ncl.com/cruises/15-Day-Transatlantic-from-Miami-EPIC15MIAPDLLISCADAGPCARPMIBCN?itineraryCode=EPIC15MIAPDLLISCADAGPCARPMIBCN"
                         }
                     ],
                     Caribbean: [
@@ -863,7 +914,8 @@ const data = [
                                 "Outsideview: $1,368",
                                 "Balcony: $1,614",
                                 "Suites: $2,144"],
-                            date: "Friday 5/15/2020 to Saturday 5/23/2020"
+                            date: "Friday 5/15/2020 to Saturday 5/23/2020",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/8-night-spain-portugal-from-southampton-on-anthem/AN08STH-2358607091?sail-date=2020-06-20&currency=USD"
                         }
                     ]
                 }
@@ -883,7 +935,8 @@ const data = [
                                 "Mini-Suite: $2,699",
                                 "Suite: $4,399",
                                 "The Haven: $8,199"],
-                            date: "Monday 1/13/2020 to Saturday 1/25/2020"
+                            date: "Monday 1/13/2020 to Saturday 1/25/2020",
+                            link: "https://www.ncl.com/cruises/12-day-thailand-cambodia-and-vietnam-from-singapore-JADE12SINLCHSH1SGNNHADADHANHKG?cheetahid=5000091835421&numberOfGuests=4294953449&state=null&destinations=Asia_Cruises&cid=EM_MKD_NA_PRO_EML_sr2_EML_TAKEALLAIR0719_TAKEALL072219&itineraryCode=JADE12SINLCHSH1SGNNHADADHANHKG"
                         }
                     ],
                     Caribbean: [
@@ -895,7 +948,8 @@ const data = [
                                 "Outsideview: $809",
                                 "Balcony: $878",
                                 "Suites: $934"],
-                            date: "Friday 8/28/2020 to Wednesday 9/2/2020"
+                            date: "Friday 8/28/2020 to Wednesday 9/2/2020",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/5-night-chan-may-nha-trang-from-hong-kong-on-voyager/VY05HKG-1162181341?sail-date=2020-08-28&currency=USD"
                         }
                     ]
                 }
@@ -913,7 +967,8 @@ const data = [
                                 "Mini-Suite: $1,379",
                                 "Suite: $3,799",
                                 "The Haven: $5,849"],
-                            date: "Saturday 1/25/2020 to Thursday 1/30/2020"
+                            date: "Saturday 1/25/2020 to Thursday 1/30/2020",
+                            link: "https://www.ncl.com/cruises/5-day-asia-from-hong-kong-JADE5HKGNAHHKG?cheetahid=5000118670179&numberOfGuests=4294953449&state=null&destinations=Asia_Cruises&cid=EM_MKD_NA_PRO_EML_sr5_EML_TAKEALLAIR0719_TAKEALL072319&itineraryCode=JADE5HKGNAHHKG"
                         }
                     ],
                     Caribbean: [
@@ -925,7 +980,8 @@ const data = [
                                 "Outsideview: $759",
                                 "Balcony: $869",
                                 "Suites: $1,279"],
-                            date: "Sunday 5/31/2020 to Sunday 6/7/2020"
+                            date: "Sunday 5/31/2020 to Sunday 6/7/2020",
+                            link: "https://www.royalcaribbean.com/cruises/itinerary/7-night-best-of-japan-from-beijing-tianjin-on-quantum/QN07TSN-878368654?sail-date=2020-08-02&currency=USD"
                         }
                     ]
                 }

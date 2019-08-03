@@ -1,0 +1,191 @@
+[
+    {
+       "Relaxing": [
+          {
+             "Greece": [
+                {
+                   "Norwegian": [
+                      {
+                         "leaving": "Venice, Italy",
+                         "visiting": [
+                            "Venice, Italy",
+                            "Kotor, Montenegro",
+                            "Corfu, Greece",
+                            "Santorini, Greece",
+                            "Mykonons, Greece",
+                            "Argostoli, Kefalonia, Greece",
+                            "Dubrovnik, Croatia",
+                            "Venice, Italy"
+                         ],
+                         "pricing": [
+                            "Inside: $1,349",
+                            "Oceanview: $1,499",
+                            "Balcony: $2,099",
+                            "Mini-Suite: $2,949",
+                            "Suite: SOLD OUT"
+                         ],
+                         "date": "Sunday 9/8/19 to Sunday 9/15/19"
+                      }
+                   ],
+                   "Caribbean": [
+                      {
+                         "leaving": "Venice, Italy",
+                         "visiting": [
+                            "Venice, Italy",
+                            "Venice, Italy",
+                            "Kotor, Montenegro",
+                            "Corfu, Greece",
+                            "Athens (Piraeus), Greece",
+                            "Mykonos, Greece",
+                            "Argostoli, Greece",
+                            "Venice, Italy"
+                         ],
+                         "pricing": [
+                            "Interior: $720",
+                            "Outside: $870",
+                            "Balcony: $1,290",
+                            "Suites: $1,914"
+                         ],
+                         "date": "Saturday 8/8/2020 to Saturday 8/15/2020"
+                      }
+                   ]
+                }
+             ],
+             "Italy": [
+                {
+                   "Norwegian": [
+                      {
+                         "leaving": "Rome (Civitaveccia), Italy",
+                         "visiting": [
+                            "Rome (Civitaveccia), Italy",
+                            "Venice, Italy",
+                            "Dubrovnik, Croatia",
+                            "Kotor, Montenegro",
+                            "Florence/Pisa (Livorno), Italy",
+                            "Monte Carlo, Monaco",
+                            "Barcelona, Spain",
+                            "Palma, Majorca, Spain",
+                            "Rome (Civitaveccia), Italy"
+                         ],
+                         "pricing": [
+                            "Inside: $1,649",
+                            "Oceanview: $1,649",
+                            "Balcony: $2,399",
+                            "Suite: $6,099"
+                         ],
+                         "date": "Sunday 12/22.2019 to Friday 1/3/2020"
+                      }
+                   ],
+                   "Caribbean": [
+                      {
+                         "leaving": "Rome (Civitaveccia), Italy",
+                         "visiting": [
+                            "Rome (Civitaveccia), Italy",
+                            "Valencia, Spain",
+                            "Palma de Mallorca, Spain",
+                            "Barcelona, Spain",
+                            "Nice (Villefranche), France",
+                            "Florence/Pisa (La Spezia), Italy",
+                            "Rome (Civitaveccia), Italy"
+                         ],
+                         "pricing": [
+                            "Interior: $734",
+                            "Outsideview: $1,126",
+                            "Balcony: $1,255",
+                            "Suites: $2,189"
+                         ],
+                         "date": "Sunday 6/21/2020 to Sunday 6/28/2020"
+                      }
+                   ]
+                }
+             ],
+             "Mexico": [
+                {
+                   "Norwegian": [
+                      {
+                         "leaving": "Los Angeles, California",
+                         "visiting": [
+                            "Los Angeles, California",
+                            "Puerto Vallarta, Maxico",
+                            "Mazatlán, Mexico",
+                            "Cabo San Lucas, Mexico",
+                            "Los Angeles, California"
+                         ],
+                         "pricing": [
+                            "Inside: $599",
+                            "Oceanview: $649",
+                            "Balcony: $699",
+                            "Mini-Suite: $949",
+                            "The Haven: $3,299"
+                         ],
+                         "date": "Sunday 10/27/2019 to Sunday 11/3/2019"
+                      }
+                   ],
+                   "Caribbean": [
+                      {
+                         "leaving": "Miami, Florida",
+                         "visiting": [
+                            "Miami, Florida",
+                            "Puerto Costa Maya, Mexico",
+                            "Cozumel, Mexico",
+                            "Miami, Florida"
+                         ],
+                         "pricing": [
+                            "Interior: $229",
+                            "Outside: $249",
+                            "Suites: $849"
+                         ],
+                         "date": "Saturday 11/30/2019 to Thursday 12/5/2019"
+                      }
+                   ]
+                }
+             ],
+             "Malaysia": [
+                {
+                   "Norwegian": [
+                      {
+                         "leaving": "Singapore, Singapore",
+                         "visiting": [
+                            "Singapore, Singapore",
+                            "Phuket, Thailand",
+                            "Langkawi, Malaysia",
+                            "Penang, Malaysia",
+                            "Singapore, Singapore"
+                         ],
+                         "pricing": [
+                            "Inside: $529",
+                            "Oceanview: $549",
+                            "Balcony: $749",
+                            "Mini-Suite: $849",
+                            "Suite: $1,449",
+                            "The Haven: 2,749"
+                         ],
+                         "date": "Sunday 12/15/2019 to Saturday 12/21/2019"
+                      }
+                   ],
+                   "Caribbean": [
+                      {
+                         "leaving": "Singapore, Singapore",
+                         "visiting": [
+                            "Singapore, Singapore",
+                            "Malacca, Malaysia",
+                            "Kuala Lumpur (Port Klang), Malaysia",
+                            "Penang, Malaysia",
+                            "Phuket, Thailand",
+                            "Sinagpore, Singapore"
+                         ],
+                         "pricing": [
+                            "Interior: $899",
+                            "Outside: $1,028",
+                            "Balcony: $1,192",
+                            "Suites: $1,522"
+                         ],
+                         "date": "Thursday 2/4/2021 to Thursday 2/11/2021"
+                      }
+                   ]
+                }
+             ]
+          }
+       ]
+    }
+ ]
