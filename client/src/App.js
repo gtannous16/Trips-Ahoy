@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Quiz from "./components/Pages/quizPage";
 import Cruise from "./components/Pages/cruisesPage";
-import Home from "./components/Landing/landing";
+import Home from "./components/Pages/landing";
 import Analytics from "./components/Pages/analytics";
 
 function App () {
