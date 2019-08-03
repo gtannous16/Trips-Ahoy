@@ -35,8 +35,8 @@ class AppPage extends Component {
             opacity: ".7",
             padding: "1em 0",
             textAlign: "center",
-            textIndent: "150px",
-            textShadow: "1px 1px #006699",
+            textIndent: "90px",
+            textShadow: "2px 2px #39ff14",
             fontFamily: "Amatic SC, cursive",
             fontWeight: "bold"
           }}
@@ -55,10 +55,12 @@ class AppPage extends Component {
               padding: "1em 2em",
               border: "1px solid aliceblue",
               borderRadius: "5px",
-              fontWeight: "500",
+              fontWeight: "bold",
+              fontFamily: "Amatic SC, cursive",
+              color: "#0a1485",
+              fontSize: "18px",
               textTransform: "uppercase",
-              boxShadow:
-                "0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.06)"
+              boxShadow: "2px 2px #39ff14"
             }}
           >
             Start Quiz
@@ -72,7 +74,7 @@ class AppPage extends Component {
           style={{
             width: "100vw",
             backgroundColor: "#ffcf9e",
-            opacity: ".5",
+            opacity: ".6",
             padding: "0em 0",
             textAlign: "center",
             position: "fixed",
