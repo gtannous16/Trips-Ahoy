@@ -21,7 +21,9 @@ img {
 .App-header{
   padding-top:30px;
   background-color:rgba(163, 238, 214, 0.838);
-  margin:1050px;
+  margin-right: 550px;
+  margin-left:550px;
+  margin-top: 110px;
 }
 .questionCount{
   color:blue;

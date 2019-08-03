@@ -28,4 +28,4 @@
 // }
 
 
-export default cruisesPage;
+// export default cruisesPage;
