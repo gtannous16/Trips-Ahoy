@@ -1,17 +1,18 @@
+#apppage .view {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/81eG9m1DmAL._SL1500_.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
 
-  
-  #apppage .view {
-    background-image: url('https://www.setaswall.com/wp-content/uploads/2017/03/Golden-Beach-Wallpaper-2560x1600.jpg');
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-  }
-  
-  #apppage h6 {
-    line-height: 1.7;
-  }
+#apppage h6 {
+  line-height: 1.7;
+}
 
-  MDBContainer {
-    background-color: blue;
-  }
+.tripsAhoy {
+  height: 500px;
+  width: 500px;
+  margin-left: -7em;
+  margin-top: -7em;
+}
