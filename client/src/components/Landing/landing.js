@@ -1,13 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Redirect } from "react-router-dom";
-import {
-  MDBMask,
-  MDBRow,
-  MDBCol,
-  MDBBtn,
-  MDBView,
-  MDBContainer
-} from "mdbreact";
+import "./landing.css";
+const logo = require("./logo.png");
 
 class AppPage extends Component {
   state = {
@@ -35,10 +29,16 @@ class AppPage extends Component {
         <div
           style={{
             width: "100vw",
-            backgroundColor: "teal",
-            opacity: ".8",
-            padding: "2em 0",
-            textAlign: "center"
+            backgroundColor: "#89FFF8",
+            color: "#0a1485",
+            fontSize: "28px",
+            opacity: ".7",
+            padding: "1em 0",
+            textAlign: "center",
+            textIndent: "150px",
+            textShadow: "1px 1px #006699",
+            fontFamily: "Amatic SC, cursive",
+            fontWeight: "bold"
           }}
         >
           <h2>Welcome to Trips-Ahoy!</h2>
@@ -46,7 +46,7 @@ class AppPage extends Component {
             Want to book your next cruise, but not sure where to go? Take our
             personality quiz and see where your next adventure takes you! You'll
             recieve four location suggestions based on your quiz results, and
-            suggestions on things to do!! The fun is up to you! Click below to
+            suggestions on things to do. The fun is up to you! Click below to
             start!
           </p>
           <button
@@ -64,51 +64,31 @@ class AppPage extends Component {
             Start Quiz
           </button>
         </div>
-        <img
-          src={require("src/components/Pages/logo_transparent_background.png")}
-        />
-        <MDBView>
-          <MDBMask className="d-flex justify-content-center align-items-center gradient">
-            <MDBContainer>
-              <MDBRow>
-                <div className="white-text text-center text-md-left col-md-6 mt-xl-5 mb-5">
-                  <h1 className="h1-responsive font-weight-bold mt-sm-5">
-                    Welcome to Trips-Ahoy!{" "}
-                  </h1>
-                  <hr className="hr-light" />
-                  <h6 className="mb-4">
-                    Want to book your next cruise, but not sure where to go?
-                    Take our personality quiz and see where your next adventure
-                    takes you! You'll recieve four location suggestions based on
-                    your quiz results, and suggestions on things to do!! The fun
-                    is up to you! Click below to start!
-                  </h6>
-                  <MDBBtn color="yellow">Start My Adventure!</MDBBtn>
-                </div>
-                <MDBCol md="5" xl="5" className="mt-xl-5">
-                  <img
-                    src="http://photobucket.com/confirmation?token=%2BMC7CD8Y6NBCi9iKVguM4ltFWRxOviadBdPJECZ5PJ1zASX0fF7GqOb9%2FaFnfb4RrcRCtSH4C84dxX2jaOtd1auSN4bqhLjL"
-                    alt="logo"
-                    className="img-fluid"
-                  />
-                </MDBCol>
-              </MDBRow>
-            </MDBContainer>
-          </MDBMask>
-        </MDBView>
-
-        <MDBContainer>
-          <MDBRow className="py-5">
-            <MDBCol md="12" className="text-center">
-              <p>
-                Thank you for visiting Trips Ahoy!™ We are a team of female Full
-                Stack developers with a passion for travel. We hope that our app
-                will provide you with memories of a lifetime for you and your
-                loved ones!
-              </p>
-            </MDBCol>
-          </MDBRow>
-        </MDBContainer>
+        {/* <div style={{ marginBottom: "em" }} /> */}
+        <div style={{ marginLeft: "35em" }}>
+          <img class="tripsAhoy" src={logo} />
+        </div>
+        <div
+          style={{
+            width: "100vw",
+            backgroundColor: "#ffcf9e",
+            opacity: ".5",
+            padding: "0em 0",
+            textAlign: "center",
+            position: "fixed",
+            color: "teal",
+            bottom: "-10px",
+            fontFamily: "Amatic SC, cursive",
+            fontWeight: "bold"
+          }}
+        >
+          <p>
+            Thank you for visiting Trips Ahoy!™ We are a team of female Full
+            Stack developers with a passion for travel. We hope that our app
+            will provide you with memories of a lifetime for you and your loved
+            ones!
+          </p>
+        </div>
       </div>
     );
   }
