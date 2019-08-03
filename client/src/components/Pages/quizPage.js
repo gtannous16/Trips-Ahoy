@@ -16,9 +16,8 @@ class quizPage extends Component {
       answersCount: {},
       result: '',
       country: [],
-      listoftodos: [],
       currentcountry: [],
-      listofallcountries: {}
+      countryTodos: {}
     };
     this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
   }
@@ -26,6 +25,7 @@ class quizPage extends Component {
     const shuffledAnswerOptions = quizQuestions.map(question =>
       this.shuffleArray(question.answers)
     );
+    axios.get('http://localhost:5000/quiz/person/relaxing').then(response => console.log(response));
     this.setState({
       question: quizQuestions[0].question,
       answerOptions: shuffledAnswerOptions[0]
@@ -55,6 +55,9 @@ class quizPage extends Component {
       setTimeout(() => this.setResults(this.getResults()), 300);
     }
   }
+
+  
+  
   setUserAnswer(answer) {
     this.setState((state, props) => ({
       answersCount: {
@@ -82,51 +85,30 @@ class quizPage extends Component {
     const maxAnswerCount = Math.max.apply(null, answersCountValues);
     return answersCountKeys.filter(key => answersCount[key] === maxAnswerCount);
   }
+
   setResults = (result) => {
     if (result.length === 1) {
-      this.setState({ result: result[0] })
-      axios.get('/quiz/person/' + result[0])
+      const personality = result[0].toLowerCase();
+      const searchURL = `http://localhost:5000/quiz/person/${personality}`;
+      console.log(searchURL);
+
+      axios.get(searchURL)
         .then((response) => {
           // handle success
-          // console.log(response.data[0]);
-          const data = response.data[0];
-          for (let personality in data) {
-            console.log('Personality: ', personality);
-            // todo
-            // Don't include the _id field otherwise it will add a bunch of 0000
-            for (let i = 0; i < data[personality].length; i++) {
-
-              // for (let i = 0; i < response.data[0].length; i++) {
-                // var name = response.data[i].name
-                //response.data[i][name]
-                var country = data[personality][i];
-                console.log('result', country)
-                // for (let r = 0; r < result.length; r++) {
-                  //result[r]
-                  // var country = result[r]
-                  this.setState({ listofallcountries: country })
-                  console.log('country', country)
-                  for (let x in country) {
-                    console.log(x)
-                    this.setState({ country: [...this.state.country, x] })
-                    // for (let c = 0; c < country[x].length; c++) {
-
-                    //   var todo = country[x][c].todo
-                    //   var image = country[x][c].image
-                    //   console.log('image', image)
-                    //   console.log('todo', todo)
-                    //   // this.setState({
-
-                    //   //   listoftodos: [...this.state.listoftodos, { todo, image }],
-                    //   // })
-                    // }
-                  // }
-                }
-              // }
-
-
-            }
+          console.log(response.data);
+          const countryList = Object.keys(response.data[0].availableTodos[0]);
+          console.log('result ', countryList);
+          let todoList = {};
+          for (let i = 0; i < countryList.length; i++) {
+            const countryContext = countryList[i];
+            todoList[countryContext] = response.data[0].availableTodos[0][countryContext];
           }
+                  
+          this.setState({
+            result: result[0],
+            countryTodos: todoList,
+            country: countryList
+          });
         })
         .catch(function (error) {
           // handle error
@@ -152,7 +134,7 @@ class quizPage extends Component {
   }
   activateTodoList(countryButton) {
     console.log(countryButton);
-    var currentcountry = this.state.listofallcountries[countryButton]
+    var currentcountry = this.state.countryTodos[countryButton]
     this.setState({ currentcountry })
   }
   render() {
@@ -163,17 +145,17 @@ class quizPage extends Component {
           <h2>Trips-Ahoy!</h2>
           <h2>Figure out where to go based on your personality!</h2>
           {this.state.result ? this.renderResult() : this.renderQuiz()}
-          {this.state.country.length > 0 ? this.state.country.map((countryButton) => (
-            <div class="countrybuttons">
-              <button class="countryButton" onClick={() => this.activateTodoList(countryButton)}>{countryButton}</button>
+          {this.state.country.length > 0 ? this.state.country.map((countryButton, index) => (
+            <div className="countrybuttons" key={index}>
+              <button className="countryButton" onClick={() => this.activateTodoList(countryButton)}>{countryButton}</button>
+              <button>Go to Cruises</button>
             </div>
           )) : null}
-          {this.state.currentcountry.length > 0 ? this.state.currentcountry.map(({ todo, image }) => (
-            <div class="container result">
+          {this.state.currentcountry.length > 0 ? this.state.currentcountry.map(({ todo, image }, index) => (
+            <div className="container result" key={index}>
               <h1>Something To Do:</h1>
               <p>{todo}</p>
               <img src={image} />
-              <button>Go to Cruises</button>
             </div>
           )) : null}
         </div>

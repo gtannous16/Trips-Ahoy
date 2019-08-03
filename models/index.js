@@ -1,4 +1,4 @@
 module.exports = {
-    Cruise: require("./ships"),
-    Person: require("./personalities")
+    cruise: require("./cruise"),
+    personalities: require("./personalities")
 };

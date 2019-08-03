@@ -4,7 +4,7 @@ module.exports = {
     findByName: function(req, res) {
         const name = req.params.name;
         
-        DataBase.personalities.find({
+        DataBase.cruise.find({
             name,
         }).then(dbModel  =>  {
             console.log(`the dbmodel is ${dbModel}`)
