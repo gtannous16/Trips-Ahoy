@@ -12,8 +12,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/quiz" component={Quiz} />
-          <Route exact path="/cruise" component={Cruise} />
-          <Route exact path="/analytics" component={Analytics} />
+          <Route path="/quiz/cruise/:personality/:countryButton" component={Cruise} />
         </Switch>
       </div>
     </Router>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import quizQuestions from '../Quiz/quizQuestions';
 import Quiz from '../Quiz/Quiz';
 import Result from '../Quiz/Result';
@@ -148,7 +149,7 @@ class quizPage extends Component {
           {this.state.country.length > 0 ? this.state.country.map((countryButton, index) => (
             <div className="countrybuttons" key={index}>
               <button className="countryButton" onClick={() => this.activateTodoList(countryButton)}>{countryButton}</button>
-              <button>Go to Cruises</button>
+              <Link to={`/quiz/cruise/${this.state.result}/${countryButton}`} >Go To Cruise!</Link>
             </div>
           )) : null}
           {this.state.currentcountry.length > 0 ? this.state.currentcountry.map(({ todo, image }, index) => (

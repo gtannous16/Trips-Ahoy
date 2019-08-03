@@ -14,6 +14,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 app.use(routes);
+
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/tripsdb"; 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true }, function(err) {
     if(err) {
