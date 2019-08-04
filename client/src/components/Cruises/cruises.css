@@ -1,4 +1,14 @@
 .cruisesPage{
     background-color: #F6F2A5;
     opacity: .8;
+    
+}
+
+h2{
+    justify-content: left !important; 
+}
+
+h1{
+    font-family: "Amatic SC", cursive;
+    font-size: 55px;
 }

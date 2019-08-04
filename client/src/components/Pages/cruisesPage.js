@@ -72,17 +72,24 @@ class Cruise extends React.Component {
         {results.map((result, index) => (
           <div className='cruisesPage' key={`${result.cruiseLine}-${index}`}>
             <h1>{result.country}</h1>
-            <h2>{result.cruiseLine}</h2>
-            <a href={result.link}
-               target="_blank"> Click to Book this Cruise Now!
-            </a>
+            <h2>{result.cruiseLine} Cruise Line</h2>
+
             <p>Leaving: {result.leaving} on {result.date}</p>
             <p>
-              We will be visiting
+              We will be visiting:
             </p>
             <ul>
               {result.visiting.map((place, index) => <li key={`${place}-${index}`}>{place}</li>)}
-            </ul>
+            </ul>            
+            <p>
+              Pricing for Cruise:
+            </p>
+            <ul>
+              {result.pricing.map((pricing, index) => <li key={`${pricing}-${index}`}>{pricing}</li>)}
+            </ul>            
+            <a href={result.link}
+               target="_blank"> Click to Book this Cruise Now!
+            </a>
           </div>
         ))}
         </div>
