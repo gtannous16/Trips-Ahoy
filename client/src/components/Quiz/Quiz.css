@@ -17,9 +17,6 @@ body {
 
 .App-header {
   padding-top: 0px;
-  /* background-color: rgba(163, 238, 214, 0.838); */
-  margin-right: 350px;
-  margin-left: 350px;
   margin-top: 110px;
   font-weight: bold;
 }
@@ -43,7 +40,9 @@ h2 {
 h1 {
   color: blue;
 }
-
+.personalityType{
+  color: blue;
+}
 .countryButton {
   margin: 20px;
   align-self: center;
@@ -80,6 +79,7 @@ body {
   border-radius: 3px;
 }
 
+/*
 @media (min-width: 769px) {
   .container {
     position: relative;
@@ -91,7 +91,9 @@ body {
   .container.result {
     color: blue;
   }
-
+  .App-header{
+    margin: 0;
+  }
   @media (min-width: 769px) {
     .container {
       margin: 2.5rem auto;
@@ -174,9 +176,7 @@ body {
     border-color: #8bc53f;
   }
 
-  /ation */ .fade-enter {
-    opacity: 0;
-  }
+
 
   .fade-enter.fade-enter-active {
     opacity: 1;
@@ -199,7 +199,8 @@ body {
   .fade-appear {
     opacity: 0;
   }
-}
+
+
 
 /* Result Component */
 .result {
