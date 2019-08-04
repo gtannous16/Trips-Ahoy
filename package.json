@@ -15,8 +15,9 @@
     "seedgoose": "^1.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node server.js",
+    "prebuild": "cd client && npm install",
+    "build": "cd client && npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "client": "cd client && npm start",

@@ -26,12 +26,13 @@ class quizPage extends Component {
     const shuffledAnswerOptions = quizQuestions.map(question =>
       this.shuffleArray(question.answers)
     );
-    axios.get('http://localhost:5000/quiz/person/relaxing').then(response => console.log(response));
+
     this.setState({
       question: quizQuestions[0].question,
       answerOptions: shuffledAnswerOptions[0]
     });
   }
+
   shuffleArray(array) {
     var currentIndex = array.length,
       temporaryValue,
@@ -48,6 +49,7 @@ class quizPage extends Component {
     }
     return array;
   }
+
   handleAnswerSelected(event) {
     this.setUserAnswer(event.currentTarget.value);
     if (this.state.questionId < quizQuestions.length) {
@@ -56,8 +58,6 @@ class quizPage extends Component {
       setTimeout(() => this.setResults(this.getResults()), 300);
     }
   }
-
-  
   
   setUserAnswer(answer) {
     this.setState((state, props) => ({
@@ -68,6 +68,7 @@ class quizPage extends Component {
       answer: answer
     }));
   }
+
   setNextQuestion() {
     const counter = this.state.counter + 1;
     const questionId = this.state.questionId + 1;
@@ -79,21 +80,25 @@ class quizPage extends Component {
       answer: ''
     });
   }
+
   getResults() {
     const answersCount = this.state.answersCount;
     const answersCountKeys = Object.keys(answersCount);
     const answersCountValues = answersCountKeys.map(key => answersCount[key]);
     const maxAnswerCount = Math.max.apply(null, answersCountValues);
-    return answersCountKeys.filter(key => answersCount[key] === maxAnswerCount);
+    const result = answersCountKeys.filter(key => answersCount[key] === maxAnswerCount);
+    console.log('the result from getResults is ', result )
+    return result;
   }
 
   setResults = (result) => {
     if (result.length === 1) {
       const personality = result[0].toLowerCase();
-      const searchURL = `http://localhost:5000/quiz/person/${personality}`;
-      console.log(searchURL);
+      const baseUrl = `/quiz/person/${personality}`;
+      
+      const url = process.env.NODE_ENV === 'production' ? baseUrl : `http://localhost:5000${baseUrl}`
 
-      axios.get(searchURL)
+      axios.get(url)
         .then((response) => {
           // handle success
           console.log(response.data);
@@ -146,17 +151,18 @@ class quizPage extends Component {
           <h2>Trips-Ahoy!</h2>
           <h2>Figure out where to go based on your personality!</h2>
           {this.state.result ? this.renderResult() : this.renderQuiz()}
+          <Link to={`/quiz/cruise/${this.state.result}`} >Go To Cruise!</Link>
           {this.state.country.length > 0 ? this.state.country.map((countryButton, index) => (
             <div className="countrybuttons" key={index}>
               <button className="countryButton" onClick={() => this.activateTodoList(countryButton)}>{countryButton}</button>
-              <Link to={`/quiz/cruise/${this.state.result}/${countryButton}`} >Go To Cruise!</Link>
+             
             </div>
           )) : null}
           {this.state.currentcountry.length > 0 ? this.state.currentcountry.map(({ todo, image }, index) => (
             <div className="container result" key={index}>
               <h1>Something To Do:</h1>
               <p>{todo}</p>
-              <img src={image} />
+              <img alt="activity to do" src={image} />
             </div>
           )) : null}
         </div>
