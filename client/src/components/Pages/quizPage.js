@@ -151,7 +151,7 @@ class quizPage extends Component {
           <h2>Trips-Ahoy!</h2>
           <h2>Figure out where to go based on your personality!</h2>
           {this.state.result ? this.renderResult() : this.renderQuiz()}
-          
+          {this.state.result ? (<Link to={`/quiz/cruise/${this.state.result}`} >Go To All Cruises for your Personality Type!</Link>) : ""}
           {this.state.country.length > 0 ? this.state.country.map((countryButton, index) => (
             <div className="countrybuttons" key={index}>
               <button className="countryButton" onClick={() => this.activateTodoList(countryButton)}>{countryButton}</button>
@@ -159,7 +159,7 @@ class quizPage extends Component {
             </div>
           )) : null}
 
-          {this.state.result ? (<Link to={`/quiz/cruise/${this.state.result}`} >Go To Cruise!</Link>) : ""}
+         
 
           {this.state.currentcountry.length > 0 ? this.state.currentcountry.map(({ todo, image }, index) => (
             <div className="container result" key={index}>
