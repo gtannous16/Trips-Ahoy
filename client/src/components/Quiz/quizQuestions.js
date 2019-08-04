@@ -725,6 +725,39 @@ var quizQuestions = [
             }
         ]
     },
+    {
+        question: "Which of these superpowers sound most appealing?",
+        answers: [
+            {
+                type: "Independent",
+                content: "Being able to control the weather"
+            },
+            {
+                type: "Touristic",
+                content: "Being able to Fly"
+            },
+            {
+                type: "Outdoors",
+                content: "Being able to control nature"
+            },
+            {
+                type: "Historical",
+                content: "Being able to travel through time"
+            },
+            {
+                type: "Social",
+                content: "Having fire power"
+            },
+            {
+                type: "Relaxing",
+                content: "Moving things with your mind"
+            },
+            {
+                type: "Foodie",
+                content: "Being able to read minds"
+            }
+        ]
+    }
   ];
   
   export default quizQuestions;
