@@ -73,6 +73,9 @@ class Cruise extends React.Component {
           <div className='cruisesPage' key={`${result.cruiseLine}-${index}`}>
             <h1>{result.country}</h1>
             <h2>{result.cruiseLine}</h2>
+            <a href={result.link}
+               target="_blank"> Click to Book this Cruise Now!
+            </a>
             <p>Leaving: {result.leaving} on {result.date}</p>
             <p>
               We will be visiting
