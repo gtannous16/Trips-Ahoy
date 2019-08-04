@@ -2,13 +2,9 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const cruiseSchema = new Schema({
-    Independent: String, 
-    Touristic: String,
-    Outdoors: String,
-    Historical: String,
-    Social: String, 
-    Relaxing: String,
-    Foodie: String,
+    name: String,
+    availableCruises: Array
+  
 });
 
 const Cruise = mongoose.model("Cruise", cruiseSchema);

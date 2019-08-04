@@ -1,0 +1,199 @@
+[
+    {
+       "Social": [
+          {
+             "Greece": [
+                {
+                   "Norwegian": [
+                      {
+                         "leaving": "Venice, Italy",
+                         "visiting": [
+                            "Venice, Italy",
+                            "Kotor, Montenegro",
+                            "Corfu, Greece",
+                            "Santorini, Greece",
+                            "Mykonons, Greece",
+                            "Argostoli, Kefalonia, Greece",
+                            "Dubrovnik, Croatia",
+                            "Venice, Italy"
+                         ],
+                         "pricing": [
+                            "Inside: $1,349",
+                            "Oceanview: $1,499",
+                            "Balcony: $2,099",
+                            "Mini-Suite: $2,949",
+                            "Suite: SOLD OUT"
+                         ],
+                         "date": "Sunday 9/8/19 to Sunday 9/15/19"
+                      }
+                   ],
+                   "Caribbean": [
+                      {
+                         "leaving": "Venice, Italy",
+                         "visiting": [
+                            "Venice, Italy",
+                            "Venice, Italy",
+                            "Kotor, Montenegro",
+                            "Corfu, Greece",
+                            "Athens (Piraeus), Greece",
+                            "Mykonos, Greece",
+                            "Argostoli, Greece",
+                            "Venice, Italy"
+                         ],
+                         "pricing": [
+                            "Interior: $720",
+                            "Outside: $870",
+                            "Balcony: $1,290",
+                            "Suites: $1,914"
+                         ],
+                         "date": "Saturday 8/8/2020 to Saturday 8/15/2020"
+                      }
+                   ]
+                }
+             ],
+             "Netherlands": [
+                {
+                   "Norwegian": [
+                      {
+                         "leaving": "London (Southampton), England",
+                         "visiting": [
+                            "London (Southampton), England",
+                            "Paris (Le Havre), France",
+                            "Brussels/Bruges (Zeebrugge), Belgium",
+                            "Amsterdam, Netherlands",
+                            "Berlin (Warnemünde), Germany",
+                            "Tallinn, Estonia",
+                            "St. Petersburg, Russia",
+                            "Helsinki, Finland",
+                            "Stockholm (Nynashamn), Sweden",
+                            "Copenhagen, Denmark"
+                         ],
+                         "pricing": [
+                            "Inside: $1,699",
+                            "Oceanview: $2,079",
+                            "Balcony: $2,329",
+                            "Spa: $3,199",
+                            "Mini-Suite: $2,579",
+                            "The Haven: $7,499"
+                         ],
+                         "date": "Friday 5/15/2020 to Friday 5/29/2020"
+                      }
+                   ],
+                   "Caribbean": [
+                      {
+                         "leaving": "Amsterdam, Netherlands",
+                         "visiting": [
+                            "Amsterdam, Netherlands",
+                            "Dover, England",
+                            "Belfast, Northern Ireland",
+                            "Glasgow (Greenock), Scotland",
+                            "Holyhead, Wales",
+                            "Cork (Cobh), Ireland",
+                            "Paris/Normandy (Le Havre), France",
+                            "Amsterdam, Netherlands"
+                         ],
+                         "pricing": [
+                            "Interior: $1,554",
+                            "Outsideview: $1,844",
+                            "Balcony: $2,893",
+                            "Suites: $4,297"
+                         ],
+                         "date": "Friday 6/12/2020 to Monday 6/22/2020"
+                      }
+                   ]
+                }
+             ],
+             "Spain": [
+                {
+                   "Norwegian": [
+                      {
+                         "leaving": "Miami, Florida",
+                         "visiting": [
+                            "Miami, Florida",
+                            "Ponta Delgado, Azores",
+                            "Lisbon, Portugal",
+                            "Seville (Cádiz), Spain",
+                            "Granada (Malaga), Spain",
+                            "Cartagena, Spain",
+                            "Palma, Majorca, Spain",
+                            "Barcelona, Spain"
+                         ],
+                         "pricing": [
+                            "Inside: $829",
+                            "Balcony: $1,379",
+                            "Mini-Suite: $1,679",
+                            "Suite: $4,849"
+                         ],
+                         "date": "Saturday 4/18/2020 to Sunday 5/3/2020"
+                      }
+                   ],
+                   "Caribbean": [
+                      {
+                         "leaving": "Southampton, England",
+                         "visiting": [
+                            "Southampton, England",
+                            "Lisbon, Portugal",
+                            "Vigo, Spain",
+                            "La Coruna, Spain",
+                            "Bilbao, Spain",
+                            "Southampton, England"
+                         ],
+                         "pricing": [
+                            "Interior: $1,271",
+                            "Outsideview: $1,368",
+                            "Balcony: $1,614",
+                            "Suites: $2,144"
+                         ],
+                         "date": "Friday 5/15/2020 to Saturday 5/23/2020"
+                      }
+                   ]
+                }
+             ],
+             "California": [
+                {
+                   "Norwegian": [
+                      {
+                         "leaving": "Vancouver, British Columbia",
+                         "visiting": [
+                            "Vancouver, British Columbia",
+                            "Victoria, British Columbia",
+                            "Seattle, Wshington",
+                            "San Francisco, California",
+                            "Los Angeles, California"
+                         ],
+                         "pricing": [
+                            "Inside: $549",
+                            "Oceanview: $629",
+                            "Balcony: $779",
+                            "Spa: $1,199",
+                            "Mini-Suite: $829",
+                            "Suite: $2,599"
+                         ],
+                         "date": "Monday 10/12/2020 to Sunday 10/18/2020"
+                      }
+                   ],
+                   "Caribbean": [
+                      {
+                         "leaving": "San Diago, California",
+                         "visiting": [
+                            "San Diago, California",
+                            "San Francisco, California",
+                            "Astoria, Oregon",
+                            "Seattle, Washington",
+                            "Vancouver, British Columbia"
+                         ],
+                         "pricing": [
+                            "Interior: $874",
+                            "Outsideview: $930",
+                            "Balcony: $1,412",
+                            "Suites: SOLD OUT"
+                         ],
+                         "date": "Tuesday 5/19/2020 to Monday 5/25/2020"
+                      }
+                   ]
+                }
+             ]
+          }
+       ]
+    }
+ ]

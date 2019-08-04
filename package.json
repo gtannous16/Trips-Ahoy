@@ -11,13 +11,17 @@
     "react-dom": "^16.5.2",
     "react-router-dom": "^5.0.1",
     "react-scripts": "2.0.4",
-    "react-transition-group": "^1.2.1"
+    "react-transition-group": "^1.2.1",
+    "seedgoose": "^1.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node server.js",
+    "prebuild": "cd client && npm install",
+    "build": "cd client && npm run build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "client": "cd client && npm start",
+    "dev": "concurrently 'nodemon server.js --ignore client' 'npm run client'"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,5 +38,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "nodemon": "^1.19.1"
   }
 }

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 function AnswerOption(props) {
   const outputOption = option => {
     if ( option.includes('://') ) {
-      return <img src={option} />
+      return <img alt="view of option" src={option} />
     }
 
     return option;
