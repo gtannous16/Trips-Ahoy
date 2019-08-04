@@ -22,7 +22,7 @@ function Quiz(props) {
 
   return (
     <CSSTransitionGroup
-      style={{ backgroundColor: "beige", opacity: ".8" }}
+      style={{ backgroundColor: "SeaShell", opacity: ".8" }}
       className="container"
       component="div"
       transitionName="fade"
@@ -35,7 +35,7 @@ function Quiz(props) {
         style={{
           backgroundColor: "#F6F2A5",
           opacity: ".8",
-          color: "red"
+          color: "blue"
         }}
         key={props.questionId}
       >
