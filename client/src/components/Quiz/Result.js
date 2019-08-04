@@ -13,7 +13,7 @@ function Result(props) {
       transitionAppear
       transitionAppearTimeout={500}
     >
-      <div>
+      <div className="personalityType">
         Your personality type is <strong>{props.quizResult}</strong>!
       </div>
     </CSSTransitionGroup>

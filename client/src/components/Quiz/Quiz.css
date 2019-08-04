@@ -40,7 +40,9 @@ h2 {
 h1 {
   color: blue;
 }
-
+.personalityType{
+  color: blue;
+}
 .countryButton {
   margin: 20px;
   align-self: center;
