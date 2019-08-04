@@ -67,7 +67,9 @@ class Cruise extends React.Component {
     }
     
     return (
-      <div>
+      <div className="SetSail">
+          <h2>Trips-Ahoy!</h2>
+          <h2>Let's Set Sail!</h2>
         <div>
         {results.map((result, index) => (
           <div className='cruisesPage' key={`${result.cruiseLine}-${index}`}>
