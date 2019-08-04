@@ -150,6 +150,7 @@ class quizPage extends Component {
         <div className="App-header">
           <h2>Trips-Ahoy!</h2>
           <h2>Figure out where to go based on your personality!</h2>
+        </div>
           {this.state.result ? this.renderResult() : this.renderQuiz()}
           {this.state.result ? (<Link to={`/quiz/cruise/${this.state.result}`} >Go To All Cruises for your Personality Type!</Link>) : ""}
           {this.state.country.length > 0 ? this.state.country.map((countryButton, index) => (
@@ -169,7 +170,7 @@ class quizPage extends Component {
             </div>
           )) : null}
         </div>
-      </div>
+    
     );
   }
 }
