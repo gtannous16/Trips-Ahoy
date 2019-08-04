@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const cruisedb = require('../models/ships')
+const cruisedb = require('../models/cruise')
 
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/tripsdb";
 

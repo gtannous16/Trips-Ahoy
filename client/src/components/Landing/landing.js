@@ -35,7 +35,8 @@ class AppPage extends Component {
             opacity: ".7",
             padding: "1em 0",
             textAlign: "center",
-            textIndent: "90px",
+            paddingRight: "25px",
+            paddingLeft: "25px",
             textShadow: "2px 2px #39ff14",
             fontFamily: "Amatic SC, cursive",
             fontWeight: "bold"
