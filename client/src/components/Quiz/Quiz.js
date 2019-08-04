@@ -34,7 +34,7 @@ function Quiz(props) {
         style={{
           backgroundColor: "#F6F2A5",
           opacity: ".8",
-          color: "teal"
+          color: "red"
         }}
         key={props.questionId}
       >
