@@ -69,7 +69,7 @@ class AppPage extends Component {
         </div>
         {/* <div style={{ marginBottom: "em" }} /> */}
         <div style={{ marginLeft: "35em" }}>
-          <img alt="brand logo" class="tripsAhoy" src={logo} />
+          <img alt="brand logo" id="logo" src={logo} />
         </div>
         <div
           style={{
