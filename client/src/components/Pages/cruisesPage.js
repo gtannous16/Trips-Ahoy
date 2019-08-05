@@ -86,6 +86,7 @@ class Cruise extends React.Component {
             <p>
               Pricing for Cruise:
             </p>
+          
             {/* <ul>
               {result.pricing.map((pricing, index) => <li key={`${pricing}-${index}`}>{pricing}</li>)}
             </ul>             */}
