@@ -107,7 +107,7 @@ var quizQuestions = [
             },
             {
                 type: "Touristic",
-                content: "https://walter.trakt.tv/images/shows/000/029/047/posters/thumb/6105b37b5f.jpg.webp"
+                content: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDymnuMAThrMxV--flNzxsTUiTBhX2ite-AdZS2-G1qLbLRy3-"
             },
             {
                 type: "Outdoors",
