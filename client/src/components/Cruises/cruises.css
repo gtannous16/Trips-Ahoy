@@ -22,3 +22,9 @@ h1 {
   box-shadow: rgb(57, 255, 20) 2px 2px;
   text-decoration: chartreuse;
 }
+.personalityType {
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  text-shadow: rgb(57, 255, 20) 2px 2px;
+  font-size: 5em;
+}
