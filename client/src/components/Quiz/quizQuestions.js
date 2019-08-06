@@ -115,7 +115,7 @@ var quizQuestions = [
             },
             {
                 type: "Historical",
-                content: "http://www.gstatic.com/tv/thumb/tvbanners/8030976/p8030976_b_v8_aa.jpg"
+                content: "http://static.tvtropes.org/pmwiki/pub/images/e3f84935-0e9e-441e-905a-01a4c12706aa_zpsec6a8025_2289.jpg"
             },
             {
                 type: "Social",
@@ -342,7 +342,7 @@ var quizQuestions = [
             },
             {
                 type: "Outdoors",
-                content: "Camping"
+                content: "Playing a Sport"
             },
             {
                 type: "Historical",
@@ -655,7 +655,7 @@ var quizQuestions = [
             },
             {
                 type: "Foodie",
-                content: "Treat Yourelf to an Expensive Meal"
+                content: "Treat Yourself to an Expensive Meal"
             }
         ]
     },

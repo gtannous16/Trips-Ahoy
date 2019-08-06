@@ -86,13 +86,15 @@ class quizPage extends Component {
     const answersCountKeys = Object.keys(answersCount);
     const answersCountValues = answersCountKeys.map(key => answersCount[key]);
     const maxAnswerCount = Math.max.apply(null, answersCountValues);
-    const result = answersCountKeys.filter(key => answersCount[key] === maxAnswerCount);
+    let result = answersCountKeys.filter(key => answersCount[key] === maxAnswerCount);
     console.log('the result from getResults is ', result )
+    result = result.length > 1 ? [result[Math.floor(Math.random() * result.length)]] : result;
+
     return result;
-  }
+  } 
 
   setResults = (result) => {
-    if (result.length === 1) {
+    if (result.length) {
       const personality = result[0].toLowerCase();
       const baseUrl = `/quiz/person/${personality}`;
       
