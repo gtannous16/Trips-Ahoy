@@ -47,10 +47,11 @@ h1 {
   font-size: 5em;
 }
 
-a {
+.containerresult {
   font-size: 2em;
   font-weight: bold;
   text-shadow: rgb(57, 255, 20) 2px 2px;
   font-family: "Amatic SC", cursive;
-  align-self: auto;
+  margin-left: auto;
+  margin-right: auto;
 }

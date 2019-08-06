@@ -16,6 +16,13 @@
   text-decoration-color: chartreuse;
 }
 
+.footer {
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  text-shadow: rgb(57, 255, 20) 2px 2px;
+  font-size: 20px;
+}
+
 #logo {
   max-width: 700px !important;
   max-height: 700px !important;
