@@ -3,8 +3,25 @@
   opacity: 0.8;
 }
 
+h1 {
+  float: left !important;
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  text-shadow: rgb(57, 255, 20) 2px 2px;
+}
+
+p {
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  text-shadow: rgb(57, 255, 20) 2px 2px;
+  font-size: 40px;
+}
+
 h2 {
   justify-content: left !important;
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  text-shadow: rgb(57, 255, 20) 2px 2px;
 }
 
 h1 {
@@ -21,10 +38,19 @@ h1 {
   text-shadow: rgb(57, 255, 20) 2px 2px;
   box-shadow: rgb(57, 255, 20) 2px 2px;
   text-decoration: chartreuse;
+  float: right;
 }
 .personalityType {
   font-family: "Amatic SC", cursive;
   font-weight: bold;
   text-shadow: rgb(57, 255, 20) 2px 2px;
   font-size: 5em;
+}
+
+a {
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: rgb(57, 255, 20) 2px 2px;
+  font-family: "Amatic SC", cursive;
+  align-self: auto;
 }
