@@ -1,14 +1,24 @@
-.cruisesPage{
-    background-color: #F6F2A5;
-    opacity: .8;
-    
+.cruisesPage {
+  background-color: #f6f2a5;
+  opacity: 0.8;
 }
 
-h2{
-    justify-content: left !important; 
+h2 {
+  justify-content: left !important;
 }
 
-h1{
-    font-family: "Amatic SC", cursive;
-    font-size: 55px;
+h1 {
+  font-family: "Amatic SC", cursive;
+  font-size: 55px;
+}
+
+.countryButton {
+  background-color: rgb(137, 255, 248);
+  opacity: 0.8;
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  color: blue;
+  text-shadow: rgb(57, 255, 20) 2px 2px;
+  box-shadow: rgb(57, 255, 20) 2px 2px;
+  text-decoration: chartreuse;
 }
