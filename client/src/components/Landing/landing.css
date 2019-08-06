@@ -24,11 +24,10 @@
 }
 
 #logo {
-  max-width: 700px !important;
-  max-height: 700px !important;
-
-  /* margin-left: -26em;
-  margin-top: -18em; */
+  /* max-width: 700px !important;
+  max-height: 700px !important; */
+  max-width: 100% !important;
+  max-height: 100% !important;
 }
 /* .tripsAhoy {
   height: 1000px !important;
