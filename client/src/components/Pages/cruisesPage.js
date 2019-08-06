@@ -87,9 +87,9 @@ class Cruise extends React.Component {
               Pricing for Cruise:
             </p>
           
-            {/* <ul>
-              {result.pricing.map((pricing, index) => <li key={`${pricing}-${index}`}>{pricing}</li>)}
-            </ul>             */}
+            <ul>
+              {result.pricing && Array.isArray(result.pricing) && result.pricing.map((pricing, index) => <li key={`${pricing}-${index}`}>{pricing}</li>)}
+            </ul>            
             <a href={result.link}
                target="_blank"
                rel="noopener noreferrer"> Click to Book this Cruise Now!
