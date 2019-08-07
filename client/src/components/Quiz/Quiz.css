@@ -106,7 +106,10 @@ body {
   padding:20px !important;
 }
 .countryButtonsDiv {
-  width: 70% !important;
+  width: 80% !important;
+}
+.countryButton {
+  width: 65%;
 }
 }
 /*
