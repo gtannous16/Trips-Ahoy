@@ -31,6 +31,7 @@ p {
 }
 ul {
   list-style: none;
+  padding-inline-start: 8px !important;
 }
 li {
   font-family: "Amatic SC", cursive;
