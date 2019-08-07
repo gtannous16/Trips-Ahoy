@@ -176,6 +176,7 @@ class quizPage extends Component {
         ) : (
           ""
         )}
+        <div className="countryButtonsDiv">
         {this.state.country.length > 0
           ? this.state.country.map((countryButton, index) => (
               <div className="countrybuttons" key={index}>
@@ -185,6 +186,7 @@ class quizPage extends Component {
                 >
                   {countryButton}
                 </button>
+                
               </div>
             ))
           : null}
@@ -198,6 +200,7 @@ class quizPage extends Component {
               </div>
             ))
           : null}
+          </div>
       </div>
     );
   }
