@@ -91,7 +91,7 @@ class AppPage extends Component {
             Thank you for visiting Trips Ahoy!™ We are a team of female Full
             Stack developers with a passion for travel. We hope that our app
             will provide you with memories of a lifetime for you and your loved
-            ones!
+            ones! <a className="github" href="https://github.com/gtannous16/Trips-Ahoy" target="_blank"> Click Here for Github Code!</a>
           </p>
         </div>
       </div>
