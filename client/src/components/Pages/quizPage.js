@@ -89,11 +89,13 @@ class quizPage extends Component {
     let result = answersCountKeys.filter(
       key => answersCount[key] === maxAnswerCount
     );
-    console.log("the result from getResults is ", result);
+    
     result =
       result.length > 1
         ? [result[Math.floor(Math.random() * result.length)]]
         : result;
+        
+        console.log("the result from getResults is ", result);
 
     return result;
   }
