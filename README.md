@@ -1,7 +1,7 @@
 # Trips-Ahoy!
 
 Live Link: https://trips-ahoy.herokuapp.com/
-
+<img src="./Images/logo.png" alt="Trips-Ahoy! logo"/>
 This is an application that can help you chose you travels based on you personalities! 
 
 TEAM MEMBERS:
