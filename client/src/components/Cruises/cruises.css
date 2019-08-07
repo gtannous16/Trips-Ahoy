@@ -1,15 +1,26 @@
 .cruisesPage {
   background-color: #f6f2a5;
   opacity: 0.8;
-  padding: 8em;
+  padding: 2em;
   text-align: center;
+  max-width: 80vw;
+}
+.cruisesPage p {
+  max-width: 600px;
+}
+.flexCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-h1 {
+.countryCenter {
   float: left !important;
   font-family: "Amatic SC", cursive;
   font-weight: bold;
   text-shadow: rgb(57, 255, 20) 2px 2px;
+  width: 100%;
+  margin-top: 0;
 }
 
 p {
@@ -18,7 +29,9 @@ p {
   text-shadow: rgb(57, 255, 20) 2px 2px;
   font-size: 40px;
 }
-
+ul {
+  list-style: none;
+}
 li {
   font-family: "Amatic SC", cursive;
   font-weight: bold;

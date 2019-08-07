@@ -165,7 +165,10 @@ class quizPage extends Component {
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
         {this.state.result ? (
-          <Link to={`/quiz/cruise/${this.state.result}`}>
+          <Link
+            style={{ display: "block", width: "100vw", textAlign: "center" }}
+            to={`/quiz/cruise/${this.state.result}`}
+          >
             Go To All Cruises for your Personality Type!
           </Link>
         ) : (
