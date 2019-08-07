@@ -1,13 +1,17 @@
 # Trips-Ahoy!
 
 Live Link: https://trips-ahoy.herokuapp.com/
-
+<img src="./Images/logo.png" alt="Trips-Ahoy! logo"/>
 This is an application that can help you chose you travels based on you personalities! 
 
 TEAM MEMBERS:
-* Gabriella- Project Manager, Connections, and in-between code.
-* Margarita- Front-End React and UI/UX.
-* Anastasia- Back-End, API, and Connections.
+* Anastasia Upreti: https://github.com/aupreti1 -
+   Back-End, API, and Connections.
+* Margarita Munoz: https://github.com/mmg489 -
+   Front-End React and UI/UX.
+* Gabriella Tannous: https://github.com/gtannous16 -
+   Project Manager, Connections, and Quiz Functionality.
+
 
 TOOLS USED:
 * React
