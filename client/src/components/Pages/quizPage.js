@@ -196,7 +196,7 @@ class quizPage extends Component {
               <div className="container result" key={index}>
                 <h1>Something To Do:</h1>
                 <p>{todo}</p>
-                <img alt="activity to do" src={image} />
+                <img className="activityImage" alt="activity to do" src={image} />
               </div>
             ))
           : null}
