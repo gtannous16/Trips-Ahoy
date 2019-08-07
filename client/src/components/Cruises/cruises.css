@@ -13,7 +13,11 @@
   flex-direction: column;
   align-items: center;
 }
-
+.countryButtonsDiv {
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+}
 .countryCenter {
   float: left !important;
   font-family: "Amatic SC", cursive;
