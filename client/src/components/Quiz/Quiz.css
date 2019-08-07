@@ -20,6 +20,17 @@ body {
   margin-top: 110px;
   font-weight: bold;
 }
+
+a {
+  color: blue;
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  text-shadow: #8bc53f;
+  font-size: 40px;
+  text-align: center;
+  float: center;
+}
+
 img {
   max-height: 300px;
   max-width: 300px;
