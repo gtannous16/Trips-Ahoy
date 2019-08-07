@@ -1,5 +1,7 @@
 # Trips-Ahoy!
 
+Live Link: https://trips-ahoy.herokuapp.com/
+
 This is an application that can help you chose you travels based on you personalities! 
 
 TEAM MEMBERS:
