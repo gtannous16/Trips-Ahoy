@@ -6,7 +6,7 @@ This is an application that can help you chose you travels based on you personal
 
 TEAM MEMBERS:
 * Gabriella Tannous: https://github.com/gtannous16 -
-   Project Manager, Connections, and in-between code.
+   Project Manager, Connections, and Quiz Functionality.
 * Margarita Munoz: https://github.com/mmg489 -
    Front-End React and UI/UX.
 * Anastasia Upreti: https://github.com/aupreti1 -
