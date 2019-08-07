@@ -68,10 +68,12 @@ class AppPage extends Component {
           </button>
         </div>
         {/* <div style={{ marginBottom: "em" }} /> */}
-        <div style={{ marginLeft: "35em" }}>
-          <img alt="brand logo" class="tripsAhoy" src={logo} />
+
+        <div style={{ margin: "0" }}>
+          <img alt="brand logo" id="logo" src={logo} />
         </div>
         <div
+          id="footer"
           style={{
             width: "100vw",
             backgroundColor: "#ffcf9e",
@@ -85,7 +87,7 @@ class AppPage extends Component {
             fontWeight: "bold"
           }}
         >
-          <p>
+          <p className="footer">
             Thank you for visiting Trips Ahoy!™ We are a team of female Full
             Stack developers with a passion for travel. We hope that our app
             will provide you with memories of a lifetime for you and your loved

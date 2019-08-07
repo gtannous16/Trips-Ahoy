@@ -1,14 +1,81 @@
-.cruisesPage{
-    background-color: #F6F2A5;
-    opacity: .8;
-    
+.cruisesPage {
+  background-color: #f6f2a5;
+  opacity: 0.8;
+  padding: 2em;
+  text-align: center;
+  max-width: 80vw;
+}
+.cruisesPage p {
+  max-width: 600px;
+}
+.flexCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-h2{
-    justify-content: left !important; 
+.countryCenter {
+  float: left !important;
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  text-shadow: rgb(57, 255, 20) 2px 2px;
+  width: 100%;
+  margin-top: 0;
 }
 
-h1{
-    font-family: "Amatic SC", cursive;
-    font-size: 55px;
+p {
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  text-shadow: rgb(57, 255, 20) 2px 2px;
+  font-size: 40px;
+}
+ul {
+  list-style: none;
+}
+li {
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  text-shadow: rgb(57, 255, 20) 2px 2px;
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+  justify-content: left !important;
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  text-shadow: rgb(57, 255, 20) 2px 2px;
+  font-size: 2em;
+}
+
+h1 {
+  font-family: "Amatic SC", cursive;
+  font-size: 55px;
+}
+
+.countryButton {
+  background-color: rgb(137, 255, 248);
+  opacity: 0.8;
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  color: blue;
+  text-shadow: rgb(57, 255, 20) 2px 2px;
+  box-shadow: rgb(57, 255, 20) 2px 2px;
+  text-decoration: chartreuse;
+  float: right;
+}
+.personalityType {
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  text-shadow: rgb(57, 255, 20) 2px 2px;
+  font-size: 5em;
+}
+
+.containerresult {
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: rgb(57, 255, 20) 2px 2px;
+  font-family: "Amatic SC", cursive;
+  margin-left: auto;
+  margin-right: auto;
 }

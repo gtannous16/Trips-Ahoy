@@ -10,9 +10,29 @@
   line-height: 1.7;
 }
 
-img.tripsAhoy {
-  height: 500px;
-  width: 500px;
+#apppage h2 {
+  text-align: center !important;
+  text-shadow: 7em !important;
+  text-decoration-color: chartreuse;
+}
+
+.footer {
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  text-shadow: rgb(57, 255, 20) 2px 2px;
+  font-size: 20px;
+}
+
+#logo {
+  /* max-width: 700px !important;
+  max-height: 700px !important; */
+  max-width: 100% !important;
+  max-height: 100% !important;
+  padding: -30px;
+}
+/* .tripsAhoy {
+  height: 1000px !important;
+  width: 1000px !important;
   margin-left: -7em;
   margin-top: -7em;
-}
+} */
