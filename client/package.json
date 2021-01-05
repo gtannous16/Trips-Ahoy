@@ -4,7 +4,7 @@
   "private": false,
   "proxy": "http://localhost:5000/",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "concurrently": "^4.1.1",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
